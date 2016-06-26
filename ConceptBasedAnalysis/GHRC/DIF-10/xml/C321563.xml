@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DIF xmlns="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/"
+    xmlns:dif="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/ http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/dif_v10.2.xsd">
+    <Entry_ID>
+        <Short_Name>dc8dads</Short_Name>
+        <Version>1</Version>
+    </Entry_ID>
+    <Entry_Title>CAMEX-3 DC-8 NAVIGATION (DADS) DATA V1</Entry_Title>
+    <Personnel>
+        <Role>TECHNICAL CONTACT</Role>
+        <Contact_Person>
+            <Last_Name/>
+            <Email>ghrc-dmg@itsc.uah.edu</Email>
+        </Contact_Person>
+    </Personnel>
+    <Science_Keywords>
+        <Category>EARTH SCIENCE</Category>
+        <Topic>ATMOSPHERE</Topic>
+        <Term>ATMOSPHERIC TEMPERATURE</Term>
+        <Variable_Level_1>AIR TEMPERATURE</Variable_Level_1>
+    </Science_Keywords>
+    <Science_Keywords>
+        <Category>EARTH SCIENCE</Category>
+        <Topic>ATMOSPHERE</Topic>
+        <Term>ATMOSPHERIC WINDS</Term>
+        <Variable_Level_1>UPPER LEVEL WINDS</Variable_Level_1>
+    </Science_Keywords>
+    <Platform>
+        <Type>Not provided</Type>
+        <Short_Name>NASA DC-8</Short_Name>
+        <Long_Name>NASA DC-8</Long_Name>
+        <Instrument>
+            <Short_Name>GPS</Short_Name>
+            <Sensor>
+                <Short_Name>GPS</Short_Name>
+            </Sensor>
+        </Instrument>
+        <Instrument>
+            <Short_Name>TEMPERATURE PROBE</Short_Name>
+            <Sensor>
+                <Short_Name>TEMPERATURE PROBE</Short_Name>
+            </Sensor>
+        </Instrument>
+    </Platform>
+    <Temporal_Coverage>
+        <Range_DateTime>
+            <Beginning_Date_Time>1998-08-03T00:00:00.000Z</Beginning_Date_Time>
+            <Ending_Date_Time>1998-09-23T01:32:00.000Z</Ending_Date_Time>
+        </Range_DateTime>
+    </Temporal_Coverage>
+    <Spatial_Coverage>
+        <Granule_Spatial_Representation>CARTESIAN</Granule_Spatial_Representation>
+        <Geometry>
+            <Coordinate_System>CARTESIAN</Coordinate_System>
+            <Bounding_Rectangle>
+                <Southernmost_Latitude>10</Southernmost_Latitude>
+                <Northernmost_Latitude>50</Northernmost_Latitude>
+                <Westernmost_Longitude>-105</Westernmost_Longitude>
+                <Easternmost_Longitude>-50</Easternmost_Longitude>
+            </Bounding_Rectangle>
+        </Geometry>
+    </Spatial_Coverage>
+    <Project>
+        <Short_Name>CAMEX-3</Short_Name>
+    </Project>
+    <Quality/>
+    <Use_Constraints/>
+    <Organization>
+        <Organization_Type>ARCHIVER</Organization_Type>
+        <Organization_Name>
+            <Short_Name>GHRC</Short_Name>
+        </Organization_Name>
+        <Personnel>
+            <Role>DATA CENTER CONTACT</Role>
+            <Contact_Person>
+                <Last_Name>Not provided</Last_Name>
+            </Contact_Person>
+        </Personnel>
+    </Organization>
+    <Summary>
+        <Abstract>The CAMEX-3 DC-8 Data Aquisition and Distribution System (DADS) Navigation data files contain information recorded by on board navigation and data collection systems. In addition to typical navigation data (e.g. date, time, lat/lon and altitude), it contains outside meteorological parameters such as wind speed and direction, temperature, cabin altitude, vertical speed, saturation vapor pressure of water and other parameters. These ascii text files are recorded every second for the length of the sortie.  In addition, graphical representations of these measured parameters are shown in .gif files.</Abstract>
+        <Purpose/>
+    </Summary>
+    <Related_URL>
+        <URL_Content_Type>
+            <Type>GET DATA</Type>
+        </URL_Content_Type>
+        <URL>http://ghrc.nsstc.nasa.gov/hydro/details.pl?ds=dc8dads</URL>
+    </Related_URL>
+    <Related_URL>
+        <URL_Content_Type>
+            <Type>GET RELATED VISUALIZATION</Type>
+        </URL_Content_Type>
+        <URL>ftp://airbornescience.nsstc.nasa.gov/camex3/dc8dads/browse/</URL>
+    </Related_URL>
+    <Related_URL>
+        <URL_Content_Type>
+            <Type>VIEW RELATED INFORMATION</Type>
+            <Subtype>USER'S GUIDE</Subtype>
+        </URL_Content_Type>
+        <URL>http://ghrc.nsstc.nasa.gov/uso/ds_docs/camex3/dc8dads/dc8dads_dataset.html</URL>
+    </Related_URL>
+    <Related_URL>
+        <URL_Content_Type>
+            <Type>VIEW PROJECT HOME PAGE</Type>
+        </URL_Content_Type>
+        <URL>http://camex.nsstc.nasa.gov/camex3/</URL>
+    </Related_URL>
+    <Metadata_Name>CEOS IDN DIF</Metadata_Name>
+    <Metadata_Version>VERSION 10.2</Metadata_Version>
+    <Metadata_Dates>
+        <Metadata_Creation>1999-05-20T00:00:00.000Z</Metadata_Creation>
+        <Metadata_Last_Revision>2010-07-02T16:05:06.000Z</Metadata_Last_Revision>
+        <Data_Creation>1970-01-01T00:00:00</Data_Creation>
+        <Data_Last_Revision>1970-01-01T00:00:00</Data_Last_Revision>
+    </Metadata_Dates>
+</DIF>

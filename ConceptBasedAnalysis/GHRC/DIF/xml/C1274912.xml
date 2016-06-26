@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DIF xmlns="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/"
+    xmlns:dif="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/ http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/dif_v9.9.3.xsd">
+    <Entry_ID>globalir_1</Entry_ID>
+    <Entry_Title>INFRARED GLOBAL GEOSTATIONARY COMPOSITE V1</Entry_Title>
+    <Data_Set_Citation>
+        <Version>1</Version>
+    </Data_Set_Citation>
+    <Personnel>
+        <Role>GHRC USER SERVICES</Role>
+        <Email>ghrc-dmg@itsc.uah.edu</Email>
+    </Personnel>
+    <Parameters>
+        <Category>EARTH SCIENCE</Category>
+        <Topic>SPECTRAL/ENGINEERING</Topic>
+        <Term>INFRARED WAVELENGTHS</Term>
+        <Variable_Level_1>INFRARED IMAGERY</Variable_Level_1>
+    </Parameters>
+    <Sensor_Name>
+        <Short_Name>VISSR</Short_Name>
+        <Long_Name/>
+    </Sensor_Name>
+    <Sensor_Name>
+        <Short_Name>GOES I-M IMAGER</Short_Name>
+        <Long_Name/>
+    </Sensor_Name>
+    <Sensor_Name>
+        <Short_Name>GOES-8 IMAGER</Short_Name>
+        <Long_Name/>
+    </Sensor_Name>
+    <Sensor_Name>
+        <Short_Name>VISSR</Short_Name>
+        <Long_Name/>
+    </Sensor_Name>
+    <Sensor_Name>
+        <Short_Name>VISSR</Short_Name>
+        <Long_Name/>
+    </Sensor_Name>
+    <Sensor_Name>
+        <Short_Name>VISSR</Short_Name>
+        <Long_Name/>
+    </Sensor_Name>
+    <Sensor_Name>
+        <Short_Name>AVHRR</Short_Name>
+        <Long_Name/>
+    </Sensor_Name>
+    <Sensor_Name>
+        <Short_Name>AVHRR</Short_Name>
+        <Long_Name/>
+    </Sensor_Name>
+    <Sensor_Name>
+        <Short_Name>AVHRR</Short_Name>
+        <Long_Name/>
+    </Sensor_Name>
+    <Source_Name>
+        <Short_Name>GMS-4</Short_Name>
+        <Long_Name>GMS-4</Long_Name>
+    </Source_Name>
+    <Source_Name>
+        <Short_Name>GOES-11</Short_Name>
+        <Long_Name>GOES-11</Long_Name>
+    </Source_Name>
+    <Source_Name>
+        <Short_Name>GOES-8</Short_Name>
+        <Long_Name>GOES-8</Long_Name>
+    </Source_Name>
+    <Source_Name>
+        <Short_Name>METEOSAT-6</Short_Name>
+        <Long_Name>METEOSAT-6</Long_Name>
+    </Source_Name>
+    <Source_Name>
+        <Short_Name>METEOSAT-7</Short_Name>
+        <Long_Name>METEOSAT-7</Long_Name>
+    </Source_Name>
+    <Source_Name>
+        <Short_Name>MTSAT-1R</Short_Name>
+        <Long_Name>MTSAT-1R</Long_Name>
+    </Source_Name>
+    <Source_Name>
+        <Short_Name>NOAA-15</Short_Name>
+        <Long_Name>NOAA-15</Long_Name>
+    </Source_Name>
+    <Source_Name>
+        <Short_Name>NOAA-16</Short_Name>
+        <Long_Name>NOAA-16</Long_Name>
+    </Source_Name>
+    <Source_Name>
+        <Short_Name>NOAA-17</Short_Name>
+        <Long_Name>NOAA-17</Long_Name>
+    </Source_Name>
+    <Temporal_Coverage>
+        <Start_Date>1995-06-04T00:15:00.000Z</Start_Date>
+    </Temporal_Coverage>
+    <Spatial_Coverage>
+        <Southernmost_Latitude>-60.88</Southernmost_Latitude>
+        <Northernmost_Latitude>65.45</Northernmost_Latitude>
+        <Westernmost_Longitude>71.0</Westernmost_Longitude>
+        <Easternmost_Longitude>69.0</Easternmost_Longitude>
+    </Spatial_Coverage>
+    <Data_Resolution>
+        <Temporal_Resolution>1 DAY</Temporal_Resolution>
+    </Data_Resolution>
+    <Project>
+        <Short_Name>N/A</Short_Name>
+    </Project>
+    <Quality/>
+    <Use_Constraints/>
+    <Summary>
+        <Abstract>The National Center for Environmental Prediction/Aviation Weather Center Infrared Global Geostationary Composite data set contains global composite images from the infrared channels of multiple weather satellites in geosynchronous orbit. These satellites include the GMS (Japan), GOES (USA), and Meteosat (Europe).  These imagers span nearly the entire globe with a small gap over India. The data resolution is 14 km spatial with the data remapped into a Mercator projection. The data have not necessarily been cross calibrated between sensors.</Abstract>
+        <Purpose/>
+    </Summary>
+    <Related_URL>
+        <URL_Content_Type>
+            <Type>GET DATA</Type>
+        </URL_Content_Type>
+        <URL>ftp://ghrc.nsstc.nasa.gov/pub/globalir/data/</URL>
+    </Related_URL>
+    <Related_URL>
+        <URL_Content_Type>
+            <Type>GET RELATED VISUALIZATION</Type>
+        </URL_Content_Type>
+        <URL>http://weather.msfc.nasa.gov/GOES/globalir.html</URL>
+    </Related_URL>
+    <Related_URL>
+        <URL_Content_Type>
+            <Type>VIEW RELATED INFORMATION</Type>
+            <Subtype>USER'S GUIDE</Subtype>
+        </URL_Content_Type>
+        <URL>http://ghrc.nsstc.nasa.gov/uso/ds_docs/globalir/globalir_dataset.html</URL>
+    </Related_URL>
+    <Related_URL>
+        <URL_Content_Type>
+            <Type>GET DATA</Type>
+        </URL_Content_Type>
+        <URL>http://ghrc.nsstc.nasa.gov/uso/citation.html</URL>
+    </Related_URL>
+    <Metadata_Name>CEOS IDN DIF</Metadata_Name>
+    <Metadata_Version>VERSION 9.9.3</Metadata_Version>
+    <DIF_Creation_Date>1998-01-01T00:00:00.000Z</DIF_Creation_Date>
+    <Last_DIF_Revision_Date>2013-08-16T12:30:22.000Z</Last_DIF_Revision_Date>
+    <Extended_Metadata>
+        <Metadata>
+            <Name>GranuleSpatialRepresentation</Name>
+            <Type/>
+            <Value>CARTESIAN</Value>
+        </Metadata>
+        <Metadata>
+            <Name>ProductLevelId</Name>
+            <Type/>
+            <Value>3</Value>
+        </Metadata>
+    </Extended_Metadata>
+</DIF>

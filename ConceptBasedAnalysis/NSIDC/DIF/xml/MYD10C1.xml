@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DIF xmlns="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/ http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/dif_v9.7.1.xsd">
+   <Entry_ID>MYD10C1</Entry_ID>
+   <Entry_Title>MODIS/Aqua Snow Cover Daily L3 Global 0.05Deg CMG</Entry_Title>
+   <Data_Set_Citation>
+      <Dataset_Creator>Hall, D. K. and G. A. Riggs.</Dataset_Creator>
+      <Dataset_Title>MODIS/Aqua Snow Cover Daily L3 Global 0.05Deg CMG</Dataset_Title>
+      <Dataset_Release_Date>2016-05-27</Dataset_Release_Date>
+      <Dataset_Release_Place>Boulder, Colorado USA</Dataset_Release_Place>
+      <Dataset_Publisher>NASA NSIDC DAAC: NASA National Snow and Ice Data Center Distributed Active Archive Center</Dataset_Publisher>
+      <Version>6</Version>
+      <Dataset_DOI>doi:10.5067/MODIS/MYD10C1.006</Dataset_DOI>
+      <Online_Resource>http://nsidc.org/data/MYD10C1</Online_Resource>
+      <Dataset_Series_Name>MYD10C1</Dataset_Series_Name>
+   </Data_Set_Citation>
+   <Personnel>
+      <Role>Investigator</Role>
+      <First_Name>Miguel</First_Name>
+      <Middle_Name>O.</Middle_Name>
+      <Last_Name>Román</Last_Name>
+      <Email>miguel.o.roman@nasa.gov</Email>
+      <Contact_Address>
+         <Address>NASA/GSFC</Address>
+         <Address>Mail Code: 619</Address>
+         <City>Greenbelt</City>
+         <Province_or_State>MD</Province_or_State>
+         <Postal_Code>20771</Postal_Code>
+         <Country>USA</Country>
+      </Contact_Address>
+   </Personnel>
+   <Personnel>
+      <Role>Investigator</Role>
+      <First_Name>Dorothy</First_Name>
+      <Middle_Name>K.</Middle_Name>
+      <Last_Name>Hall</Last_Name>
+      <Contact_Address>
+         <Address>National Aeronautics and Space Administration (NASA) Goddard Space Flight Center (GSFC)</Address>
+         <Address>Mail stop 614.1</Address>
+         <City>Greenbelt</City>
+         <Province_or_State>MD</Province_or_State>
+         <Postal_Code>20771</Postal_Code>
+         <Country/>
+      </Contact_Address>
+   </Personnel>
+   <Personnel>
+      <Role>Investigator</Role>
+      <First_Name>George</First_Name>
+      <Middle_Name>A.</Middle_Name>
+      <Last_Name>Riggs</Last_Name>
+      <Email>George.A.Riggs@nasa.gov</Email>
+      <Phone>1-301-614-5650</Phone>
+      <Contact_Address>
+         <Address>NASA Goddard Space Flight Center (GSFC)</Address>
+         <Address>Science Systems and Applications, Inc.</Address>
+         <Address>Code 614.1</Address>
+         <City>Greenbelt</City>
+         <Province_or_State>MD</Province_or_State>
+         <Postal_Code>20771</Postal_Code>
+         <Country>USA</Country>
+      </Contact_Address>
+   </Personnel>
+   <Personnel>
+      <Role>Technical Contact</Role>
+      <First_Name>NSIDC</First_Name>
+      <Last_Name>User Services</Last_Name>
+      <Email>nsidc@nsidc.org</Email>
+      <Phone>1-303-492-6199</Phone>
+      <Fax>1-303-492-2468</Fax>
+      <Contact_Address>
+         <Address>CIRES, 449 UCB</Address>
+         <Address>University of Colorado</Address>
+         <City>Boulder</City>
+         <Province_or_State>CO</Province_or_State>
+         <Postal_Code>80309-0449</Postal_Code>
+         <Country>USA</Country>
+      </Contact_Address>
+   </Personnel>
+   <Parameters>
+      <Category>EARTH SCIENCE</Category>
+      <Topic>Cryosphere</Topic>
+      <Term>Snow/Ice</Term>
+      <Variable_Level_1>Snow Cover</Variable_Level_1>
+   </Parameters>
+   <ISO_Topic_Category>Imagery/Base Maps/Earth Cover</ISO_Topic_Category>
+   <Keyword>MODIS-project</Keyword>
+   <Sensor_Name>
+      <Short_Name>MODIS</Short_Name>
+      <Long_Name>Moderate-Resolution Imaging Spectroradiometer</Long_Name>
+   </Sensor_Name>
+   <Source_Name>
+      <Short_Name>AQUA</Short_Name>
+      <Long_Name>Earth Observing System, AQUA</Long_Name>
+   </Source_Name>
+   <Temporal_Coverage>
+      <Start_Date>2002-07-04</Start_Date>
+   </Temporal_Coverage>
+   <Data_Set_Progress>in work</Data_Set_Progress>
+   <Spatial_Coverage>
+      <Southernmost_Latitude>-90</Southernmost_Latitude>
+      <Northernmost_Latitude>90</Northernmost_Latitude>
+      <Westernmost_Longitude>-180</Westernmost_Longitude>
+      <Easternmost_Longitude>180</Easternmost_Longitude>
+   </Spatial_Coverage>
+   <Location>
+      <Location_Category>Geographic Region</Location_Category>
+      <Location_Type>Global Land</Location_Type>
+      <Location_Subregion1/>
+      <Location_Subregion2/>
+      <Location_Subregion3/>
+   </Location>
+   <Data_Resolution>
+      <Latitude_Resolution>0.05 Deg</Latitude_Resolution>
+      <Longitude_Resolution>0.05 Deg</Longitude_Resolution>
+      <Temporal_Resolution>1 day</Temporal_Resolution>
+   </Data_Resolution>
+   <Data_Set_Language>English</Data_Set_Language>
+   <Data_Center>
+      <Data_Center_Name>
+         <Short_Name>NASA NSIDC DAAC</Short_Name>
+         <Long_Name>NASA National Snow and Ice Data Center Distributed Active Archive Center</Long_Name>
+      </Data_Center_Name>
+      <Data_Center_URL>http://nsidc.org/daac/index.html</Data_Center_URL>
+      <Personnel>
+         <Role>Data Center Contact</Role>
+         <First_Name>NSIDC</First_Name>
+         <Last_Name>User Services</Last_Name>
+         <Email>nsidc@nsidc.org</Email>
+         <Phone>1-303-492-6199</Phone>
+         <Fax>1-303-492-2468</Fax>
+         <Contact_Address>
+            <Address>National Snow and Ice Data Center</Address>
+            <Address>CIRES, 449 UCB</Address>
+            <Address>University of Colorado</Address>
+            <City>Boulder</City>
+            <Province_or_State>CO</Province_or_State>
+            <Postal_Code>80309-0449</Postal_Code>
+            <Country>USA</Country>
+         </Contact_Address>
+      </Personnel>
+   </Data_Center>
+   <Distribution>
+      <Distribution_Media>FTP</Distribution_Media>
+      <Distribution_Size>5 MB</Distribution_Size>
+      <Distribution_Format>HDF-EOS</Distribution_Format>
+   </Distribution>
+   <Reference>Hall, D.K., and G.A. Riggs. 2011. Normalized-difference snow index (NDSI). Encyclopedia of Snow, Ice and Glaciers, Encyclopedia of Earth Sciences Series. 779-780. doi: http://dx.doi.org/10.1007/978-90-481-2642-2_376. Derksen, C. and R. Brown. 2012. Spring snow cover extent reductions in the 2008-2012 period exceeding climate model projections. Geophysical Research Letters (39). Art. #L19504. doi: http://dx.doi.org/10.1029/2012GL053387. Gladkova, I., M., Bonev G. Grossberg, P.
+      Romanov, and F. Shahriar. 2012. Increasing the accuracy of MODIS/Aqua snow product using quantitative image restoration technique. IEEE Geoscience and Remote Sensing Letters 9(4):740-743. doi: http://dx.doi.org/10.1109/LGRS.2011.2180505. Klein, A.G. and J. Stroeve. 2002. Development and validation of a snow albedo algorithm for the MODIS instrument. Annals of Glaciology 34:45-52. doi: http://dx.doi.org/10.3189/172756402781817662. Masuoka, E., A. Fleig, R.E. Wolfe, and F. Patt. 1998. Key
+      characteristics of MODIS data products. IEEE Transactions on Geoscience and Remote Sensing 36(4):1313-1323. Salomonson, V.V. and I. Appel. 2004. Estimating the fractional snow covering using the normalized difference snow index. Remote Sensing of Environment 89(3):351-360. doi: http://dx.doi.org/10.1016/j.rse.2003.10.016. Salomonson, V.V. and I. Appel, 2006: Development of the Aqua MODIS NDSI fractional snow cover algorithm and validation results, IEEE Transactions on Geoscience and Remote
+      Sensing 44(7):1747-1756. doi: http://dx.doi.org/10.1109/TGRS.2006.876029. Tekeli, A.E., A. Sensoy, A. Sorman, Z. Akyürek, and Ü. Sorman. 2006. Accuracy assessment of MODIS daily snow albedo retrievals with in situ measurements in Karasu basin, Turkey. Hydrological Processes 20:705–721. doi: http://dx.doi.org/10.1002/hyp.6114. Wolfe, R.E., D.P. Roy, and E. Vermote. 1999. MODIS land data storage, gridding and compositing methodology: level 2 grid. IEEE Transactions on Geoscience and Remote
+      Sensing 36(4):1324-1338. Wolfe, R.E. 2006. MODIS Geolocation. Earth Science Satellite Remote Sensing, Eds. Qu J.J, Wei, G, Menas, K, Murphy, R.E. and Salomonson, VV. Springer Berlin Heidelberg. 50-73. doi: http://dx.doi.org/10.1007/978-3-540-37293-6_4. Wolfe, R.E. and M. Nishihama. 2009. Trends in MODIS geolocation error analysis. Proc. SPIE 7452, Earth Observing Systems XIV, 74520L (August 24, 2009). doi: http://dx.doi.org/10.1117/12.826598.</Reference>
+   <Summary>
+      <Abstract>This data set reports the percentage of snow-covered land in 0.05° (approx. 5 km) resolution Climate Modeling Grid (CMG) cells. Percentages are computed from snow cover observations in the MODIS/Aqua Snow Cover Daily L3 Global 500m Grid (MYD10A1) data set. Cloud cover percentages are also provided.</Abstract>
+   </Summary>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>VIEW RELATED INFORMATION</Type>
+      </URL_Content_Type>
+      <URL>http://nsidc.org/data/mod10c1/versions/6/</URL>
+      <Description>Documentation</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>GET DATA</Type>
+      </URL_Content_Type>
+      <URL>ftp://n5eil01u.ecs.nsidc.org/SAN/MOSA/MYD10C1.006</URL>
+      <Description>FTP</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>GET SERVICE</Type>
+      </URL_Content_Type>
+      <URL>http://reverb.echo.nasa.gov/reverb/#utf8=&amp;keywords=MYD10C1 Version 6</URL>
+      <Description>Reverb</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>GET SERVICE</Type>
+      </URL_Content_Type>
+      <URL>http://nsidc.org/daac/subscriptions.html</URL>
+      <Description>Subscription</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>GET DATA</Type>
+      </URL_Content_Type>
+      <URL>https://n5eil01u.ecs.nsidc.org/MOSA/MYD10C1.006</URL>
+      <Description>HTTPS</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>VIEW PROJECT HOME PAGE</Type>
+      </URL_Content_Type>
+      <URL>http://nsidc.org/data/modis/</URL>
+      <Description>MODIS Data at NSIDC</Description>
+   </Related_URL>
+   <Metadata_Name>CEOS IDN DIF</Metadata_Name>
+   <Metadata_Version>VERSION 9.9</Metadata_Version>
+   <DIF_Creation_Date>2016-05-27</DIF_Creation_Date>
+   <Last_DIF_Revision_Date>2016-05-27</Last_DIF_Revision_Date>
+   <DIF_Revision_History> 2016-05-27, Todd Johnston, 2016-05-27, Todd Johnston, </DIF_Revision_History>
+   <Extended_Metadata>
+      <Metadata>
+         <Group>NSIDC</Group>
+         <Name>Version Summary</Name>
+         <Value>Changes for Version 6 include: &lt;ul&gt; &lt;li&gt;Fractional Snow Cover (FSC) previously used as input to this data set has been replaced by Normalized Difference Snow Index (NDSI) snow cover;&lt;/li&gt; &lt;li&gt;The Day_CMG_Confidence_Index variable has been replaced with Day_CMG_Clear_Index. &lt;/li&gt; &lt;li&gt;Aqua MODIS band 6 data have been restored to scientific quality using a Quantitative Image Restoration (QIR) technique. Aqua now uses the same snow detection
+        algorithm as Terra;&lt;/li&gt; &lt;/ul&gt;</Value>
+      </Metadata>
+      <Metadata>
+         <Group>NSIDC</Group>
+         <Name>Current Version</Name>
+         <Value>1</Value>
+      </Metadata>
+   </Extended_Metadata>
+</DIF>

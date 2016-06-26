@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DIF xmlns="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/"
+    xmlns:dif="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/ http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/dif_v10.2.xsd">
+    <Entry_ID>
+        <Short_Name>c4gmipclo</Short_Name>
+        <Version>1</Version>
+    </Entry_ID>
+    <Entry_Title>CAMEX-4 MIPS CEILOMETER V1</Entry_Title>
+    <Personnel>
+        <Role>TECHNICAL CONTACT</Role>
+        <Contact_Person>
+            <Last_Name/>
+            <Email>ghrc-dmg@itsc.uah.edu</Email>
+        </Contact_Person>
+    </Personnel>
+    <Science_Keywords>
+        <Category>EARTH SCIENCE</Category>
+        <Topic>ATMOSPHERE</Topic>
+        <Term>AEROSOLS</Term>
+        <Variable_Level_1>AEROSOL BACKSCATTER</Variable_Level_1>
+    </Science_Keywords>
+    <Science_Keywords>
+        <Category>EARTH SCIENCE</Category>
+        <Topic>ATMOSPHERE</Topic>
+        <Term>CLOUDS</Term>
+        <Variable_Level_1>CLOUD BASE</Variable_Level_1>
+    </Science_Keywords>
+    <Science_Keywords>
+        <Category>EARTH SCIENCE</Category>
+        <Topic>ATMOSPHERE</Topic>
+        <Term>CLOUDS</Term>
+        <Variable_Level_1>CLOUD BASE TEMPERATURE</Variable_Level_1>
+    </Science_Keywords>
+    <Platform>
+        <Type>Not provided</Type>
+        <Short_Name>MIPS</Short_Name>
+        <Long_Name>GROUND STATION</Long_Name>
+        <Instrument>
+            <Short_Name>CEILOMETER</Short_Name>
+            <Sensor>
+                <Short_Name>CEILOMETER</Short_Name>
+            </Sensor>
+        </Instrument>
+    </Platform>
+    <Platform>
+        <Type>Not provided</Type>
+        <Short_Name>GROUND STATION</Short_Name>
+        <Long_Name>GROUND STATION</Long_Name>
+        <Instrument>
+            <Short_Name>CEILOMETER</Short_Name>
+            <Sensor>
+                <Short_Name>CEILOMETER</Short_Name>
+            </Sensor>
+        </Instrument>
+    </Platform>
+    <Temporal_Coverage>
+        <Range_DateTime>
+            <Beginning_Date_Time>2001-08-05T00:00:00.000Z</Beginning_Date_Time>
+            <Ending_Date_Time>2001-09-12T23:59:00.000Z</Ending_Date_Time>
+        </Range_DateTime>
+    </Temporal_Coverage>
+    <Spatial_Coverage>
+        <Granule_Spatial_Representation>CARTESIAN</Granule_Spatial_Representation>
+        <Geometry>
+            <Coordinate_System>CARTESIAN</Coordinate_System>
+            <Bounding_Rectangle>
+                <Southernmost_Latitude>24.6</Southernmost_Latitude>
+                <Northernmost_Latitude>24.8</Northernmost_Latitude>
+                <Westernmost_Longitude>-81.7</Westernmost_Longitude>
+                <Easternmost_Longitude>-81.5</Easternmost_Longitude>
+            </Bounding_Rectangle>
+        </Geometry>
+    </Spatial_Coverage>
+    <Project>
+        <Short_Name>CAMEX-4</Short_Name>
+    </Project>
+    <Quality/>
+    <Use_Constraints/>
+    <Organization>
+        <Organization_Type>ARCHIVER</Organization_Type>
+        <Organization_Name>
+            <Short_Name>GHRC</Short_Name>
+        </Organization_Name>
+        <Personnel>
+            <Role>DATA CENTER CONTACT</Role>
+            <Contact_Person>
+                <Last_Name>Not provided</Last_Name>
+            </Contact_Person>
+        </Personnel>
+    </Organization>
+    <Summary>
+        <Abstract>The University of Alabama in Huntsville (UAH) Mobile Integrated Profiling System (MIPS) is a mobile atmospheric profiling system. It includes a 915 MHz Doppler profiler, lidar ceilometer, 12 channel microwave profiling radiometer, Doppler Sodar, Radio Acoustic Sounding System (RASS), Field Mills, and surface observing station. The ceilometer data collection gathers backscatter power and up to three cloud base heights.</Abstract>
+        <Purpose/>
+    </Summary>
+    <Related_URL>
+        <URL_Content_Type>
+            <Type>GET DATA</Type>
+        </URL_Content_Type>
+        <URL>http://ghrc.nsstc.nasa.gov/hydro/details.pl?ds=c4gmipclo</URL>
+    </Related_URL>
+    <Related_URL>
+        <URL_Content_Type>
+            <Type>GET RELATED VISUALIZATION</Type>
+        </URL_Content_Type>
+        <URL>ftp://airbornescience.nsstc.nasa.gov/camex4/MIPS_Ceilometer/browse/</URL>
+    </Related_URL>
+    <Related_URL>
+        <URL_Content_Type>
+            <Type>VIEW RELATED INFORMATION</Type>
+            <Subtype>USER'S GUIDE</Subtype>
+        </URL_Content_Type>
+        <URL>http://ghrc.nsstc.nasa.gov/uso/ds_docs/camex4/c4gmipclo/c4gmipclo_dataset.html</URL>
+    </Related_URL>
+    <Related_URL>
+        <URL_Content_Type>
+            <Type>VIEW PROJECT HOME PAGE</Type>
+        </URL_Content_Type>
+        <URL>http://camex.nsstc.nasa.gov/</URL>
+    </Related_URL>
+    <Related_URL>
+        <URL_Content_Type>
+            <Type>VIEW RELATED INFORMATION</Type>
+            <Subtype>GENERAL DOCUMENTATION</Subtype>
+        </URL_Content_Type>
+        <URL>ftp://ghrc.nsstc.nasa.gov/pub/doc/camex4/c4gmipclo/UAHCAMEX.DOC</URL>
+    </Related_URL>
+    <Related_URL>
+        <URL_Content_Type>
+            <Type>VIEW RELATED INFORMATION</Type>
+            <Subtype>GENERAL DOCUMENTATION</Subtype>
+        </URL_Content_Type>
+        <URL>ftp://ghrc.nsstc.nasa.gov/pub/doc/camex4/c4gmipclo/mips.pdf</URL>
+    </Related_URL>
+    <Metadata_Name>CEOS IDN DIF</Metadata_Name>
+    <Metadata_Version>VERSION 10.2</Metadata_Version>
+    <Metadata_Dates>
+        <Metadata_Creation>2002-08-28T00:00:00.000Z</Metadata_Creation>
+        <Metadata_Last_Revision>2011-07-07T14:04:17.000Z</Metadata_Last_Revision>
+        <Data_Creation>1970-01-01T00:00:00</Data_Creation>
+        <Data_Last_Revision>1970-01-01T00:00:00</Data_Last_Revision>
+    </Metadata_Dates>
+</DIF>

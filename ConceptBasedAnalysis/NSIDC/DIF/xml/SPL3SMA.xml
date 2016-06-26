@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DIF xmlns="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/ http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/dif_v9.7.1.xsd">
+   <Entry_ID>SPL3SMA</Entry_ID>
+   <Entry_Title>SMAP L3 Radar Global Daily 3 km EASE-Grid Soil Moisture</Entry_Title>
+   <Data_Set_Citation>
+      <Dataset_Creator>Kim, S., J. Van Zyl, R. S. Dunbar, E. G. Njoku, J. T. Johnson, M. Moghaddam, and L. Tsang.</Dataset_Creator>
+      <Dataset_Title>SMAP L3 Radar Global Daily 3 km EASE-Grid Soil Moisture</Dataset_Title>
+      <Dataset_Release_Date>2016-04-29</Dataset_Release_Date>
+      <Dataset_Release_Place>Boulder, Colorado USA</Dataset_Release_Place>
+      <Dataset_Publisher>NASA NSIDC DAAC: NASA National Snow and Ice Data Center Distributed Active Archive Center</Dataset_Publisher>
+      <Version>3</Version>
+      <Dataset_DOI>doi:10.5067/IGQNPB6183ZX</Dataset_DOI>
+      <Online_Resource>http://nsidc.org/data/SPL3SMA</Online_Resource>
+      <Dataset_Series_Name>SPL3SMA</Dataset_Series_Name>
+   </Data_Set_Citation>
+   <Personnel>
+      <Role>Technical Contact</Role>
+      <First_Name>NSIDC</First_Name>
+      <Last_Name>User Services</Last_Name>
+      <Email>nsidc@nsidc.org</Email>
+      <Phone>1-303-492-6199</Phone>
+      <Fax>1-303-492-2468</Fax>
+      <Contact_Address>
+         <Address>CIRES, 449 UCB</Address>
+         <Address>University of Colorado</Address>
+         <City>Boulder</City>
+         <Province_or_State>CO</Province_or_State>
+         <Postal_Code>80309-0449</Postal_Code>
+         <Country>USA</Country>
+      </Contact_Address>
+   </Personnel>
+   <Parameters>
+      <Category>EARTH SCIENCE</Category>
+      <Topic>Spectral/Engineering</Topic>
+      <Term>Radar</Term>
+      <Variable_Level_1>Radar Backscatter</Variable_Level_1>
+      <Detailed_Variable>Sigma Nought</Detailed_Variable>
+   </Parameters>
+   <Parameters>
+      <Category>EARTH SCIENCE</Category>
+      <Topic>Land Surface</Topic>
+      <Term>Soils</Term>
+      <Variable_Level_1>Soil Moisture/Water Content</Variable_Level_1>
+      <Detailed_Variable>Soil Moisture</Detailed_Variable>
+   </Parameters>
+   <ISO_Topic_Category>Climatology/Meteorology/Atmosphere</ISO_Topic_Category>
+   <ISO_Topic_Category>Geoscientific Information</ISO_Topic_Category>
+   <Keyword>Radar</Keyword>
+   <Keyword>SMAP-project</Keyword>
+   <Keyword>Soil Moisture</Keyword>
+   <Keyword>Soil Moisture Active Passive</Keyword>
+   <Sensor_Name>
+      <Short_Name>SMAP L-Band Radar </Short_Name>
+      <Long_Name>SMAP L-Band Radar </Long_Name>
+   </Sensor_Name>
+   <Source_Name>
+      <Short_Name>SMAP Observatory </Short_Name>
+      <Long_Name>Soil Moisture Active and Passive Observatory </Long_Name>
+   </Source_Name>
+   <Temporal_Coverage>
+      <Start_Date>2015-04-13</Start_Date>
+      <Stop_Date>2015-07-07</Stop_Date>
+   </Temporal_Coverage>
+   <Data_Set_Progress>complete</Data_Set_Progress>
+   <Spatial_Coverage>
+      <Southernmost_Latitude>-85.044</Southernmost_Latitude>
+      <Northernmost_Latitude>85.044</Northernmost_Latitude>
+      <Westernmost_Longitude>-180</Westernmost_Longitude>
+      <Easternmost_Longitude>180</Easternmost_Longitude>
+   </Spatial_Coverage>
+   <Location>
+      <Location_Category>Geographic Region</Location_Category>
+      <Location_Type>Global Land</Location_Type>
+      <Location_Subregion1/>
+      <Location_Subregion2/>
+      <Location_Subregion3/>
+   </Location>
+   <Data_Resolution>
+      <Latitude_Resolution>3 km</Latitude_Resolution>
+      <Longitude_Resolution>3 km</Longitude_Resolution>
+      <Temporal_Resolution>1 day</Temporal_Resolution>
+   </Data_Resolution>
+   <Project>
+      <Short_Name>SMAP</Short_Name>
+      <Long_Name>Soil Moisture Active Passive</Long_Name>
+   </Project>
+   <Quality>SMAP products provide multiple means to assess quality. Each product contains bit flags, uncertainty measures, and file-level metadata that provide quality information. For information regarding the specific bit flags, uncertainty measures, and file-level metadata contained in this product, refer to the Data Fields and Metadata Fields documents. Each HDF5 file contains metadata with Quality Assessment (QA) metadata flags that are set by the Science Data Processing System (SDS) at
+      the JPL prior to delivery to NSIDC. A separate metadata file with an .xml file extension is also delivered to NSIDC with the HDF5 file; it contains the same information as the HDF5 file-level metadata. A separate QA file with a .qa file extension is also associated with each data file. QA files are ASCII text files that contain statistical information in order to help users better assess the quality of the associated data file. If a product does not fail QA, it is ready to be used for
+      higher-level processing, browse generation, active science QA, archive, and distribution. If a product fails QA, it is never delivered to NSIDC DAAC.</Quality>
+   <Use_Constraints>These data are offered free of charge. You may use these data freely, provided that you cite NSIDC DAAC as the source, and provide an acknowledgment in any published papers.</Use_Constraints>
+   <Data_Set_Language>English</Data_Set_Language>
+   <Originating_Center>NASA/JPL/SMAP</Originating_Center>
+   <Data_Center>
+      <Data_Center_Name>
+         <Short_Name>NASA NSIDC DAAC</Short_Name>
+         <Long_Name>NASA National Snow and Ice Data Center Distributed Active Archive Center</Long_Name>
+      </Data_Center_Name>
+      <Data_Center_URL>http://nsidc.org/daac/index.html</Data_Center_URL>
+      <Personnel>
+         <Role>Data Center Contact</Role>
+         <First_Name>NSIDC</First_Name>
+         <Last_Name>User Services</Last_Name>
+         <Email>nsidc@nsidc.org</Email>
+         <Phone>1-303-492-6199</Phone>
+         <Fax>1-303-492-2468</Fax>
+         <Contact_Address>
+            <Address>National Snow and Ice Data Center</Address>
+            <Address>CIRES, 449 UCB</Address>
+            <Address>University of Colorado</Address>
+            <City>Boulder</City>
+            <Province_or_State>CO</Province_or_State>
+            <Postal_Code>80309-0449</Postal_Code>
+            <Country>USA</Country>
+         </Contact_Address>
+      </Personnel>
+   </Data_Center>
+   <Distribution>
+      <Distribution_Media>FTP</Distribution_Media>
+      <Distribution_Size>765 MB</Distribution_Size>
+      <Distribution_Format>HDF5</Distribution_Format>
+   </Distribution>
+   <Distribution>
+      <Distribution_Media>HTTPS</Distribution_Media>
+      <Distribution_Size>765 MB</Distribution_Size>
+      <Distribution_Format>HDF5</Distribution_Format>
+   </Distribution>
+   <Reference>Bolten, J., V. Lakshmi, and E. Njoku. 2003. Soil Moisture Retrieval Using the Passive/Active L- and S-band Radar/Radiometer. IEEE Trans. Geosci. Rem. Sens., 41:2792-2801. Brodzik, M. J., B. Billingsley, T. Haran, B. Raup, and M. H. Savoie. 2012. EASE-Grid 2.0: Incremental but Significant Improvements for Earth-Gridded Data Sets. ISPRS Int. J. Geo-Inf. 1(1):32-45. http://dx.doi.org/10.3390/ijgi1010032. Brodzik, M. J., B. Billingsley, T. Haran, B. Raup, and M. H. Savoie. 2014.
+      Correction: Brodzik, M. J. et al. EASE-Grid 2.0: Incremental but Significant Improvements for Earth-Gridded Data Sets. ISPRS Int. J. Geo-Inf 2012. 1(1):32-45 ISPRS Int. J. Geo-Inf. 3(3):1154-1156. http://dx.doi.org/10.3390/ijgi3031154. Dunbar, R. S., and S. B. Kim. 2014. SMAP Level 3 Active Soil Moisture (L3_SM_A) Product Specification Document. SMAP Project, JPL D-72550. Jet Propulsion Laboratory, Pasadena, CA. (http://nsidc.org/data/docs/daac/smap/sp_l3_sma/pdfs/D-72550_SMAP L3_SM_A
+      PSD_12082015_wo-sigs.pdf, 476 KB) Entekhabi, D. et al. 2014. SMAP Handbook–Soil Moisture Active Passive: Mapping Soil Moisture and Freeze/Thaw from Space. Pasadena, CA USA: SMAP Project, JPL CL#14-2285, Jet Propulsion Laboratory. Jackson, T. J., H. McNairn, M. A. Weltz, B. Brisco, and R. Brown. 1997. First Order Surface Roughness Correction of Active Microwave Observations for Estimating Soil Moisture. IEEE Trans. Geosci. Remo te Sens. 35:1065-1069. Kim, Y., and J. J. van Zyl. 2009. A
+      Time-Series Approach to Estimate Soil Moisture Using Polarimetric Radar Data. IEEE Trans. Geosci. Remote Sens. 47:2519-2527. Kim, Y., and J. J. van Zyl. 2000. On the Relationship Between Polarimetric Parameters. IEEE Geoscience and Remote Sensing Symposium. Hawaii, USA. Kim, S. B., M. Moghaddam, L. Tsang, M. Burgin, X. Xu, and E. G. Njoku, 2014: Models of L-band radar backscattering coefficients over the global terrain for soil moisture retrieval. IEEE Trans. Geosci. Remote Sens., vol. 52,
+      pp. 1381-1396, 2014. Kim, S. B., L. Tsang, J. T. Johnson, S. Huang, J. J. van Zyl, and E. G. Njoku, 2012: Soil moisture retrieval using time-series radar observations over bare surfaces. IEEE Trans. Geosci. Remote Sens., 50, 1853-1863. Kim, S. B., J. van Zyl, S. Dunbar, E. Njoku, J. Johnson, M. Moghaddam, J. Shi, and L. Tsang. 2014. SMAP Algorithm Theoretical Basis Document: L2 &amp; L3 Radar Soil Moisture (Active) Products. SMAP Project, Jet Propulsion Laboratory, Pasadena, CA.
+      (http://nsidc.org/data/docs/daac/smap/sp_l2_sma/pdfs/276_L2_3_SM_A_RevA_web.pdf, 5.4 MB) Kim, S. B., J. van Zul, T. Jackson, and A. Colliander. 2015. Soil Moisture Active Passive (SMAP) Project Calibration and Validation for the L2/3_SM_A Beta-Release Data Products. SMAP Project, JPL D-XXXX. Jet Propulsion Laboratory, Pasadena, CA. (http://nsidc.org/data/docs/daac/smap/sp_l2_sma/pdfs/L2L3SMA_Assessment_Report151024.pdf, 673 KB) Kim, S.B., J. Oullette, J. J. van Zyl, and J. T. Johnson, 2015
+      (In revision). Dual-copolarized approach to detect surface water extent using L-land radar. IEEE Trans. Geosci. Remote Sens. Kim, S.B., J. van Zul, T. Jackson, and A. Colliander. 2015. SMAP Level 2 Active Soil Moisture (L2_SM_A) Beta Release Assessment Report. SMAP Project, JPL D-98985. Jet Propulsion Laboratory, Pasadena, CA.</Reference>
+   <Summary>
+      <Abstract>This Level-3 (L3) soil moisture product provides a composite of daily estimates of global land surface conditions retrieved by the Soil Moisture Active Passive (SMAP) radar as well as a variety of ancillary data sources. SMAP L-band soil moisture data are resampled to an Earth-fixed, global, cylindrical 3 km Equal-Area Scalable Earth Grid, Version 2.0 (EASE-Grid 2.0).</Abstract>
+   </Summary>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>VIEW RELATED INFORMATION</Type>
+      </URL_Content_Type>
+      <URL>http://nsidc.org/data/docs/daac/smap/sp_l3_sma/index.html</URL>
+      <Description>Documentation</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>GET DATA</Type>
+      </URL_Content_Type>
+      <URL>ftp://n5eil01u.ecs.nsidc.org/SAN/SMAP/SPL3SMA.003/</URL>
+      <Description>FTP</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>GET SERVICE</Type>
+      </URL_Content_Type>
+      <URL>http://reverb.echo.nasa.gov/reverb/#utf8=%E2%9C%93&amp;spatial_map=satellite&amp;spatial_type=rectangle&amp;keywords=SPL3SMA</URL>
+      <Description>Reverb</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>GET SERVICE</Type>
+      </URL_Content_Type>
+      <URL>https://earthdata.nasa.gov/labs/worldview/</URL>
+      <Description>Worldview</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>GET DATA</Type>
+      </URL_Content_Type>
+      <URL>https://n5eil01u.ecs.nsidc.org/SMAP/SPL3SMA.003/</URL>
+      <Description>HTTPS</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>GET SERVICE</Type>
+      </URL_Content_Type>
+      <URL>https://search.earthdata.nasa.gov/search?q=SPL3SMA</URL>
+      <Description>Earthdata Search</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>VIEW RELATED INFORMATION</Type>
+      </URL_Content_Type>
+      <URL>http://nsidc.org/data/smap/index.html</URL>
+      <Description>SMAP Data at NASA NSIDC DAAC</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>VIEW RELATED INFORMATION</Type>
+      </URL_Content_Type>
+      <URL>http://nsidc.org/data/smap/validation/val-data.html</URL>
+      <Description>SMAP Validation Data at NASA NSIDC DAAC</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>VIEW PROJECT HOME PAGE</Type>
+      </URL_Content_Type>
+      <URL>http://smap.jpl.nasa.gov/</URL>
+      <Description>SMAP Web Site at the Jet Propulsion Laboratory</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>VIEW RELATED INFORMATION</Type>
+      </URL_Content_Type>
+      <URL>https://www.asf.alaska.edu/smap/</URL>
+      <Description>SMAP Data at NASA ASF DAAC</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>VIEW RELATED INFORMATION</Type>
+      </URL_Content_Type>
+      <URL>http://nsidc.org/data/docs/daac/smap/sp_l2_sma/pdfs/L2&amp;3_SM_A_RevB_web151031.pdf</URL>
+      <Description>Algorithm Theoretical Basis Document (ATBD)</Description>
+   </Related_URL>
+   <Metadata_Name>CEOS IDN DIF</Metadata_Name>
+   <Metadata_Version>VERSION 9.9</Metadata_Version>
+   <DIF_Creation_Date>2016-04-29</DIF_Creation_Date>
+   <Last_DIF_Revision_Date>2016-05-23</Last_DIF_Revision_Date>
+   <DIF_Revision_History> 2016-04-29, Karla LeFevre, New Validated version. 2016-04-29, Karla LeFevre, New Validated version. 2016-05-23, Karla LeFevre, Updated ATBD See Also link. </DIF_Revision_History>
+   <Extended_Metadata>
+      <Metadata>
+         <Group>NSIDC</Group>
+         <Name>Version Summary</Name>
+         <Value/>
+      </Metadata>
+      <Metadata>
+         <Group>NSIDC</Group>
+         <Name>Current Version</Name>
+         <Value>1</Value>
+      </Metadata>
+   </Extended_Metadata>
+</DIF>

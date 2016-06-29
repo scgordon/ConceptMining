@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DIF xmlns:dif="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/ http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/dif_v9.7.1.xsd">
+   <Entry_ID>GGD313</Entry_ID>
+   <Entry_Title>Circumpolar Active Layer Monitoring (CALM) Program Network</Entry_Title>
+   <Data_Set_Citation>
+      <Dataset_Creator>Brown, J., K. Hinkel, and F. Nelson (comp.)</Dataset_Creator>
+      <Dataset_Title>Circumpolar Active Layer Monitoring (CALM) Program Network</Dataset_Title>
+      <Dataset_Release_Date>2003-01-01</Dataset_Release_Date>
+      <Dataset_Release_Place>Boulder, Colorado USA</Dataset_Release_Place>
+      <Dataset_Publisher>NSIDC: National Snow and Ice Data Center</Dataset_Publisher>
+      <Version>1</Version>
+      <Online_Resource>http://nsidc.org/data/GGD313</Online_Resource>
+      <Dataset_Series_Name>GGD313</Dataset_Series_Name>
+   </Data_Set_Citation>
+   <Personnel>
+      <Role>Investigator</Role>
+      <First_Name>Kenneth</First_Name>
+      <Middle_Name>M.</Middle_Name>
+      <Last_Name>Hinkel</Last_Name>
+      <Email>Ken_Hinkel@compuserve.com</Email>
+      <Phone>1-513-556-3421</Phone>
+      <Contact_Address>
+         <Address>ML131</Address>
+         <City>Cincinnati</City>
+         <Province_or_State>OH</Province_or_State>
+         <Postal_Code>45221-0131</Postal_Code>
+         <Country>USA</Country>
+      </Contact_Address>
+   </Personnel>
+   <Personnel>
+      <Role>Investigator</Role>
+      <First_Name>Frederick</First_Name>
+      <Middle_Name>E. (Fritz)</Middle_Name>
+      <Last_Name>Nelson</Last_Name>
+      <Email>fnelson@udel.edu</Email>
+      <Contact_Address>
+         <City>Newark</City>
+         <Province_or_State>DE</Province_or_State>
+         <Country>USA</Country>
+      </Contact_Address>
+   </Personnel>
+   <Personnel>
+      <Role>Investigator</Role>
+      <First_Name>Jerry</First_Name>
+      <Last_Name>Brown</Last_Name>
+      <Email>jerrybrown@igc.apc.org</Email>
+      <Phone>1-508-457-4982</Phone>
+      <Fax>1-508-457-4982</Fax>
+      <Contact_Address>
+         <Address>PO Box 7</Address>
+         <City>Woods Hole</City>
+         <Province_or_State>MA</Province_or_State>
+         <Postal_Code>02543</Postal_Code>
+         <Country>USA</Country>
+      </Contact_Address>
+   </Personnel>
+   <Parameters>
+      <Category>EARTH SCIENCE</Category>
+      <Topic>Cryosphere</Topic>
+      <Term>Frozen Ground</Term>
+      <Variable_Level_1>Active Layer</Variable_Level_1>
+   </Parameters>
+   <Parameters>
+      <Category>EARTH SCIENCE</Category>
+      <Topic>Land Surface</Topic>
+      <Term>Frozen Ground</Term>
+      <Variable_Level_1>Active Layer</Variable_Level_1>
+   </Parameters>
+   <Parameters>
+      <Category>EARTH SCIENCE</Category>
+      <Topic>Cryosphere</Topic>
+      <Term>Frozen Ground</Term>
+      <Variable_Level_1>Permafrost</Variable_Level_1>
+   </Parameters>
+   <Parameters>
+      <Category>EARTH SCIENCE</Category>
+      <Topic>Cryosphere</Topic>
+      <Term>Snow/Ice</Term>
+      <Variable_Level_1>Permafrost</Variable_Level_1>
+   </Parameters>
+   <Parameters>
+      <Category>EARTH SCIENCE</Category>
+      <Topic>Land Surface</Topic>
+      <Term>Soils</Term>
+      <Variable_Level_1>Soil Moisture/Water Content</Variable_Level_1>
+   </Parameters>
+   <Parameters>
+      <Category>EARTH SCIENCE</Category>
+      <Topic>Cryosphere</Topic>
+      <Term>Frozen Ground</Term>
+      <Variable_Level_1>Soil Temperature</Variable_Level_1>
+   </Parameters>
+   <Parameters>
+      <Category>EARTH SCIENCE</Category>
+      <Topic>Land Surface</Topic>
+      <Term>Frozen Ground</Term>
+      <Variable_Level_1>Soil Temperature</Variable_Level_1>
+   </Parameters>
+   <Parameters>
+      <Category>EARTH SCIENCE</Category>
+      <Topic>Land Surface</Topic>
+      <Term>Soils</Term>
+      <Variable_Level_1>Soil Temperature</Variable_Level_1>
+   </Parameters>
+   <Keyword>Active Layer</Keyword>
+   <Keyword>Monitoring</Keyword>
+   <Keyword>Permafrost</Keyword>
+   <Keyword>Permafrost Temperature</Keyword>
+   <Keyword>Soil Moisture</Keyword>
+   <Keyword>Soil Temperature</Keyword>
+   <Temporal_Coverage>
+      <Start_Date>1991-01-01</Start_Date>
+   </Temporal_Coverage>
+   <Data_Set_Progress>complete</Data_Set_Progress>
+   <Spatial_Coverage>
+      <Southernmost_Latitude>31.81667</Southernmost_Latitude>
+      <Northernmost_Latitude>81.81667</Northernmost_Latitude>
+      <Westernmost_Longitude>-180</Westernmost_Longitude>
+      <Easternmost_Longitude>180</Easternmost_Longitude>
+      <Minimum_Depth>2 centimeters</Minimum_Depth>
+      <Maximum_Depth>4852 centimeters</Maximum_Depth>
+   </Spatial_Coverage>
+   <Spatial_Coverage>
+      <Southernmost_Latitude>-78.51667</Southernmost_Latitude>
+      <Northernmost_Latitude>-74.03333</Northernmost_Latitude>
+      <Westernmost_Longitude>160.6</Westernmost_Longitude>
+      <Easternmost_Longitude>166.76667</Easternmost_Longitude>
+      <Minimum_Depth>10 centimeters</Minimum_Depth>
+      <Maximum_Depth>1698 centimeters</Maximum_Depth>
+   </Spatial_Coverage>
+   <Location>
+      <Location_Category>Continent</Location_Category>
+      <Location_Type>Europe</Location_Type>
+      <Location_Subregion1>Western Europe</Location_Subregion1>
+      <Location_Subregion2>Austria</Location_Subregion2>
+      <Location_Subregion3/>
+      <Detailed_Location/>
+   </Location>
+   <Location>
+      <Location_Category>Continent</Location_Category>
+      <Location_Type>North America</Location_Type>
+      <Location_Subregion1>Canada</Location_Subregion1>
+      <Location_Subregion2/>
+      <Location_Subregion3/>
+      <Detailed_Location/>
+   </Location>
+   <Location>
+      <Location_Category>Continent</Location_Category>
+      <Location_Type>Asia</Location_Type>
+      <Location_Subregion1>Eastern Asia</Location_Subregion1>
+      <Location_Subregion2>China</Location_Subregion2>
+      <Location_Subregion3/>
+      <Detailed_Location/>
+   </Location>
+   <Location>
+      <Location_Category>Continent</Location_Category>
+      <Location_Type>North America</Location_Type>
+      <Location_Subregion1>Greenland</Location_Subregion1>
+      <Location_Subregion2/>
+      <Location_Subregion3/>
+      <Detailed_Location/>
+   </Location>
+   <Location>
+      <Location_Category>Continent</Location_Category>
+      <Location_Type>Asia</Location_Type>
+      <Location_Subregion1>Southcentral Asia</Location_Subregion1>
+      <Location_Subregion2>Kazakhstan</Location_Subregion2>
+      <Location_Subregion3/>
+      <Detailed_Location/>
+   </Location>
+   <Location>
+      <Location_Category>Continent</Location_Category>
+      <Location_Type>Asia</Location_Type>
+      <Location_Subregion1>Eastern Asia</Location_Subregion1>
+      <Location_Subregion2>Mongolia</Location_Subregion2>
+      <Location_Subregion3/>
+      <Detailed_Location/>
+   </Location>
+   <Location>
+      <Location_Category>Continent</Location_Category>
+      <Location_Type>Europe</Location_Type>
+      <Location_Subregion1>Northern Europe</Location_Subregion1>
+      <Location_Subregion2>Scandanavia</Location_Subregion2>
+      <Location_Subregion3>Norway</Location_Subregion3>
+      <Detailed_Location/>
+   </Location>
+   <Location>
+      <Location_Category>Continent</Location_Category>
+      <Location_Type>Europe</Location_Type>
+      <Location_Subregion1>Eastern Europe</Location_Subregion1>
+      <Location_Subregion2>Russia</Location_Subregion2>
+      <Location_Subregion3/>
+      <Detailed_Location/>
+   </Location>
+   <Location>
+      <Location_Category>Ocean</Location_Category>
+      <Location_Type>Atlantic Ocean</Location_Type>
+      <Location_Subregion1>North Atlantic Ocean</Location_Subregion1>
+      <Location_Subregion2>Svalbard And Jan Mayen</Location_Subregion2>
+      <Location_Subregion3/>
+      <Detailed_Location/>
+   </Location>
+   <Location>
+      <Location_Category>Continent</Location_Category>
+      <Location_Type>Europe</Location_Type>
+      <Location_Subregion1>Northern Europe</Location_Subregion1>
+      <Location_Subregion2>Scandanavia</Location_Subregion2>
+      <Location_Subregion3>Sweden</Location_Subregion3>
+      <Detailed_Location/>
+   </Location>
+   <Location>
+      <Location_Category>Continent</Location_Category>
+      <Location_Type>Europe</Location_Type>
+      <Location_Subregion1>Western Europe</Location_Subregion1>
+      <Location_Subregion2>Switzerland</Location_Subregion2>
+      <Location_Subregion3/>
+      <Detailed_Location/>
+   </Location>
+   <Location>
+      <Location_Category>Continent</Location_Category>
+      <Location_Type>Antarctica</Location_Type>
+      <Location_Subregion1/>
+      <Location_Subregion2/>
+      <Location_Subregion3/>
+      <Detailed_Location/>
+   </Location>
+   <Location>
+      <Location_Category>Geographic Region</Location_Category>
+      <Location_Type>Arctic</Location_Type>
+      <Location_Subregion1/>
+      <Location_Subregion2/>
+      <Location_Subregion3/>
+      <Detailed_Location/>
+   </Location>
+   <Location>
+      <Location_Category>Geographic Region</Location_Category>
+      <Location_Type>Northern Hemisphere</Location_Type>
+      <Location_Subregion1/>
+      <Location_Subregion2/>
+      <Location_Subregion3/>
+      <Detailed_Location/>
+   </Location>
+   <Location>
+      <Location_Category>Geographic Region</Location_Category>
+      <Location_Type>Polar</Location_Type>
+      <Location_Subregion1/>
+      <Location_Subregion2/>
+      <Location_Subregion3/>
+      <Detailed_Location>circumpolar</Detailed_Location>
+   </Location>
+   <Location>
+      <Location_Category>Geographic Region</Location_Category>
+      <Location_Type>Southern Hemisphere</Location_Type>
+      <Location_Subregion1/>
+      <Location_Subregion2/>
+      <Location_Subregion3/>
+      <Detailed_Location/>
+   </Location>
+   <Location>
+      <Location_Category>Continent</Location_Category>
+      <Location_Type>North America</Location_Type>
+      <Location_Subregion1>United States Of America</Location_Subregion1>
+      <Location_Subregion2>Alaska</Location_Subregion2>
+      <Location_Subregion3/>
+      <Detailed_Location/>
+   </Location>
+   <Project>
+      <Short_Name>CALM</Short_Name>
+      <Long_Name>Circumpolar Active Layer Monitoring Program</Long_Name>
+   </Project>
+   <Data_Set_Language>English</Data_Set_Language>
+   <Data_Center>
+      <Data_Center_Name>
+         <Short_Name>FGDC</Short_Name>
+         <Long_Name>Frozen Ground Data Center</Long_Name>
+      </Data_Center_Name>
+      <Data_Center_URL>http://nsidc.org/fgdc/</Data_Center_URL>
+      <Personnel>
+         <Role>Data Center Contact</Role>
+         <First_Name>FGDC</First_Name>
+         <Last_Name>User Services</Last_Name>
+         <Email>nsidc@nsidc.org</Email>
+         <Phone>1-303-492-6199</Phone>
+         <Fax>1-303-492-2468</Fax>
+         <Contact_Address>
+            <Address>National Snow and Ice Data Center</Address>
+            <Address>CIRES, 449 UCB</Address>
+            <Address>University of Colorado</Address>
+            <City>Boulder</City>
+            <Province_or_State>CO</Province_or_State>
+            <Postal_Code>80309-0449</Postal_Code>
+            <Country>USA</Country>
+         </Contact_Address>
+      </Personnel>
+   </Data_Center>
+   <Distribution>
+      <Distribution_Media>FTP</Distribution_Media>
+      <Distribution_Format>Microsoft Excel</Distribution_Format>
+   </Distribution>
+   <Reference/>
+   <Summary>
+      <Abstract>The CALM network includes 168 active sites in both hemispheres, with 15 participating countries.  This network represents the only coordinated and standardized program of observations using standard measurement protocols designed to observe and detect decadal changes in the dynamics of seasonal thawing and freezing in high-latitude soils. The Intellectual Merit of this study lies in the need for long-term time series of active layer depth, ground temperature, and thaw settlement measurements at the same locations and across diverse terrain types and regions in order to identify scales of spatial variation, establish trends, and validate models.
+
+The active layer thickness is measured by physical probing on grids ranging in size from 100 to 1000 meters, by probing at a single point or along transects or from permanently installed frost tubes and soil temperature cables. Sites include several coastal to inland transects in North America, a longitudinal array of sites across Eurasia, and individual sites in several mid-latitude, mountainous regions. The majority of the sites are in arctic tundra regions consisting of fine grained sediments. Bouldery and rocky sites in mountains are being added to the network primarily in Europe as part of the EC Permafrost and Climate in Europe (PACE) project. CALM is being considered as the part of the Global Climate Observing System (GCOS). CALM is closely affiliated with the International Permafrost Association (IPA), several IPA working groups, and the International Tundra Experiment (ITEX). The current protocol for observing the active layer thickness is given in the published ITEX Manual and on the ITEX and IPA web sites. These activities are part of the IPA Global Geocryological Database (GGD). A map on the CAPS CD-ROM illustrates the locations of the 130 sites. A comprehensive metadata file for all sites is available. 
+
+The CAPS CD-ROM contains detailed metadata and summary data. Raw data can be found at the CALM &lt;a href='http://www.udel.edu/Geography/calm/'&gt;web site&lt;/a&gt;.</Abstract>
+   </Summary>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>VIEW RELATED INFORMATION</Type>
+      </URL_Content_Type>
+      <URL>http://nsidc.org/data/docs/fgdc/ggd313_calm/index.html</URL>
+      <Description>Documentation</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>GET DATA</Type>
+      </URL_Content_Type>
+      <URL>http://nsidc.org/forms/ggd313_md.html</URL>
+      <Description>Order Data</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>GET DATA</Type>
+      </URL_Content_Type>
+      <URL>http://www.gwu.edu/~calm/</URL>
+      <Description>Get External Data</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>VIEW RELATED INFORMATION</Type>
+      </URL_Content_Type>
+      <URL>http://nsidc.org/data/g01175.html</URL>
+      <Description>Circumpolar Active-Layer Permafrost System (CAPS)</Description>
+   </Related_URL>
+   <Metadata_Name>CEOS IDN DIF</Metadata_Name>
+   <Metadata_Version>VERSION 9.9</Metadata_Version>
+   <DIF_Creation_Date>2003-01-01</DIF_Creation_Date>
+   <Last_DIF_Revision_Date>2014-03-11</Last_DIF_Revision_Date>
+   <DIF_Revision_History> 2014-03-11, Deann Miller, Updated the summary with newer information. 
+ 2013-10-10, Deann Miller, Removed link and replaced it with Get External Data, cleanup for Search. 
+ 2003-06-05, yohe,  
+ 2003-06-05, yohe,  
+ 2003-01-01, Transferred from mddb dataset_citation.release_date
+ 2003-05-06, yohe,  
+ 2003-06-09, yohe,  
+ 2003-06-09, yohe,  
+ 2003-06-09, yohe,  
+ 2003-06-09, yohe,  
+ 2003-06-09, yohe, Publishing to verify that a problem with quotes in DIFS Plus is fixed. KMR
+ 2003-06-09, yohe,  
+ 2003-06-09, yohe,  
+ 2003-06-09, yohe,  
+ 2003-06-09, yohe,  
+ 2003-06-09, yohe,  
+ 2003-07-09, yohe,  
+ 2003-07-09, yohe,  
+ 2004-03-11, yohe,  
+ 2004-04-01, yohe,  
+ 2005-04-13, Gloria Hicks,  
+ 2005-04-13, Gloria Hicks,  
+ 2005-04-19, Gloria Hicks,  
+ 2006-08-03, lfrench, Ken changed all these to use new dynamic forms (media order or optional registration).
+ 2012-01-31, Deann Miller, added units to depth values.
+ 2012-08-23, Deann Miller, added dist. media &amp; format based on data
+ 2014-02-11, Karla LeFevre,  Updated Data URL link. 
+</DIF_Revision_History>
+   <Extended_Metadata>
+      <Metadata>
+         <Group>NSIDC</Group>
+         <Name>Version Summary</Name>
+         <Value/>
+      </Metadata>
+      <Metadata>
+         <Group>NSIDC</Group>
+         <Name>Current Version</Name>
+         <Value>1</Value>
+      </Metadata>
+   </Extended_Metadata>
+</DIF>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DIF xmlns="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/"
+    xmlns:dif="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/ http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/dif_v9.9.3.xsd">
+    <Entry_ID>amprtbtc_2</Entry_ID>
+    <Entry_Title>AMPR BRIGHTNESS TEMPERATURE (TB) TOGA COARE V2</Entry_Title>
+    <Data_Set_Citation>
+        <Version>2</Version>
+    </Data_Set_Citation>
+    <Personnel>
+        <Role>GHRC USER SERVICES</Role>
+        <Email>ghrc-dmg@itsc.uah.edu</Email>
+    </Personnel>
+    <Parameters>
+        <Category>EARTH SCIENCE</Category>
+        <Topic>SPECTRAL/ENGINEERING</Topic>
+        <Term>INFRARED WAVELENGTHS</Term>
+        <Variable_Level_1>BRIGHTNESS TEMPERATURE</Variable_Level_1>
+    </Parameters>
+    <Parameters>
+        <Category>EARTH SCIENCE</Category>
+        <Topic>SPECTRAL/ENGINEERING</Topic>
+        <Term>MICROWAVE</Term>
+        <Variable_Level_1>BRIGHTNESS TEMPERATURE</Variable_Level_1>
+    </Parameters>
+    <Sensor_Name>
+        <Short_Name>AMPR</Short_Name>
+        <Long_Name/>
+    </Sensor_Name>
+    <Source_Name>
+        <Short_Name>NASA ER-2</Short_Name>
+        <Long_Name>NASA ER-2</Long_Name>
+    </Source_Name>
+    <Temporal_Coverage>
+        <Start_Date>1993-01-12T00:00:00.000Z</Start_Date>
+        <Stop_Date>1993-02-25T02:30:00.000Z</Stop_Date>
+    </Temporal_Coverage>
+    <Spatial_Coverage>
+        <Southernmost_Latitude>-21.0</Southernmost_Latitude>
+        <Northernmost_Latitude>0.0</Northernmost_Latitude>
+        <Westernmost_Longitude>145.0</Westernmost_Longitude>
+        <Easternmost_Longitude>161.0</Easternmost_Longitude>
+    </Spatial_Coverage>
+    <Data_Resolution>
+        <Temporal_Resolution>1 DAY</Temporal_Resolution>
+    </Data_Resolution>
+    <Project>
+        <Short_Name>TOGA COARE</Short_Name>
+    </Project>
+    <Quality/>
+    <Use_Constraints/>
+    <Summary>
+        <Abstract>The Advanced Microwave Precipitation Radiometer (AMPR) data set was part of the
+atmospheric measurements collected during the intensive observation period of
+the Tropical Ocean Global Atmosphere-Coupled Ocean Atmosphere Response
+Experiment (TOGA-COARE). AMPR data were collected at a combination of
+frequencies (10.7, 19 .35, 37.1, and 85.5 GHz) and for the period Jan.
+11, 1993 - Feb. 23, 1993. The TOGA COARE geographic domain pertinent to the
+AMPR data set was from the equator to 21 S latitude and 145 E - 161 E longitude.</Abstract>
+        <Purpose/>
+    </Summary>
+    <Related_URL>
+        <URL_Content_Type>
+            <Type>GET DATA</Type>
+        </URL_Content_Type>
+        <URL>http://ghrc.nsstc.nasa.gov/hydro/details.pl?ds=amprtbtc</URL>
+    </Related_URL>
+    <Related_URL>
+        <URL_Content_Type>
+            <Type>GET RELATED VISUALIZATION</Type>
+        </URL_Content_Type>
+        <URL>ftp://gpm.nsstc.nasa.gov/ampr/toga_coare/browse/</URL>
+    </Related_URL>
+    <Related_URL>
+        <URL_Content_Type>
+            <Type>VIEW RELATED INFORMATION</Type>
+            <Subtype>USER'S GUIDE</Subtype>
+        </URL_Content_Type>
+        <URL>http://ghrc.nsstc.nasa.gov/uso/ds_docs/ampr/ampr_dataset.html</URL>
+    </Related_URL>
+    <Related_URL>
+        <URL_Content_Type>
+            <Type>VIEW PROJECT HOME PAGE</Type>
+        </URL_Content_Type>
+        <URL>http://ampr.nsstc.nasa.gov/</URL>
+    </Related_URL>
+    <Related_URL>
+        <URL_Content_Type>
+            <Type>VIEW RELATED INFORMATION</Type>
+            <Subtype>GENERAL DOCUMENTATION</Subtype>
+        </URL_Content_Type>
+        <URL>ftp://ghrc.nsstc.nasa.gov/pub/doc/ampr/ampr.pdf</URL>
+    </Related_URL>
+    <Related_URL>
+        <URL_Content_Type>
+            <Type>GET SERVICE</Type>
+            <Subtype>GET SOFTWARE PACKAGE</Subtype>
+        </URL_Content_Type>
+        <URL>ftp://ghrc.nsstc.nasa.gov/pub/doc/ampr/example_ampr_read_program.f</URL>
+    </Related_URL>
+    <Related_URL>
+        <URL_Content_Type>
+            <Type>GET DATA</Type>
+        </URL_Content_Type>
+        <URL>http://ghrc.nsstc.nasa.gov/uso/citation.html</URL>
+    </Related_URL>
+    <Metadata_Name>CEOS IDN DIF</Metadata_Name>
+    <Metadata_Version>VERSION 9.9.3</Metadata_Version>
+    <DIF_Creation_Date>1993-01-11T00:00:00.000Z</DIF_Creation_Date>
+    <Last_DIF_Revision_Date>2013-11-14T10:29:41.000Z</Last_DIF_Revision_Date>
+    <Extended_Metadata>
+        <Metadata>
+            <Name>GranuleSpatialRepresentation</Name>
+            <Type/>
+            <Value>CARTESIAN</Value>
+        </Metadata>
+        <Metadata>
+            <Name>ProductLevelId</Name>
+            <Type/>
+            <Value>1B</Value>
+        </Metadata>
+    </Extended_Metadata>
+</DIF>

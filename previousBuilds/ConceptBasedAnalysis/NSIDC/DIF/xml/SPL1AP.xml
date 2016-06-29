@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DIF xmlns="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/ http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/dif_v9.7.1.xsd">
+   <Entry_ID>SPL1AP</Entry_ID>
+   <Entry_Title>SMAP L1A Radiometer Time-Ordered Parsed Telemetry</Entry_Title>
+   <Data_Set_Citation>
+      <Dataset_Creator>Piepmeier, J. R., E. J. Kim, P. Mohammed, J. Peng, and C. Ruf.</Dataset_Creator>
+      <Dataset_Title>SMAP L1A Radiometer Time-Ordered Parsed Telemetry</Dataset_Title>
+      <Dataset_Release_Date>2015-10-30</Dataset_Release_Date>
+      <Dataset_Release_Place>Boulder, Colorado USA</Dataset_Release_Place>
+      <Dataset_Publisher>NASA NSIDC DAAC: NASA National Snow and Ice Data Center Distributed Active Archive Center</Dataset_Publisher>
+      <Version>2</Version>
+      <Dataset_DOI>doi:10.5067/JGV8EY3FGAH1</Dataset_DOI>
+      <Online_Resource>http://nsidc.org/data/SPL1AP</Online_Resource>
+      <Dataset_Series_Name>SPL1AP</Dataset_Series_Name>
+   </Data_Set_Citation>
+   <Personnel>
+      <Role>Technical Contact</Role>
+      <First_Name>NSIDC</First_Name>
+      <Last_Name>User Services</Last_Name>
+      <Email>nsidc@nsidc.org</Email>
+      <Phone>1-303-492-6199</Phone>
+      <Fax>1-303-492-2468</Fax>
+      <Contact_Address>
+         <Address>CIRES, 449 UCB</Address>
+         <Address>University of Colorado</Address>
+         <City>Boulder</City>
+         <Province_or_State>CO</Province_or_State>
+         <Postal_Code>80309-0449</Postal_Code>
+         <Country>USA</Country>
+      </Contact_Address>
+   </Personnel>
+   <Parameters>
+      <Category>EARTH SCIENCE</Category>
+      <Topic>Spectral/Engineering</Topic>
+      <Term>Microwave</Term>
+      <Variable_Level_1>Sensor Counts</Variable_Level_1>
+      <Detailed_Variable>Instrument Counts</Detailed_Variable>
+   </Parameters>
+   <ISO_Topic_Category>Climatology/Meteorology/Atmosphere</ISO_Topic_Category>
+   <ISO_Topic_Category>Geoscientific Information</ISO_Topic_Category>
+   <Keyword>Raw Observation Counts</Keyword>
+   <Keyword>RAW TELEMETRY DATA</Keyword>
+   <Keyword>SMAP-project</Keyword>
+   <Keyword>Soil Moisture Active Passive</Keyword>
+   <Sensor_Name>
+      <Short_Name>SMAP L-Band Radiometer </Short_Name>
+      <Long_Name>SMAP L-Band Radiometer </Long_Name>
+   </Sensor_Name>
+   <Source_Name>
+      <Short_Name>SMAP Observatory </Short_Name>
+      <Long_Name>Soil Moisture Active and Passive Observatory </Long_Name>
+   </Source_Name>
+   <Temporal_Coverage>
+      <Start_Date>2015-03-31</Start_Date>
+   </Temporal_Coverage>
+   <Data_Set_Progress>in work</Data_Set_Progress>
+   <Spatial_Coverage>
+      <Southernmost_Latitude>-86.4</Southernmost_Latitude>
+      <Northernmost_Latitude>86.4</Northernmost_Latitude>
+      <Westernmost_Longitude>-180</Westernmost_Longitude>
+      <Easternmost_Longitude>180</Easternmost_Longitude>
+   </Spatial_Coverage>
+   <Location>
+      <Location_Category>Geographic Region</Location_Category>
+      <Location_Type>Global Land</Location_Type>
+      <Location_Subregion1/>
+      <Location_Subregion2/>
+      <Location_Subregion3/>
+   </Location>
+   <Data_Resolution>
+      <Latitude_Resolution>40 km</Latitude_Resolution>
+      <Longitude_Resolution>40 km</Longitude_Resolution>
+      <Temporal_Resolution>49 minute</Temporal_Resolution>
+   </Data_Resolution>
+   <Project>
+      <Short_Name>SMAP</Short_Name>
+      <Long_Name>Soil Moisture Active Passive</Long_Name>
+   </Project>
+   <Quality>SMAP data sets provide multiple means to assess quality. Each data set contains bit flags, uncertainty measures, and file-level metadata that provide quality information. The Data Fields and Metadata Fields documents describe the specific bit flags, uncertainty measures, and file-level metadata contained in this data set. Each SMAP HDF5 data file contains metadata with Quality Assessment (QA) metadata flags. These QA metadata flags are calculated and set by the SDS at JPL prior to
+      delivery to the National Snow and Ice Data Center Distributed Active Archive Center (NSIDC DAAC). A separate, ISO 19115-compliant metadata file with an .xml file extension is also delivered to NSIDC DAAC with the HDF5 data file; it contains the same information as the file-level metadata. A separate QA file with a .qa file extension is also associated with each data file. QA files are ASCII text files that contain statistical information in order to help users better assess the quality of
+      the associated data file. In addition, various levels of QA are conducted with the Level-1A data. If a file passes QA, the SDS applies that file for higher-level processing, browse generation, active science QA, and data archive and distribution. If a product fails QA, it is never delivered to NSIDC DAAC.</Quality>
+   <Use_Constraints>These data are offered free of charge. You may use these data freely, provided that you cite NSIDC DAAC as the source, and provide an acknowledgment in any published papers.</Use_Constraints>
+   <Data_Set_Language>English</Data_Set_Language>
+   <Originating_Center>NASA/JPL/SMAP</Originating_Center>
+   <Data_Center>
+      <Data_Center_Name>
+         <Short_Name>NASA NSIDC DAAC</Short_Name>
+         <Long_Name>NASA National Snow and Ice Data Center Distributed Active Archive Center</Long_Name>
+      </Data_Center_Name>
+      <Data_Center_URL>http://nsidc.org/daac/index.html</Data_Center_URL>
+      <Personnel>
+         <Role>Data Center Contact</Role>
+         <First_Name>NSIDC</First_Name>
+         <Last_Name>User Services</Last_Name>
+         <Email>nsidc@nsidc.org</Email>
+         <Phone>1-303-492-6199</Phone>
+         <Fax>1-303-492-2468</Fax>
+         <Contact_Address>
+            <Address>National Snow and Ice Data Center</Address>
+            <Address>CIRES, 449 UCB</Address>
+            <Address>University of Colorado</Address>
+            <City>Boulder</City>
+            <Province_or_State>CO</Province_or_State>
+            <Postal_Code>80309-0449</Postal_Code>
+            <Country>USA</Country>
+         </Contact_Address>
+      </Personnel>
+   </Data_Center>
+   <Distribution>
+      <Distribution_Media>FTP</Distribution_Media>
+      <Distribution_Size>36.4 GB</Distribution_Size>
+      <Distribution_Format>HDF5</Distribution_Format>
+   </Distribution>
+   <Distribution>
+      <Distribution_Media>HTTPS</Distribution_Media>
+      <Distribution_Size>36.4 GB</Distribution_Size>
+      <Distribution_Format>HDF5</Distribution_Format>
+   </Distribution>
+   <Reference>Entekhabi, D. et al. 2014. SMAP Handbook–Soil Moisture Active Passive: Mapping Soil Moisture and Freeze/Thaw from Space. Pasadena, CA USA: SMAP Project, JPL CL#14-2285, Jet Propulsion Laboratory. (https://smap.jpl.nasa.gov/files/smap2/SMAP_Handbook_FINAL_1_JULY_2014_Web.pdf, 4.09 MB) Mohammed-Tano, P. 2015. Soil Moisture Active Passive (SMAP) Project Level 1A Radiometer Product Specification Document. Pasadena, CA USA: SMAP Project, JPL D-92340, Jet Propulsion Laboratory.
+      (http://nsidc.org/data/docs/daac/smap/sp_l1a_p/pdfs/D-92340-A_SMAP_Radiometer_Level1A_Product_Specification_Document_150720_with sigs.pdf, 979 KB) Piepmeier, J. R. et al. 2016. SMAP Algorithm Theoretical Basis Document: L1B Radiometer Product: Includes L1A and L1B. SMAP Project, NASA GSFC SMAP-006, NASA Goddard Space Flight Center, Greenbelt, MD. (http://nsidc.org/data/docs/daac/smap/sp_l1b_tb/pdfs/SMAP_ATBD_RadiometerL1B_TB_REV-B_20150401.pdf, 1.94 MB)</Reference>
+   <Summary>
+      <Abstract>&lt;p&gt;Each Level-1A (L1A) granule incorporates all radiometer data downlinked from the Soil Moisture Active Passive (SMAP) spacecraft for one specific half orbit. The data are scaled instrument counts of the following:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;The first four raw moments of the fullband channel for both vertical and horizontal polarizations&lt;/li&gt; &lt;li&gt;The complex cross-correlations of the fullband channel&lt;/li&gt; &lt;li&gt;The 16 subband channels for both
+       vertical and horizontal polarizations&lt;/li&gt; &lt;/ul&gt;</Abstract>
+   </Summary>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>VIEW RELATED INFORMATION</Type>
+      </URL_Content_Type>
+      <URL>http://nsidc.org/data/docs/daac/smap/sp_l1a_p/index.html</URL>
+      <Description>Documentation</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>GET DATA</Type>
+      </URL_Content_Type>
+      <URL>ftp://n5eil01u.ecs.nsidc.org/SAN/SMAP/SPL1AP.002/</URL>
+      <Description>FTP</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>GET SERVICE</Type>
+      </URL_Content_Type>
+      <URL>http://reverb.echo.nasa.gov/reverb/#utf8=%E2%9C%93&amp;spatial_map=satellite&amp;spatial_type=rectangle&amp;keywords=SPL1AP</URL>
+      <Description>Reverb</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>GET SERVICE</Type>
+      </URL_Content_Type>
+      <URL>http://nsidc.org/daac/subscriptions.html</URL>
+      <Description>Subscription</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>GET DATA</Type>
+      </URL_Content_Type>
+      <URL>https://n5eil01u.ecs.nsidc.org/SMAP/SPL1AP.002/</URL>
+      <Description>HTTPS</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>GET SERVICE</Type>
+      </URL_Content_Type>
+      <URL>https://search.earthdata.nasa.gov/search?q=SPL1AP</URL>
+      <Description>Earthdata Search</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>VIEW RELATED INFORMATION</Type>
+      </URL_Content_Type>
+      <URL>http://nsidc.org/data/smap/index.html</URL>
+      <Description>SMAP Data at NASA NSIDC DAAC</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>VIEW RELATED INFORMATION</Type>
+      </URL_Content_Type>
+      <URL>http://nsidc.org/data/smap/validation/val-data.html</URL>
+      <Description>SMAP Validation Data at NASA NSIDC DAAC</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>VIEW PROJECT HOME PAGE</Type>
+      </URL_Content_Type>
+      <URL>http://smap.jpl.nasa.gov/</URL>
+      <Description>SMAP Web Site at the Jet Propulsion Laboratory</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>VIEW RELATED INFORMATION</Type>
+      </URL_Content_Type>
+      <URL>https://www.asf.alaska.edu/smap/</URL>
+      <Description>SMAP Data at NASA ASF DAAC</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>VIEW RELATED INFORMATION</Type>
+      </URL_Content_Type>
+      <URL>http://nsidc.org/data/docs/daac/smap/sp_l1b_tb/pdfs/SMAP_ATBD_RadiometerL1B_TB_REV-B_20150401.pdf</URL>
+      <Description>Algorithm Theoretical Basis Document (ATBD)</Description>
+   </Related_URL>
+   <Metadata_Name>CEOS IDN DIF</Metadata_Name>
+   <Metadata_Version>VERSION 9.9</Metadata_Version>
+   <DIF_Creation_Date>2015-10-30</DIF_Creation_Date>
+   <Last_DIF_Revision_Date>2016-05-23</Last_DIF_Revision_Date>
+   <DIF_Revision_History> 2015-10-30, Gloria Hicks, new guide doc 2015-10-30, Gloria Hicks, new guide doc 2015-12-03, Karla LeFevre, Added minor version information. 2016-03-28, Karla LeFevre, Added Earthdata Search as service option. 2016-01-20, Karla LeFevre, Updated parameter. 2016-04-29, Karla LeFevre, New minor version. 2016-05-23, Karla LeFevre, Updated See Also link with latest ATBD. 2016-05-17, Karla LeFevre, Updated version history. </DIF_Revision_History>
+   <Extended_Metadata>
+      <Metadata>
+         <Group>NSIDC</Group>
+         <Name>Version Summary</Name>
+         <Value>&lt;p&gt;Changes to this version include:&lt;/p&gt; &lt;ul&gt;&lt;li&gt;Transitioned to Validated-Stage 2&lt;/li&gt; &lt;li&gt;Calibration parameters were adjusted to reduce calibration jumps and drift previously present in the Beta-release; as a result, calibration now meets its less than 0.4 K/month stability back to 31 March 2015&lt;/li&gt; &lt;li&gt;Additional bit-error checking was performed on Level-0 instrument telemetry&lt;/li&gt; &lt;/ul&gt;</Value>
+      </Metadata>
+      <Metadata>
+         <Group>NSIDC</Group>
+         <Name>Current Version</Name>
+         <Value>1</Value>
+      </Metadata>
+   </Extended_Metadata>
+</DIF>

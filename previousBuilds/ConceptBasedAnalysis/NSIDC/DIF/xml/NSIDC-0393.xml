@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DIF xmlns="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/ http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/dif_v9.7.1.xsd">
+   <Entry_ID>NSIDC-0393</Entry_ID>
+   <Entry_Title>Arctic Sea Ice Freeboard and Thickness</Entry_Title>
+   <Data_Set_Citation>
+      <Dataset_Creator>Yi, D. and H. J. Zwally.</Dataset_Creator>
+      <Dataset_Title>Arctic Sea Ice Freeboard and Thickness</Dataset_Title>
+      <Dataset_Release_Date>2009-04-30</Dataset_Release_Date>
+      <Dataset_Release_Place>Boulder, Colorado USA</Dataset_Release_Place>
+      <Dataset_Publisher>NSIDC: National Snow and Ice Data Center</Dataset_Publisher>
+      <Version>1</Version>
+      <Dataset_DOI>doi:10.5067/SXJVJ3A2XIZT</Dataset_DOI>
+      <Online_Resource>http://nsidc.org/data/NSIDC-0393</Online_Resource>
+      <Dataset_Series_Name>NSIDC-0393</Dataset_Series_Name>
+   </Data_Set_Citation>
+   <Personnel>
+      <Role>Investigator</Role>
+      <First_Name>Donghui</First_Name>
+      <Last_Name>Yi</Last_Name>
+      <Contact_Address>
+         <City>Greenbelt</City>
+         <Province_or_State>MD</Province_or_State>
+         <Postal_Code>20771</Postal_Code>
+         <Country>USA</Country>
+      </Contact_Address>
+   </Personnel>
+   <Personnel>
+      <Role>Investigator</Role>
+      <First_Name>H.</First_Name>
+      <Middle_Name>Jay</Middle_Name>
+      <Last_Name>Zwally</Last_Name>
+      <Email>Jay.Zwally@nasa.gov</Email>
+      <Phone>1-301-614-5643</Phone>
+      <Fax>1-301-614-5644</Fax>
+      <Contact_Address>
+         <Address>Laboratory for Hydrospheric Processes</Address>
+         <Address>NASA/Goddard Space Flight Center</Address>
+         <Address>Code 971</Address>
+         <City>Greenbelt</City>
+         <Province_or_State>MD</Province_or_State>
+         <Postal_Code>20771</Postal_Code>
+         <Country>USA</Country>
+      </Contact_Address>
+   </Personnel>
+   <Personnel>
+      <Role>Technical Contact</Role>
+      <First_Name>NSIDC</First_Name>
+      <Last_Name>User Services</Last_Name>
+      <Email>nsidc@nsidc.org</Email>
+      <Phone>1-303-492-6199</Phone>
+      <Fax>1-303-492-2468</Fax>
+      <Contact_Address>
+         <Address>CIRES, 449 UCB</Address>
+         <Address>University of Colorado</Address>
+         <City>Boulder</City>
+         <Province_or_State>CO</Province_or_State>
+         <Postal_Code>80309-0449</Postal_Code>
+         <Country>USA</Country>
+      </Contact_Address>
+   </Personnel>
+   <Parameters>
+      <Category>EARTH SCIENCE</Category>
+      <Topic>Oceans</Topic>
+      <Term>Sea Ice</Term>
+      <Variable_Level_1>Ice Depth/Thickness</Variable_Level_1>
+   </Parameters>
+   <Parameters>
+      <Category>EARTH SCIENCE</Category>
+      <Topic>Cryosphere</Topic>
+      <Term>Sea Ice</Term>
+      <Variable_Level_1>Ice Depth/Thickness</Variable_Level_1>
+   </Parameters>
+   <Parameters>
+      <Category>EARTH SCIENCE</Category>
+      <Topic>Cryosphere</Topic>
+      <Term>Sea Ice</Term>
+   </Parameters>
+   <Parameters>
+      <Category>EARTH SCIENCE</Category>
+      <Topic>Oceans</Topic>
+      <Term>Sea Ice</Term>
+   </Parameters>
+   <ISO_Topic_Category>Climatology/Meteorology/Atmosphere</ISO_Topic_Category>
+   <Keyword>Arctic Sea Ice</Keyword>
+   <Keyword>GLAS</Keyword>
+   <Keyword>ICESat/GLAS-related project</Keyword>
+   <Keyword>Ice Thickness</Keyword>
+   <Keyword>Sea Ice</Keyword>
+   <Keyword>Special Sensor Microwave/Imager</Keyword>
+   <Keyword>SSM/I</Keyword>
+   <Sensor_Name>
+      <Short_Name>GLAS</Short_Name>
+      <Long_Name>Geoscience Laser Altimeter System</Long_Name>
+   </Sensor_Name>
+   <Sensor_Name>
+      <Short_Name>SSM/I</Short_Name>
+      <Long_Name>Special Sensor Microwave/Imager</Long_Name>
+   </Sensor_Name>
+   <Source_Name>
+      <Short_Name>DMSP</Short_Name>
+      <Long_Name>Defense Meteorological Satellite Program</Long_Name>
+   </Source_Name>
+   <Source_Name>
+      <Short_Name>ICESAT</Short_Name>
+      <Long_Name>Ice, Cloud and Land Elevation Satellite</Long_Name>
+   </Source_Name>
+   <Source_Name>
+      <Short_Name>SATELLITES</Short_Name>
+   </Source_Name>
+   <Temporal_Coverage>
+      <Start_Date>2008-02-17</Start_Date>
+      <Stop_Date>2008-03-21</Stop_Date>
+   </Temporal_Coverage>
+   <Temporal_Coverage>
+      <Start_Date>2005-05-20</Start_Date>
+      <Stop_Date>2005-06-23</Stop_Date>
+   </Temporal_Coverage>
+   <Temporal_Coverage>
+      <Start_Date>2005-02-17</Start_Date>
+      <Stop_Date>2005-03-24</Stop_Date>
+   </Temporal_Coverage>
+   <Temporal_Coverage>
+      <Start_Date>2004-10-03</Start_Date>
+      <Stop_Date>2004-11-08</Stop_Date>
+   </Temporal_Coverage>
+   <Temporal_Coverage>
+      <Start_Date>2004-05-18</Start_Date>
+      <Stop_Date>2004-06-21</Stop_Date>
+   </Temporal_Coverage>
+   <Temporal_Coverage>
+      <Start_Date>2004-02-17</Start_Date>
+      <Stop_Date>2004-03-21</Stop_Date>
+   </Temporal_Coverage>
+   <Temporal_Coverage>
+      <Start_Date>2003-09-25</Start_Date>
+      <Stop_Date>2003-11-19</Stop_Date>
+   </Temporal_Coverage>
+   <Temporal_Coverage>
+      <Start_Date>2003-02-20</Start_Date>
+      <Stop_Date>2003-03-29</Stop_Date>
+   </Temporal_Coverage>
+   <Temporal_Coverage>
+      <Start_Date>2008-10-04</Start_Date>
+      <Stop_Date>2008-10-19</Stop_Date>
+   </Temporal_Coverage>
+   <Temporal_Coverage>
+      <Start_Date>2005-10-21</Start_Date>
+      <Stop_Date>2005-11-24</Stop_Date>
+   </Temporal_Coverage>
+   <Temporal_Coverage>
+      <Start_Date>2006-02-22</Start_Date>
+      <Stop_Date>2006-03-27</Stop_Date>
+   </Temporal_Coverage>
+   <Temporal_Coverage>
+      <Start_Date>2006-05-24</Start_Date>
+      <Stop_Date>2006-06-26</Stop_Date>
+   </Temporal_Coverage>
+   <Temporal_Coverage>
+      <Start_Date>2006-10-25</Start_Date>
+      <Stop_Date>2006-11-27</Stop_Date>
+   </Temporal_Coverage>
+   <Temporal_Coverage>
+      <Start_Date>2007-03-12</Start_Date>
+      <Stop_Date>2007-04-14</Stop_Date>
+   </Temporal_Coverage>
+   <Temporal_Coverage>
+      <Start_Date>2007-10-02</Start_Date>
+      <Stop_Date>2007-11-05</Stop_Date>
+   </Temporal_Coverage>
+   <Data_Set_Progress>complete</Data_Set_Progress>
+   <Spatial_Coverage>
+      <Southernmost_Latitude>65</Southernmost_Latitude>
+      <Northernmost_Latitude>86</Northernmost_Latitude>
+      <Westernmost_Longitude>-180</Westernmost_Longitude>
+      <Easternmost_Longitude>180</Easternmost_Longitude>
+   </Spatial_Coverage>
+   <Location>
+      <Location_Category>Geographic Region</Location_Category>
+      <Location_Type>Arctic</Location_Type>
+      <Location_Subregion1/>
+      <Location_Subregion2/>
+      <Location_Subregion3/>
+   </Location>
+   <Data_Resolution>
+      <Latitude_Resolution>70 m</Latitude_Resolution>
+      <Longitude_Resolution>70 m</Longitude_Resolution>
+      <Temporal_Resolution>1 day</Temporal_Resolution>
+   </Data_Resolution>
+   <Project>
+      <Short_Name>ICESAT</Short_Name>
+      <Long_Name>Ice, Cloud and Land Elevation Satellite</Long_Name>
+   </Project>
+   <Data_Set_Language>English</Data_Set_Language>
+   <Originating_Center>NASA NSIDC DAAC</Originating_Center>
+   <Data_Center>
+      <Data_Center_Name>
+         <Short_Name>NASA NSIDC DAAC</Short_Name>
+         <Long_Name>NASA National Snow and Ice Data Center Distributed Active Archive Center</Long_Name>
+      </Data_Center_Name>
+      <Data_Center_URL>http://nsidc.org/daac/index.html</Data_Center_URL>
+      <Personnel>
+         <Role>Data Center Contact</Role>
+         <First_Name>NSIDC</First_Name>
+         <Last_Name>User Services</Last_Name>
+         <Email>nsidc@nsidc.org</Email>
+         <Phone>1-303-492-6199</Phone>
+         <Fax>1-303-492-2468</Fax>
+         <Contact_Address>
+            <Address>National Snow and Ice Data Center</Address>
+            <Address>CIRES, 449 UCB</Address>
+            <Address>University of Colorado</Address>
+            <City>Boulder</City>
+            <Province_or_State>CO</Province_or_State>
+            <Postal_Code>80309-0449</Postal_Code>
+            <Country>USA</Country>
+         </Contact_Address>
+      </Personnel>
+   </Data_Center>
+   <Distribution>
+      <Distribution_Media>FTP</Distribution_Media>
+      <Distribution_Size>17 MB</Distribution_Size>
+      <Distribution_Format>Binary</Distribution_Format>
+   </Distribution>
+   <Distribution>
+      <Distribution_Media>FTP</Distribution_Media>
+      <Distribution_Size>2.7 GB</Distribution_Size>
+      <Distribution_Format>ASCII Text (.txt)</Distribution_Format>
+   </Distribution>
+   <Distribution>
+      <Distribution_Media>FTP</Distribution_Media>
+      <Distribution_Size>1.2 MB</Distribution_Size>
+      <Distribution_Format>PNG</Distribution_Format>
+   </Distribution>
+   <Distribution>
+      <Distribution_Media>FTP</Distribution_Media>
+      <Distribution_Size>17 MB</Distribution_Size>
+      <Distribution_Format>GeoTIFF</Distribution_Format>
+   </Distribution>
+   <Reference>Zwally, H. J., D. Yi, R. Kwok, and Y. Zhao. 2008. ICESat Measurements of Sea Ice Freeboard and Estimates of Sea Ice Thickness in the Weddell Sea. Journal of Geophysical Research 113(C02S15), doi: 10.1029/2007JC004284. Warren, S. G., I. G. Rigor, N. Untersteiner, V. F. Radionov, N. N. Bryazgin, Y. I. Aleksandrov, and R. Colony. 1999. Snow Depth on Arctic Sea Ice. Journal of Climate 12: 1814 - 1829. Gloersen, P., W. J. Campbell, D. J. Cavalieri, J. C. Comiso, C. L. Parkinson, and
+      H. J. Zwally. 1992. Arctic and Antarctic Sea Ice, 1978-1987: Satellite Passive-Microwave Observations and Analysis. NASA SP-511, 290 pp. Picot, N., K. Case, S. Desai, and P. Vincent. 2003. AVISO and PODAAC User Handbook, IGDR and GDR Jason Products. SMM-MU-M5-OP-13184-CN (AVISO), JPL D-21352 (PO.DAAC). Stackpole, J. D. 1994. The WTO Format for the Storage of Weather Product Information and the Exchange of Weather Product Message in Gridded Binary Form. NOAA Office Note 388. Dorandeu, J.
+      and P. Y. Le Traon. 1999. Effects of Global Mean Atmospheric Pressure Variations on Mean Sea Level Changes from TOPEX/POSEIDON. Journal of Atmospheric and Oceanic Technology, 16(9), 1279-1283. Kwok, R., and G. F. Cunningham. 2008. ICESat Over Arctic Sea Ice: Estimation of Snow Depth and Ice Thickness. Journal of Geophysical Research 113(C08010), doi: 10.1029/2008JC004753.</Reference>
+   <Summary>
+      <Abstract>This data set provides measurements of sea ice freeboard and sea ice thickness for the Arctic region. The data were derived from measurements made by from the Ice, Cloud, and land Elevation Satellite (ICESat) Geoscience Laser Altimeter System (GLAS) instrument, the Special Sensor Microwave/Imager (SSM/I), and climatologies of snow and drift of ice.</Abstract>
+   </Summary>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>VIEW RELATED INFORMATION</Type>
+      </URL_Content_Type>
+      <URL>http://nsidc.org/data/docs/daac/nsidc0393_arctic_seaice_freeboard/index.html</URL>
+      <Description>Documentation</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>GET DATA</Type>
+      </URL_Content_Type>
+      <URL>ftp://sidads.colorado.edu/pub/DATASETS/NSIDC0393_GLAS_SI_Freeboard_v01/</URL>
+      <Description>FTP</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>VIEW PROJECT HOME PAGE</Type>
+      </URL_Content_Type>
+      <URL>http://nsidc.org/data/icesat/index.html</URL>
+      <Description>ICESat/GLAS Data at NSIDC</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>VIEW PROJECT HOME PAGE</Type>
+      </URL_Content_Type>
+      <URL>http://icesat.gsfc.nasa.gov/icesat/</URL>
+      <Description>ICESat/GLAS Web site at NASA Goddard Space Flight Center</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>VIEW PROJECT HOME PAGE</Type>
+      </URL_Content_Type>
+      <URL>http://glas.wff.nasa.gov/</URL>
+      <Description>ICESat/GLAS Web site at NASA Wallops Flight Facility</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>VIEW PROJECT HOME PAGE</Type>
+      </URL_Content_Type>
+      <URL>http://icesat.gsfc.nasa.gov/</URL>
+      <Description>ICESat/GLAS Web site at NASA Goddard Space Flight Center</Description>
+   </Related_URL>
+   <Metadata_Name>CEOS IDN DIF</Metadata_Name>
+   <Metadata_Version>VERSION 9.9</Metadata_Version>
+   <DIF_Creation_Date>2009-04-30</DIF_Creation_Date>
+   <Last_DIF_Revision_Date>2016-05-31</Last_DIF_Revision_Date>
+   <DIF_Revision_History> 2014-04-15, Daniel Webster, Updated Distribution Size for additional laser campaigns and revised image files. 2014-04-15, Daniel Webster, Revised Data Access URL re: OPS and USO. 2015-07-23, Michon Scott, Added keyword as part of Drupal migration. 2009-04-30, Transferred from mddb dataset_citation.release_date 2010-09-23, Deann Miller, New data set. 2010-09-24, Deann Miller, Updated Publisher Information, Personnel, and the citation in the DIFS PLUS field. 2012-02-13,
+      Deann Miller, Fixed temporal resolution for EDB. 2015-10-20, Daniel Webster, Removed ICESat keyword; retained ICESat/GLAS-related project keyword. 2016-05-31, Deann Miller, Fixed updated text and shortened summary paragraph. </DIF_Revision_History>
+   <Extended_Metadata>
+      <Metadata>
+         <Group>NSIDC</Group>
+         <Name>Version Summary</Name>
+         <Value/>
+      </Metadata>
+      <Metadata>
+         <Group>NSIDC</Group>
+         <Name>Update Frequency</Name>
+         <Value>updated 2014-04-15</Value>
+      </Metadata>
+      <Metadata>
+         <Group>NSIDC</Group>
+         <Name>Current Version</Name>
+         <Value>1</Value>
+      </Metadata>
+   </Extended_Metadata>
+</DIF>

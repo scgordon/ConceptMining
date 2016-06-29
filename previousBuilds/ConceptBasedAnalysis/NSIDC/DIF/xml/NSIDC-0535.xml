@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DIF xmlns="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/ http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/dif_v9.7.1.xsd">
+   <Entry_ID>NSIDC-0535</Entry_ID>
+   <Entry_Title>MEaSUREs Northern Hemisphere State of Cryosphere Weekly 100km EASE-Grid 2.0</Entry_Title>
+   <Data_Set_Citation>
+      <Dataset_Creator>Robinson, D., M. Anderson, T. W. Estilow, and T. L. Mote.</Dataset_Creator>
+      <Dataset_Title>MEaSUREs Northern Hemisphere State of Cryosphere Weekly 100km EASE-Grid 2.0</Dataset_Title>
+      <Dataset_Release_Date>2015-02-26</Dataset_Release_Date>
+      <Dataset_Release_Place>Boulder, Colorado USA</Dataset_Release_Place>
+      <Dataset_Publisher>NASA NSIDC DAAC: NASA National Snow and Ice Data Center Distributed Active Archive Center</Dataset_Publisher>
+      <Version>1</Version>
+      <Dataset_DOI>doi:10.5067/MEASURES/CRYOSPHERE/nsidc-0535.001</Dataset_DOI>
+      <Online_Resource>http://nsidc.org/data/NSIDC-0535</Online_Resource>
+      <Dataset_Series_Name>NSIDC-0535</Dataset_Series_Name>
+   </Data_Set_Citation>
+   <Personnel>
+      <Role>Technical Contact</Role>
+      <First_Name>NSIDC</First_Name>
+      <Last_Name>User Services</Last_Name>
+      <Email>nsidc@nsidc.org</Email>
+      <Phone>1-303-492-6199</Phone>
+      <Fax>1-303-492-2468</Fax>
+      <Contact_Address>
+         <Address>CIRES, 449 UCB</Address>
+         <Address>University of Colorado</Address>
+         <City>Boulder</City>
+         <Province_or_State>CO</Province_or_State>
+         <Postal_Code>80309-0449</Postal_Code>
+         <Country>USA</Country>
+      </Contact_Address>
+   </Personnel>
+   <Personnel>
+      <Role>Investigator</Role>
+      <First_Name>David</First_Name>
+      <Last_Name>Robinson</Last_Name>
+      <Email>drobins@rci.rutgers.edu</Email>
+      <Phone>1-732-445-4741</Phone>
+      <Fax>1-732-445-0006</Fax>
+      <Contact_Address>
+         <Address>Department of Geography</Address>
+         <Address>New Jersey State Climatologist</Address>
+         <Address>Rutgers University</Address>
+         <Address>54 Joyce Kilmer Avenue</Address>
+         <City>Piscataway</City>
+         <Province_or_State>NJ</Province_or_State>
+         <Postal_Code>08854-8054</Postal_Code>
+         <Country/>
+      </Contact_Address>
+   </Personnel>
+   <Personnel>
+      <Role>Investigator</Role>
+      <First_Name>Mark</First_Name>
+      <Last_Name>Anderson</Last_Name>
+      <Contact_Address>
+         <Address>Meteorology/Climatology Program</Address>
+         <Address>Dept. of Geosciences</Address>
+         <Address>University of Nebraska</Address>
+         <City>Lincoln</City>
+         <Province_or_State>NE</Province_or_State>
+         <Postal_Code>68588-0340</Postal_Code>
+         <Country/>
+      </Contact_Address>
+   </Personnel>
+   <Personnel>
+      <Role>Investigator</Role>
+      <First_Name>Thomas</First_Name>
+      <Middle_Name>W</Middle_Name>
+      <Last_Name>Estilow</Last_Name>
+      <Contact_Address>
+         <Address>54 Joyce Kilmer Avenue</Address>
+         <City>Piscataway</City>
+         <Province_or_State>NJ</Province_or_State>
+         <Postal_Code>08854</Postal_Code>
+         <Country/>
+      </Contact_Address>
+   </Personnel>
+   <Personnel>
+      <Role>Investigator</Role>
+      <First_Name>Thomas</First_Name>
+      <Middle_Name>L</Middle_Name>
+      <Last_Name>Mote</Last_Name>
+      <Contact_Address>
+         <Address>210 Field Street</Address>
+         <City>Athens</City>
+         <Province_or_State>GA</Province_or_State>
+         <Postal_Code>30602</Postal_Code>
+         <Country/>
+      </Contact_Address>
+   </Personnel>
+   <Parameters>
+      <Category>EARTH SCIENCE</Category>
+      <Topic>Cryosphere</Topic>
+      <Term>Sea Ice</Term>
+      <Variable_Level_1>Ice Extent</Variable_Level_1>
+   </Parameters>
+   <Parameters>
+      <Category>EARTH SCIENCE</Category>
+      <Topic>Cryosphere</Topic>
+      <Term>Snow/Ice</Term>
+      <Variable_Level_1>Snow Cover</Variable_Level_1>
+   </Parameters>
+   <Parameters>
+      <Category>EARTH SCIENCE</Category>
+      <Topic>Cryosphere</Topic>
+      <Term>Sea Ice</Term>
+      <Variable_Level_1>Snow Melt</Variable_Level_1>
+   </Parameters>
+   <ISO_Topic_Category>Climatology/Meteorology/Atmosphere</ISO_Topic_Category>
+   <ISO_Topic_Category>Imagery/Base Maps/Earth Cover</ISO_Topic_Category>
+   <Keyword>AVHRR</Keyword>
+   <Keyword>Defense Meteorological Satellite Program</Keyword>
+   <Keyword>EASE-Grid 2.0</Keyword>
+   <Keyword>GOES</Keyword>
+   <Keyword>IMS</Keyword>
+   <Keyword>MEaSUREs-project</Keyword>
+   <Keyword>Passive Microwave Brightness Temperatures</Keyword>
+   <Keyword>Sea Ice Extent</Keyword>
+   <Keyword>snow cover extent</Keyword>
+   <Keyword>Snow Melt Onset Dates</Keyword>
+   <Sensor_Name>
+      <Short_Name>SMMR</Short_Name>
+      <Long_Name>Scanning Multichannel Microwave Radiometer</Long_Name>
+   </Sensor_Name>
+   <Sensor_Name>
+      <Short_Name>SSM/I</Short_Name>
+      <Long_Name>Special Sensor Microwave/Imager</Long_Name>
+   </Sensor_Name>
+   <Sensor_Name>
+      <Short_Name>SSMIS</Short_Name>
+      <Long_Name>Special Sensor Microwave Imager/Sounder</Long_Name>
+   </Sensor_Name>
+   <Source_Name>
+      <Short_Name>DMSP 5D-2/F11</Short_Name>
+      <Long_Name>Defense Meteorological Satellite Program-F11</Long_Name>
+   </Source_Name>
+   <Source_Name>
+      <Short_Name>DMSP 5D-2/F13</Short_Name>
+      <Long_Name>Defense Meteorological Satellite Program-F13</Long_Name>
+   </Source_Name>
+   <Source_Name>
+      <Short_Name>DMSP 5D-2/F8</Short_Name>
+      <Long_Name>Defense Meteorological Satellite Program-F8</Long_Name>
+   </Source_Name>
+   <Source_Name>
+      <Short_Name>DMSP 5D-3/F17</Short_Name>
+      <Long_Name>Defense Meteorological Satellite Program-F17</Long_Name>
+   </Source_Name>
+   <Source_Name>
+      <Short_Name>NIMBUS-7</Short_Name>
+   </Source_Name>
+   <Temporal_Coverage>
+      <Start_Date>1979-01-02</Start_Date>
+      <Stop_Date>2012-12-31</Stop_Date>
+   </Temporal_Coverage>
+   <Data_Set_Progress>complete</Data_Set_Progress>
+   <Spatial_Coverage>
+      <Southernmost_Latitude>0</Southernmost_Latitude>
+      <Northernmost_Latitude>90</Northernmost_Latitude>
+      <Westernmost_Longitude>-180</Westernmost_Longitude>
+      <Easternmost_Longitude>180</Easternmost_Longitude>
+   </Spatial_Coverage>
+   <Location>
+      <Location_Category>Geographic Region</Location_Category>
+      <Location_Type>Northern Hemisphere</Location_Type>
+      <Location_Subregion1/>
+      <Location_Subregion2/>
+      <Location_Subregion3/>
+   </Location>
+   <Data_Resolution>
+      <Latitude_Resolution>100 km</Latitude_Resolution>
+      <Longitude_Resolution>100 km</Longitude_Resolution>
+      <Temporal_Resolution>7 day</Temporal_Resolution>
+   </Data_Resolution>
+   <Project>
+      <Short_Name>MEASURES</Short_Name>
+      <Long_Name>Making Earth System Data Records for Use in Research Environments</Long_Name>
+   </Project>
+   <Data_Set_Language>English</Data_Set_Language>
+   <Data_Center>
+      <Data_Center_Name>
+         <Short_Name>NASA NSIDC DAAC</Short_Name>
+         <Long_Name>NASA National Snow and Ice Data Center Distributed Active Archive Center</Long_Name>
+      </Data_Center_Name>
+      <Data_Center_URL>http://nsidc.org/daac/index.html</Data_Center_URL>
+      <Personnel>
+         <Role>Data Center Contact</Role>
+         <First_Name>NSIDC</First_Name>
+         <Last_Name>User Services</Last_Name>
+         <Email>nsidc@nsidc.org</Email>
+         <Phone>1-303-492-6199</Phone>
+         <Fax>1-303-492-2468</Fax>
+         <Contact_Address>
+            <Address>National Snow and Ice Data Center</Address>
+            <Address>CIRES, 449 UCB</Address>
+            <Address>University of Colorado</Address>
+            <City>Boulder</City>
+            <Province_or_State>CO</Province_or_State>
+            <Postal_Code>80309-0449</Postal_Code>
+            <Country>USA</Country>
+         </Contact_Address>
+      </Personnel>
+   </Data_Center>
+   <Distribution>
+      <Distribution_Media>FTP</Distribution_Media>
+      <Distribution_Size>275 MB</Distribution_Size>
+      <Distribution_Format>NetCDF</Distribution_Format>
+   </Distribution>
+   <Reference>Abdalati, W., K. Steffen, C. Otto, and K. C. Jezek. 1995. Comparison of Brightness Temperatures from SSMI Instruments on the DMSP F8 and F11 Satellites for Antarctica and the Greenland Ice Sheet. International Journal of Remote Sensing, 16, 1223-1229. doi:10.1080/01431169508954473 Brodzik, M. J., B. Billingsley, T. Haran, B. Raup, and M. H. Savoie. 2012. EASE-Grid 2.0: Incremental but Significant Improvements for Earth-Gridded Data Sets. ISPRS International Journal of
+      Geo-Information, 1(1):32-45, doi:10.3390/ijgi1010032 Brodzik, M. J., B. Billingsley, T. Haran, B. Raup, and M. H. Savoie. 2014. Correction: Brodzik, M. J. et al. EASE-Grid 2.0: Incremental but Significant Improvements for Earth-Gridded Data Sets. ISPRS International Journal of Geo-Information 2012, 1, 32-45. ISPRS International Journal of Geo-Information, 3(3):1154-1156, doi:10.3390/ijgi3031154 Chang, Alfred T. C., and Albert Rango. 2000. Algorithm Theoretical Basis Document for the AMSR-E
+      Snow Water Equivalent Algorithm, Version 3.1. Greenbelt, Maryland USA: NASA Goddard Space Flight Center. (PDF, 300 KB) Dewey, F. and R. Heim, Jr. 1982. A Digital Archive of Northern Hemisphere Snow Cover. Bulletin of the American Meteorological Society, 63:1132-1141. Estilow, T. W., A. H. Young, and D. A. Robinson. 2014. A Long-Term Northern Hemisphere Snow Cover Extent Data Record for Climate Studies and Monitoring. Earth System Science Data Discussion, 7:669-691. doi:
+      http://dx.doi.org/10.5194/essdd-7-669-2014 Foster, J., A. Chang, D. Hall, and A. Rango. 1991. Derivation of Snow Water Equivalent in Boreal Forests using Microwave Radiometry, Arctic, 44 (Supp. 1), 147-152. Helfrich, S. R., D. McNamara, B.H. Ramsay, T. Baldwin, and T. Kasheta. 2007. Enhancements to, and Forthcoming Developments in the Interactive Multisensor Snow and Ice Mapping System (IMS). Hydrological Processes, 21:1576-1586. doi:10.1002/hyp.6720 Jezek, K. C., C. Merry, D. Cavalieri,
+      S. Grace, J. Bedner, D. Wilson, and D. Lampkin. 1991. Comparison Between SMMR and SSM/I Passive Microwave Data Collected Over the Antarctic Ice Sheet. Byrd Polar Research Center Technical Report, no. 91-03. The Ohio State University. Meier, Walt N., Siri Jodha Singh Khalsa, and Matt Savoie. 2011. Intersensor Calibration between F-13 SSM/I and F-17 SSMIS Near-Real-Time Sea Ice Estimates. IEEE Trans. Geosci. Rem. Sens. 49(9), 3343-3349. Ramsay, B. H. 1998. The Interactive Multisensor Snow
+      and Ice Mapping System. Hydrological Processes, 12:1537-1546. doi:10.1002/(SICI)1099-1085(199808/09)12:10/11&lt;1537::AID-HYP679&gt;3.0.CO;2-A Robinson, D. A., and G. Kukla. 1985. Maximum Surface Albedo of Seasonally Snow-Covered Lands in the Northern Hemisphere. Journal of Climate and Applied Meteorology, 24, 402-411. Robinson, D. A., F. Dewey, and R. Heim, Jr. 1993. Global Snow Cover Monitoring: An Update. Bulletin of the American Meteorological Society, 74:1689-1696. Robinson, D. A. and
+      A. Frei. 2000. Seasonal variability of Northern Hemisphere snow extent using visible satellite data. Professional Geographer, 52(2):307-315. Robinson, D. A., T. W. Estilow, and NOAA CDR Program. 2012. NOAA Climate Date Record (CDR) of Northern Hemisphere (NH) Snow Cover Extent (SCE), Version 1. Oct 1966â€“Dec 2012. NOAA National Climatic Data Center. doi: http://dx.doi.org/10.7289/V5N014G9. Accessed: Jan 2013. Robinson, D. A. 2013. Climate Data Record Program (CDRP): Climate Algorithm
+      Theoretical Basis Document (C-ATBD) Northern Hemisphere Snow Cover Extent, CDRP-ATBD-0156. Asheville, North Carolina, USA, 28 pp. Savoie, M., R. Armstrong, M. Brodzik, and J. Wang. 2009. Atmospheric Corrections for Improved Satellite Passive Microwave Snow Cover Retrievals over the Tibet Plateau. Remote Sensing of Environment, 113, 2661-2669. doi:10.1016/j.rse.2009.08.006 Stroeve, J., J. Maslanik, and L. Xiaoming. 1998. An Intercomparison of DMSP F11- and F13-Derived Sea Ice Products.
+      Remote Sensing of Environment, 64, 132-152. doi:10.1016/S0034-4257(97)00174-0</Reference>
+   <Summary>
+      <Abstract>This data set reports the location of Northern Hemisphere snow cover and sea ice extent, the status of melt onset across Greenland and Arctic sea ice, and the level of agreement between snow cover maps derived from two different sources.</Abstract>
+   </Summary>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>VIEW RELATED INFORMATION</Type>
+      </URL_Content_Type>
+      <URL>http://nsidc.org/data/docs/measures/nsidc-0535/index.html</URL>
+      <Description>Documentation</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>GET DATA</Type>
+      </URL_Content_Type>
+      <URL>ftp://n5eil01u.ecs.nsidc.org/MEASURES/NSIDC-0535.001/</URL>
+      <Description>FTP</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>GET DATA</Type>
+      </URL_Content_Type>
+      <URL>https://n5eil01u.ecs.nsidc.org/MEASURES/NSIDC-0535.001/</URL>
+      <Description>HTTPS</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>GET SERVICE</Type>
+      </URL_Content_Type>
+      <URL>http://reverb.echo.nasa.gov/reverb/#utf8=%E2%9C%93&amp;spatial_map=satellite&amp;spatial_type=rectangle&amp;keywords=nsidc-0535</URL>
+      <Description>Reverb</Description>
+   </Related_URL>
+   <Metadata_Name>CEOS IDN DIF</Metadata_Name>
+   <Metadata_Version>VERSION 9.9</Metadata_Version>
+   <DIF_Creation_Date>2015-02-26</DIF_Creation_Date>
+   <Last_DIF_Revision_Date>2016-05-31</Last_DIF_Revision_Date>
+   <DIF_Revision_History> 2015-11-18, Deann Miller, Added HTTPs link 2015-02-26, Todd Johnston, New data set. Publishing deferred QC while Deann is in vacation. 2015-02-26, Todd Johnston, New data set. Publishing deferred QC while Deann is in vacation. 2015-07-23, Gloria Hicks, Added keyword for Drupal migration. 2015-05-11, Todd Johnston, Added missing spatial and temporal resolutions 2015-07-30, Todd Johnston, Minor version update. 2015-03-26, Deann Miller, New data set. Just QC'd it after
+      it was published deferred. 2016-05-26, Gloria Hicks, updated URLs for ECS 2016-05-31, Gloria Hicks, added URL for Reverb </DIF_Revision_History>
+   <Extended_Metadata>
+      <Metadata>
+         <Group>NSIDC</Group>
+         <Name>Version Summary</Name>
+         <Value/>
+      </Metadata>
+      <Metadata>
+         <Group>NSIDC</Group>
+         <Name>Current Version</Name>
+         <Value>1</Value>
+      </Metadata>
+   </Extended_Metadata>
+</DIF>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DIF xmlns="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/ http://gcmd.gsfc.nasa.gov/Aboutus/xml/dif/dif_v9.7.1.xsd">
+   <Entry_ID>IGGRV1B</Entry_ID>
+   <Entry_Title>IceBridge Sander AIRGrav L1B Geolocated Free Air Gravity Anomalies</Entry_Title>
+   <Data_Set_Citation>
+      <Dataset_Creator>Cochran, J. R. and R. E. Bell.</Dataset_Creator>
+      <Dataset_Title>IceBridge Sander AIRGrav L1B Geolocated Free Air Gravity Anomalies</Dataset_Title>
+      <Dataset_Release_Date>2010-06-25</Dataset_Release_Date>
+      <Dataset_Release_Place>Boulder, Colorado USA</Dataset_Release_Place>
+      <Dataset_Publisher>NASA NSIDC DAAC: NASA National Snow and Ice Data Center Distributed Active Archive Center</Dataset_Publisher>
+      <Version>1</Version>
+      <Dataset_DOI>doi:10.5067/R1RQ6NRIJV89</Dataset_DOI>
+      <Online_Resource>http://nsidc.org/data/IGGRV1B</Online_Resource>
+      <Dataset_Series_Name>IGGRV1B</Dataset_Series_Name>
+   </Data_Set_Citation>
+   <Personnel>
+      <Role>Investigator</Role>
+      <First_Name>James</First_Name>
+      <Middle_Name>R.</Middle_Name>
+      <Last_Name>Cochran</Last_Name>
+      <Email>jrc@ldeo.columbia.edu</Email>
+      <Contact_Address>
+         <Address>61 Route 9W</Address>
+         <City>Palisades</City>
+         <Province_or_State>NY</Province_or_State>
+         <Postal_Code>10964</Postal_Code>
+         <Country>USA</Country>
+      </Contact_Address>
+   </Personnel>
+   <Personnel>
+      <Role>Investigator</Role>
+      <First_Name>Robin</First_Name>
+      <Middle_Name>E.</Middle_Name>
+      <Last_Name>Bell</Last_Name>
+      <Email>robinb@ldeo.columbia.edu</Email>
+      <Phone>1-845-365 8827</Phone>
+      <Fax>1-845-365 8179</Fax>
+      <Contact_Address>
+         <Address/>
+         <Address>61 Route 9W</Address>
+         <City>Palisades</City>
+         <Province_or_State>NY</Province_or_State>
+         <Postal_Code>10964</Postal_Code>
+         <Country>USA</Country>
+      </Contact_Address>
+   </Personnel>
+   <Personnel>
+      <Role>Technical Contact</Role>
+      <First_Name>NSIDC</First_Name>
+      <Last_Name>User Services</Last_Name>
+      <Email>nsidc@nsidc.org</Email>
+      <Phone>1-303-492-6199</Phone>
+      <Fax>1-303-492-2468</Fax>
+      <Contact_Address>
+         <Address>CIRES, 449 UCB</Address>
+         <Address>University of Colorado</Address>
+         <City>Boulder</City>
+         <Province_or_State>CO</Province_or_State>
+         <Postal_Code>80309-0449</Postal_Code>
+         <Country>USA</Country>
+      </Contact_Address>
+   </Personnel>
+   <Parameters>
+      <Category>EARTH SCIENCE</Category>
+      <Topic>Solid Earth</Topic>
+      <Term>Geodetics/Gravity</Term>
+      <Variable_Level_1>Gravity</Variable_Level_1>
+   </Parameters>
+   <ISO_Topic_Category>Geoscientific Information</ISO_Topic_Category>
+   <Keyword>GRAVITY</Keyword>
+   <Keyword>gravity data</Keyword>
+   <Keyword>IB Gravimeter-project</Keyword>
+   <Keyword>IceBridge</Keyword>
+   <Keyword>IceBridge-project</Keyword>
+   <Keyword>NASA</Keyword>
+   <Keyword>NSIDC</Keyword>
+   <Keyword>NSIDC DAAC</Keyword>
+   <Sensor_Name>
+      <Short_Name>AIRGrav</Short_Name>
+      <Long_Name>Sander/LDEO Airborne Inertially Referenced Gravimeter</Long_Name>
+   </Sensor_Name>
+   <Source_Name>
+      <Short_Name>DC-8</Short_Name>
+      <Long_Name>Douglas DC-8</Long_Name>
+   </Source_Name>
+   <Source_Name>
+      <Short_Name>P-3B</Short_Name>
+      <Long_Name>Lockheed P-3B Orion</Long_Name>
+   </Source_Name>
+   <Temporal_Coverage>
+      <Start_Date>2009-10-16</Start_Date>
+   </Temporal_Coverage>
+   <Data_Set_Progress>in work</Data_Set_Progress>
+   <Spatial_Coverage>
+      <Southernmost_Latitude>-90</Southernmost_Latitude>
+      <Northernmost_Latitude>-53</Northernmost_Latitude>
+      <Westernmost_Longitude>-180</Westernmost_Longitude>
+      <Easternmost_Longitude>180</Easternmost_Longitude>
+   </Spatial_Coverage>
+   <Spatial_Coverage>
+      <Southernmost_Latitude>60</Southernmost_Latitude>
+      <Northernmost_Latitude>90</Northernmost_Latitude>
+      <Westernmost_Longitude>-180</Westernmost_Longitude>
+      <Easternmost_Longitude>180</Easternmost_Longitude>
+   </Spatial_Coverage>
+   <Location>
+      <Location_Category>Continent</Location_Category>
+      <Location_Type>North America</Location_Type>
+      <Location_Subregion1>Greenland</Location_Subregion1>
+      <Location_Subregion2/>
+      <Location_Subregion3/>
+      <Detailed_Location/>
+   </Location>
+   <Location>
+      <Location_Category>Continent</Location_Category>
+      <Location_Type>Antarctica</Location_Type>
+      <Location_Subregion1/>
+      <Location_Subregion2/>
+      <Location_Subregion3/>
+      <Detailed_Location/>
+   </Location>
+   <Data_Resolution>
+      <Latitude_Resolution>5 km to 7 km</Latitude_Resolution>
+      <Longitude_Resolution>5 km to 7 km</Longitude_Resolution>
+      <Temporal_Resolution>Varies</Temporal_Resolution>
+   </Data_Resolution>
+   <Project>
+      <Short_Name>OIB</Short_Name>
+      <Long_Name>Operation Ice Bridge</Long_Name>
+   </Project>
+   <Data_Set_Language>English</Data_Set_Language>
+   <Originating_Center>COLUMBIA/LDEO</Originating_Center>
+   <Data_Center>
+      <Data_Center_Name>
+         <Short_Name>NASA NSIDC DAAC</Short_Name>
+         <Long_Name>NASA National Snow and Ice Data Center Distributed Active Archive Center</Long_Name>
+      </Data_Center_Name>
+      <Data_Center_URL>http://nsidc.org/daac/index.html</Data_Center_URL>
+      <Personnel>
+         <Role>Data Center Contact</Role>
+         <First_Name>NSIDC</First_Name>
+         <Last_Name>User Services</Last_Name>
+         <Email>nsidc@nsidc.org</Email>
+         <Phone>1-303-492-6199</Phone>
+         <Fax>1-303-492-2468</Fax>
+         <Contact_Address>
+            <Address>National Snow and Ice Data Center</Address>
+            <Address>CIRES, 449 UCB</Address>
+            <Address>University of Colorado</Address>
+            <City>Boulder</City>
+            <Province_or_State>CO</Province_or_State>
+            <Postal_Code>80309-0449</Postal_Code>
+            <Country>USA</Country>
+         </Contact_Address>
+      </Personnel>
+   </Data_Center>
+   <Distribution>
+      <Distribution_Media>FTP</Distribution_Media>
+      <Distribution_Size>3.6 GB</Distribution_Size>
+      <Distribution_Format>ASCII Text (.txt)</Distribution_Format>
+   </Distribution>
+   <Distribution>
+      <Distribution_Media>FTP</Distribution_Media>
+      <Distribution_Size>11 MB</Distribution_Size>
+      <Distribution_Format>XML</Distribution_Format>
+   </Distribution>
+   <Distribution>
+      <Distribution_Media>HTTPS</Distribution_Media>
+      <Distribution_Size>3.6 GB</Distribution_Size>
+      <Distribution_Format>ASCII Text (.txt)</Distribution_Format>
+   </Distribution>
+   <Distribution>
+      <Distribution_Media>HTTPS</Distribution_Media>
+      <Distribution_Size>11 MB</Distribution_Size>
+      <Distribution_Format>XML</Distribution_Format>
+   </Distribution>
+   <Reference>Sander, S., M. Argyle, S. Elieff, S. Ferguson, V. Lavoie, and L. Sander. 2004. The AIRGrav airborne gravity system, in Airborne Gravity 2004 - Australian Society of Exploration Geophysicists Workshop, edited by R. Lane, pp. 49-53, Geoscience Australia, http://www.ga.gov.au/image_cache/GA16642.pdf. Studinger, M., R. E. Bell, and N. Frearson. 2008. Comparison of AIRGrav and GT-1A airborne gravimeters for research applications, Geophysics, 73: 151-161.</Reference>
+   <Summary>
+      <Abstract>This data set contains Greenland and Antarctica gravity measurements taken from the Sander Geophysics AIRGrav airborne gravity system. The data were collected as part of Operation IceBridge funded campaigns.</Abstract>
+   </Summary>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>VIEW RELATED INFORMATION</Type>
+      </URL_Content_Type>
+      <URL>http://nsidc.org/data/docs/daac/icebridge/iggrv1b/index.html</URL>
+      <Description>Documentation</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>GET DATA</Type>
+      </URL_Content_Type>
+      <URL>ftp://n5eil01u.ecs.nsidc.org/SAN2/ICEBRIDGE/IGGRV1B.001/</URL>
+      <Description>FTP</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>GET SERVICE</Type>
+      </URL_Content_Type>
+      <URL>http://nsidc.org/icebridge/portal/</URL>
+      <Description>IceBridge Portal</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>GET SERVICE</Type>
+      </URL_Content_Type>
+      <URL>http://reverb.echo.nasa.gov/reverb/#utf8=&amp;keywords=iggrv1b</URL>
+      <Description>Reverb</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>GET DATA</Type>
+      </URL_Content_Type>
+      <URL>https://n5eil01u.ecs.nsidc.org/ICEBRIDGE/IGGRV1B.001/</URL>
+      <Description>HTTPS</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>VIEW RELATED INFORMATION</Type>
+      </URL_Content_Type>
+      <URL>http://nsidc.org/data/icebridge/index.html</URL>
+      <Description>IceBridge Product Web Site</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>VIEW PROJECT HOME PAGE</Type>
+      </URL_Content_Type>
+      <URL>http://www.ldeo.columbia.edu/res/pi/icebridge/Gravity.htm</URL>
+      <Description>Lamont-Doherty Earth Observatory Gravity Web page</Description>
+   </Related_URL>
+   <Related_URL>
+      <URL_Content_Type>
+         <Type>VIEW PROJECT HOME PAGE</Type>
+      </URL_Content_Type>
+      <URL>http://www.nasa.gov/mission_pages/icebridge/index.html</URL>
+      <Description>NASA IceBridge Mission</Description>
+   </Related_URL>
+   <Metadata_Name>CEOS IDN DIF</Metadata_Name>
+   <Metadata_Version>VERSION 9.9</Metadata_Version>
+   <DIF_Creation_Date>2010-06-25</DIF_Creation_Date>
+   <Last_DIF_Revision_Date>2016-06-01</Last_DIF_Revision_Date>
+   <DIF_Revision_History> 2013-02-28, Daniel Webster, Updated distribution size for 2012 Antarctica data, and minor version change to V01.5. 2012-11-26, Updated for distribution size changes due to replacement of 2010 and 2011 Greenland data, and addition of 2012 Greenland data. Minor change. 2013-04-11, Daniel Webster, Updated information for Minor Versions 1, 2, 3, 4, and 5 2014-09-19, Daniel Webster, Added NASA IceBridge Mission link to See Also section. 2013-08-20, Daniel Webster, Changed
+      to minor version 1.6. Revised distribution size. 2014-06-10, Daniel Webster, Updated for minor version change replacement NASA standard ASCII data, and updated distribution size for addition of 2013 Antarctica data. 2014-06-10, Daniel Webster, Corrected data in Minor Version Summary 2013-06-14, Daniel Webster, Updated Data Access URL for move to ECS. 2013-09-11, Brandon Pearce, Added Publication Date Update Text 2013-11-13, Deann Miller, Added a link to Reverb. 2014-03-04, Gloria Hicks,
+      Removed the IceBridge logo from cat page. This is for Search cleanup for the sponsored program short names. 2010-06-25, Transferred from mddb dataset_citation.release_date 2010-06-28, Deann Miller, New data set for IceBridge. 2010-07-01, Deann Miller, Re-publisher for new user registration page update. 2010-07-29, Deann Miller, Changed url in DIFS Plus/Documentation URL from index_temp.html to index.html. Minor change. 2010-09-15, Deann Miller, Update distribution size. Minor change, no
+      QC. 2010-10-28, Deann Miller, Change data set title in Summary, Publisher Info, Summary and Citation. 2010-11-30, Deann Miller, Data set title change. Changed the following fields: Entry Title, Data Set Title, Summary, Publisher Information Title, Citation. 2010-12-16, Deann Miller, Revise Spatial Coverage, Temporal Coverage, and Summary. 2011-06-27, Deann Miller, Update Distribution Size for 2009 Antarctica data change, and addition of new 2010 Antarctica data. Minor change. 2011-08-05,
+      Deann Miller, Added IceBridge logo. 2011-10-06, Deann Miller, Updated Distribution Size. Minor change. 2011-12-16, Deann Miller, Updated Data Access URL path. 2011-12-19, Deann Miller, Data set title and FTP path change. Updates to: Entry Title, Summary, Publisher Info Title, Revision History, Data Access URL, and Citation. 2012-01-24, Deann Miller, Changed Publisher and DIFS Plus Citation. 2012-05-23, Deann Miller, Update Distribution Size for 2011 Antarctica data. Minor change.
+      2012-08-30, Deann Miller, Updated IceBridge originating data center for the EDB. 2012-10-01, Revised See Also Sub Type. 2015-07-23, Gloria Hicks, Added keyword for Drupal migration. 2015-09-04, Daniel Webster, Revised temporal resolution. 2015-09-24, Daniel Webster, Added HTTPS URL to Data Access 2016-06-01, Daniel Webster, Updated for addition of 2014 Antarctica campaign. 2015-10-30, Michon Scott, Keyword cleanup for Drupal migration. </DIF_Revision_History>
+   <Extended_Metadata>
+      <Metadata>
+         <Group>NSIDC</Group>
+         <Name>Version Summary</Name>
+         <Value/>
+      </Metadata>
+      <Metadata>
+         <Group>NSIDC</Group>
+         <Name>Update Frequency</Name>
+         <Value>updated 2016</Value>
+      </Metadata>
+      <Metadata>
+         <Group>NSIDC</Group>
+         <Name>Current Version</Name>
+         <Value>1</Value>
+      </Metadata>
+   </Extended_Metadata>
+</DIF>

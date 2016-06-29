@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="17.1">
+    <meta>
+        <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
+        <options/>
+    </meta>
+    <projectTree name="NSIDC.xpr">
+        <folder name="xml">
+            <folder path="../../../CrosswalksWorkflow/collections/DataOne/"/>
+            <folder path="../GHRC/"/>
+            <folder path="DIF/"/>
+            <folder path="ISO/"/>
+            <folder path="../NSIDC_old/"/>
+            <folder path="../../NSIDC/"/>
+        </folder>
+    </projectTree>
+</project>

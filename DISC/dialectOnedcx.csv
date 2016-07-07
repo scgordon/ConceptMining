@@ -1,0 +1,23 @@
+Abstract,/onedcx:metadata/onedcx:simpleDc/dcterms:description
+Abstract,/onedcx:metadata/onedcx:dcTerms/dcterms:abstract
+Alternate Resource Title,/onedcx:metadata/onedcx:dcTerms/dcterms:alternative
+Author,/onedcx:metadata/onedcx:simpleDc/dcterms:creator
+Author / Originator,/onedcx:metadata/onedcx:simpleDc/dcterms:creator
+Contributor Name,/onedcx:metadata/onedcx:simpleDc/dcterms:contributor
+Keyword,/onedcx:metadata/onedcx:simpleDc/dcterms:subject
+Lineage Statement,/onedcx:metadata/onedcx:dcTerms/dcterms:provenance
+Publication Date,/onedcx:metadata/onedcx:dcTerms/dcterms:dateSubmitted
+Publisher,/onedcx:metadata/onedcx:simpleDc/dcterms:publisher
+Resource Creation/Revision Date,/onedcx:metadata/onedcx:dcTerms/dcterms:modified
+Resource Format,/onedcx:metadata/onedcx:simpleDc/dcterms:format
+Resource Format,/onedcx:metadata/onedcx:dcTerms/dcterms:medium
+Resource Identifier,/onedcx:metadata/onedcx:simpleDc/dcterms:identifier
+Resource Identifier Type,/onedcx:metadata/onedcx:simpleDc/dcterms:identifier/@type
+Resource Language,/onedcx:metadata/onedcx:simpleDc/dcterms:language
+Resource Title,/onedcx:metadata/onedcx:simpleDc/dcterms:title
+Resource Type,/onedcx:metadata/onedcx:simpleDc/dcterms:type
+Resource Use Constraints,/onedcx:metadata/onedcx:dcTerms/dcterms:license
+Rights,/onedcx:metadata/onedcx:simpleDc/dcterms:rights
+Source,/onedcx:metadata/onedcx:simpleDc/dcterms:source
+Spatial Extent,/onedcx:metadata/onedcx:dcTerms/dcterms:spatial
+Temporal Extent,/onedcx:metadata/onedcx:dcTerms/dcterms:temporal

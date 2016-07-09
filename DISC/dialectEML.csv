@@ -1,0 +1,86 @@
+Concept,EML
+Abstract,/eml:eml/*/abstract
+Attribute Constraints,/eml:eml/*/dataTable/constraint
+Attribute Definition,/eml:eml/*/dataTable/attributeList/attribute/attributeDefinition
+Attribute List,/eml:eml/*/dataTable/attributeList
+Author,/eml:eml/*/creator
+Author / Originator,/eml:eml/*/creator
+Author / Originator Email Address,/eml:eml/*/creator/onlineUrl
+Author / Originator Identifier,/eml:eml/*/creator/@id
+Author / Originator Identifier Type,/eml:eml/*/creator/@system
+Author / Originator World Wide Web Address,/eml:eml/*/creator/electronicMailAddress
+Bounding Box,/eml:eml/*/coverage/geographicCoverage/boundingCoordinates
+Contributor Name,/eml:eml/*/associatedParty
+Contributor Role,/eml:eml/*/*/role
+Coordinate Reference System (CRS),horizCoordSysName
+Distribution Contact,/eml:eml/*/associatedParty/role[RoleType='distributor']
+Easternmost Longitude,/eml:eml/*/coverage/geographicCoverage/boundingCoordinates/eastBoundingCoordinate
+End Time,/eml:eml/*/coverage/temporalCoverage/rangeOfDates/endDate
+Entity Type Definition,/eml:eml/*/dataTable/entityDescription
+Instrument,/eml:eml/*/methods/methodStep/instrumentation
+Keyword,/eml:eml/*/keywordSet/keyword
+Keyword Type,/eml:eml/*/keywordSet/keyword/@keywordType
+Keyword Vocabulary,/eml:eml/*/keywordSet/keywordThesaurus
+Maintenance,/eml:eml/*/maintenance
+Media,/eml:eml/*/physical/dataName
+Metadata Access Constraints,/eml:eml/access
+Metadata Contact,/eml:eml/*/metadataProvider
+Metadata Identifier,/eml/@id
+Metadata Modified Date,/eml:eml/*/maintenance/changeHistory/changeDate
+Metadata Use Constraints,/eml:eml/access
+Northernmost Latitude,/eml:eml/*/coverage/geographicCoverage/boundingCoordinates/northBoundingCoordinate
+Online Resource,/eml:eml/*/physical/distribution/online
+Ordering Instructions,/eml:eml/*/physical/distribution
+Organization Name,/eml:eml/*/*/organizationName
+Originating Organization,/eml:eml/*/creator/organizationName
+Paleo Temporal Coverage,/eml:eml/*/coverage/temporalCoverage/rangeOfDates/beginDate/alternativeTimeScale
+Parent Identifier,/eml:eml/*/project/@id
+Place Keyword,"/eml:eml/*/keywordSet/keyword[@keywordType=""place""]"
+Process Step,/eml:eml/*/methods
+Project Description,/eml:eml/*/project
+Project Name,/eml:eml/*/creator/electronicMailAddress
+Publication Date,/eml:eml/*/pubDate
+Publisher,/eml:eml/*/publisher
+Publisher E-Mail,/eml:eml/*/publisher/electronicMailAddress
+Publisher URL,/eml:eml/*/publisher/electronicMailAddress
+Purpose,/eml:eml/*/purpose
+Quality Statement,/eml/methods/qualityControl/description
+Related Resource Citation,/eml:eml/*/project
+Related Resource Identifier,/eml:eml/*/project/@id
+Resource Access Constraints,/eml:eml/access
+Resource Contact,/eml:eml/*/contact
+Resource Creation/Revision Date,/eml:eml/*/maintenance/changeHistory/changeDate | /eml:eml/*/pubDate
+Resource Distribution,/eml:eml/*/distribution
+Resource Format,/eml:eml/*/dataTable/physical/dataFormat
+Resource Identifier,/eml:eml/@packageId
+Resource Identifier Type,/eml:eml/@system
+Resource Language,/eml:eml/@xml:lang | /eml:eml/*/language
+Resource Lineage,/eml:eml/*/methods
+Resource Long Name,/eml:eml/*/title
+Resource Quality Description,//methods/qualityControl
+Resource Revision Date,/eml:eml/*/maintenance/changeHistory/changeDate
+Resource Status,/eml:eml/access
+Resource Title,/eml:eml/*/title
+Resource Type,/eml:eml/*/physical/dataFormat
+Resource Update Frequency,/eml:eml/*/maintenance/maintenanceUpdateFrequency
+Resource Use Constraints,/eml:eml/*/intellectualRights
+Resource on-line Link,/eml:eml/*/distribution/online/url
+Responsible Party Identifier,/eml:eml/*/associatedParty/@id
+Responsible Party Identifier Type,/eml:eml/*/associatedParty/@system
+Rights,/eml:eml/*/intellectualRights
+Security Constraints,/eml:eml/access
+Southernmost Latitude,/eml:eml/*/coverage/geographicCoverage/boundingCoordinates/southBoundingCoordinate
+Spatial Extent,/eml:eml/*/coverage/geographicCoverage
+Spatial Resolution,/eml:eml/*/horizCoordSysDef
+Start Time,/eml:eml/*/coverage/temporalCoverage/rangeOfDates/beginDate/calendarDate
+Supplemental Information,/eml:eml/*/additionalInfo
+Taxonomic Extent,/eml:eml/*/coverage/taxonomicCoverage
+Temporal Extent,/eml:eml/*/coverage/temporalCoverage
+Temporal Resolution,/eml:eml/*/coverage/temporalCoverage//*/units
+Theme Keyword,/eml:eml/*/keywordSet/keyword
+Transfer Size,/eml:eml/*/physical/size
+Vertical Extent,/eml:eml/*/vertCoordSys
+Vertical Maximum,/eml:eml/*/coverage/geographicCoverage/boundingCoordinates/boundingAltitudes/altitudeMaximum
+Vertical Minimum,/eml:eml/*/coverage/geographicCoverage/boundingCoordinates/boundingAltitudes/altitudeMinimum
+Vertical Resolution,/eml:eml/*/coverage/geographicCoverage/boundingCoordinates/boundingAltitudes/altitudeUnits
+Westernmost Longitude,/eml:eml/*/coverage/geographicCoverage/boundingCoordinates/westBoundingCoordinate

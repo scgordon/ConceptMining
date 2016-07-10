@@ -8,4 +8,3 @@ java net.sf.saxon.Transform \
 DialectToExtract=$1 \
 
 
-#>$CrosswalkHome/DialectXML/dialect$1.xml

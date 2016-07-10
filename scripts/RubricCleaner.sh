@@ -1,6 +1,4 @@
 #
-# This sed script removes xPath elements that are ISO types.
-# They are identified as /nsp:PACKAGE_Type/ and replaced by /
 #
 sed -i -e 's|/csdgm:|/|g' /Users/scgordon/Crosswalks/dialectRubrics/rubricCSDGM.xsl 
 sed -i -e 's|/bdp:|/|g' /Users/scgordon/Crosswalks/dialectRubrics/rubricBDP.xsl 

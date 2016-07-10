@@ -79,7 +79,7 @@ Distribution Liability,0
 Easternmost Longitude,0
 Editor,0
 Email,0
-Embargo Date,0
+Embargo Date,1
 End Time,0
 Ends at Present Flag,0
 Entity Type Definition,0
@@ -143,7 +143,7 @@ Last Name,0
 Latitude Dimension Length,0
 Latitude Resolution,0
 Lineage Scope,0
-Lineage Statement,0
+Lineage Statement,1
 Local Version Identifier,0
 Logical Consistency,0
 Logical Consistency Report,0
@@ -281,7 +281,7 @@ Resource Format,1
 Resource Identifier,1
 Resource Identifier Type,0
 Resource Language,0
-Resource Lineage,0
+Resource Lineage,1
 Resource Long Name,0
 Resource Quality Description,0
 Resource Revision Date,0
@@ -340,6 +340,7 @@ Standalone Report Citation,0
 Standard Name Vocabulary,0
 Start Time,0
 Supplemental Information,0
+Table of Contents,0
 Taxonomic Extent,1
 Temporal Extent,1
 Temporal Keyword,0

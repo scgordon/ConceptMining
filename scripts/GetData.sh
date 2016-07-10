@@ -1,10 +1,4 @@
-#This is an example batch script required to run Data.sh DataOne to create the json scorecards for each record in the organizations collections.
-#orgName=$1
-#dialectCode=$2
-#recTag=$3
-#collectionName=$4
-
-# ISO collections
+#
 ./Data.sh DataOne CSDGM CDL   
 ./Data.sh DataOne EML CLOEBIRD
 ./Data.sh DataOne Dryad Dryad

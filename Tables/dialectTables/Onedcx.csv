@@ -35,7 +35,7 @@ Author / Originator Identifier Type,0
 Author / Originator World Wide Web Address,0
 Award Link,0
 Binding,0
-Bounding Box,0
+Bounding Box,1
 Bounding Polygon,0
 Browse Description,0
 Browse File Name,0
@@ -79,7 +79,7 @@ Distribution Liability,0
 Easternmost Longitude,0
 Editor,0
 Email,0
-Embargo Date,0
+Embargo Date,1
 End Time,0
 Ends at Present Flag,0
 Entity Type Definition,0
@@ -158,7 +158,7 @@ Measure Source Citation,0
 Measure Time,0
 Media,0
 Medium Reference,0
-Metadata Access Constraints,0
+Metadata Access Constraints,1
 Metadata Association,0
 Metadata Contact,0
 Metadata Dates,0
@@ -198,7 +198,7 @@ Parent Metadata Reference,0
 Party,0
 Phone,0
 Phone Type,0
-Place Keyword,0
+Place Keyword,1
 Place Keyword Vocabulary,0
 Plan Citation,0
 Platform,0
@@ -262,7 +262,7 @@ Range Domain Minimum Value,0
 Range Domain Units,0
 Related Metadata Citation,0
 Related Resource Citation,0
-Related Resource Identifier,0
+Related Resource Identifier,1
 Related URL,0
 Release Constraints,0
 Report,0
@@ -270,7 +270,7 @@ Report Number,0
 Representativity,0
 Reprocessing Plan Note,0
 Requirement Citation,0
-Resource Access Constraints,0
+Resource Access Constraints,1
 Resource Citation,0
 Resource Contact,0
 Resource Cost or Fees,0
@@ -281,7 +281,7 @@ Resource Format,1
 Resource Identifier,1
 Resource Identifier Type,1
 Resource Language,1
-Resource Lineage,0
+Resource Lineage,1
 Resource Long Name,0
 Resource Quality Description,0
 Resource Revision Date,0
@@ -340,6 +340,7 @@ Standalone Report Citation,0
 Standard Name Vocabulary,0
 Start Time,0
 Supplemental Information,0
+Table of Contents,1
 Taxonomic Extent,0
 Temporal Extent,1
 Temporal Keyword,0

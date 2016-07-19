@@ -5,3 +5,4 @@ sed -i -e 's|/bdp:|/|g' /Users/scgordon/Crosswalks/dialectRubrics/rubricBDP.xsl
 sed -i -e 's|/mercury:|/|g' /Users/scgordon/Crosswalks/dialectRubrics/rubricMercury.xsl
 sed -i -e 's|/eml:|/|g' /Users/scgordon/Crosswalks/dialectRubrics/rubricEML.xsl &&
 sed -i -e 's|"/eml/|"/eml:eml/|g' /Users/scgordon/Crosswalks/dialectRubrics/rubricEML.xsl
+sed -i -e 's|/rda:|/|g' /Users/scgordon/Crosswalks/dialectRubrics/rubricRDA-CISL.xsl

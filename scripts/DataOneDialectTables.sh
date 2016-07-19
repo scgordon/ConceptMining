@@ -4,4 +4,3 @@
 ./DialectTable.sh Dryad
 ./DialectTable.sh Onedcx
 ./DialectTable.sh EML
-./DialectTable.sh ISO

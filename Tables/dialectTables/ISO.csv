@@ -1,0 +1,378 @@
+Concept,ISO
+Abstract,1
+Acknowledgement,1
+Additional Attributes,1
+Additional Attributes - Content Information,1
+Additional Attributes - Descriptive Keywords,1
+Additional Attributes - Geographic Identifier,1
+Additional Attributes - Instrument,1
+Additional Attributes - Platform,1
+Additional Attributes - Quality Information,1
+Additional Lineage Documentation,0
+Additional Resource Documentation,0
+Additional Usage Documentation,0
+Address,1
+Algorithm Citation,0
+Alternate Metadata Citation,0
+Alternate Resource Title,1
+Ancillary Keyword,1
+Application Schema Information,0
+AssociatedDIFs,1
+Association,1
+Attribute Accuracy Explanation,0
+Attribute Accuracy Report,0
+Attribute Accuracy Value,0
+Attribute Constraints,0
+Attribute Definition,1
+Attribute Definition Source,0
+Attribute Label,1
+Attribute List,0
+Author,1
+Author / Originator,1
+Author / Originator Email Address,1
+Author / Originator Identifier,0
+Author / Originator Identifier Type,0
+Author / Originator World Wide Web Address,1
+Award Link,0
+Binding,0
+Bounding Box,1
+Bounding Polygon,1
+Browse Description,1
+Browse File Name,1
+Browse File Size,0
+Browse Format,1
+Browse URL,1
+Caption,0
+Center Latitude,0
+Center Longitude,0
+Cited Resource Alternate Title,1
+Cited Resource Identifier,1
+Cited Resource Title,1
+City,1
+Cloud Cover,1
+Codeset Domain Codeset Name,0
+Codeset Domain Codeset Source,0
+Collection Data Type,1
+Common Data Model Datatype,1
+Complete Citation,0
+Completeness Report,1
+Confidence,0
+Conformance Result,1
+Constraint Reference,0
+Contact Instructions,1
+Contributor Name,1
+Contributor Role,1
+Coordinate Reference System (CRS),1
+Country,1
+Coupled Resource,1
+Coupled Type,1
+Coverage Content Type,1
+Coverage Result,0
+Data Dates,1
+Data Quality Scope,1
+Date Type,0
+DayNightFlag,1
+Descriptive Result,0
+Distribution Contact,1
+Distribution Format,1
+Distribution Liability,0
+Easternmost Longitude,1
+Editor,1
+Email,1
+Embargo Date,0
+End Time,1
+Ends at Present Flag,0
+Entity Type Definition,0
+Entity Type Definition Source,0
+Entity Type Label,0
+Enumerated Domain Value,1
+Enumerated Domain Value Definition,1
+Enumerated Domain Value Definition Source,1
+Evaluation Method Description,1
+Evaluation Procedure,1
+Evaluation Reference,0
+Evaluation Reference Document,0
+Evaluation Specification,0
+Evalulation Method,0
+Evalulation Method Type,1
+Exclusion GRing Flag,0
+Fax,1
+Feature Catalogue Citation,1
+First Name,1
+Format Citation,0
+Format of the Online Resource,1
+GRing Point Latitude,0
+GRing Point Longitude,0
+GRing Point Sequence Number,0
+Geographic Description,1
+Homogeneity,0
+Horizontal Positional Accuracy Explanation,0
+Horizontal Positional Accuracy Report,0
+Horizontal Positional Accuracy Value,0
+Host Project Identifier,0
+Hours of Service,1
+ISBN,1
+ISSN,1
+Identified Issues Citation,0
+Input Granule,1
+Instrument,1
+Instrument Characteristics,1
+Instrument Characteristics Data Type,1
+Instrument Characteristics Description,1
+Instrument Characteristics Name,1
+Instrument Characteristics Unit,1
+Instrument Characteristics Value,1
+Instrument Citation,1
+Instrument Description,1
+Instrument Keyword,1
+Instrument Keyword Vocabulary,1
+Instrument Long Name,1
+Instrument Operation Modes,1
+Instrument Short Name,1
+Instrument Type,1
+Instrument UUID,1
+Interface,0
+Issue,1
+Issue Date,1
+Keyword,1
+Keyword Ontology Citation,0
+Keyword Type,1
+Keyword Vocabulary,1
+Keyword Vocabulary Citation,1
+Last Name,1
+Latitude Dimension Length,1
+Latitude Resolution,1
+Lineage Scope,1
+Lineage Statement,1
+Local Version Identifier,1
+Logical Consistency,1
+Logical Consistency Report,0
+Longitude Dimension Length,1
+Longitude Resolution,1
+Maintenance,0
+Measure,0
+Measure Description,1
+Measure Identifier,1
+Measure Name,1
+Measure Source Citation,0
+Measure Time,1
+Media,1
+Medium Reference,0
+Metadata Access Constraints,1
+Metadata Association,1
+Metadata Contact,1
+Metadata Dates,1
+Metadata Identifier,1
+Metadata Language,1
+Metadata Modified Date,1
+Metadata Profile Citation,0
+Metadata Standard Citation,1
+Metadata Standard Version,1
+Metadata Use Constraints,1
+Middle Name,1
+Naming Authority,1
+Northernmost Latitude,1
+Online Resource,1
+Online Resource Description,1
+Online Resource Function,1
+Online Resource Name/Title,1
+Operation Citation,0
+Ordering Instructions,1
+Organization Name,1
+Originating Organization,1
+Other Citation Details,1
+Overview,0
+Overview Citation,0
+PGE Name,1
+PGE Version,1
+Pages,1
+Paleo Temporal Coverage,1
+Parameter Definition,1
+Parameter Name,1
+Parameter Name (Long),0
+Parameter Name (Standard),0
+Parameter Units,1
+Parameters Citation,0
+Parent Identifier,1
+Parent Metadata Reference,0
+Party,1
+Phone,1
+Phone Type,0
+Place Keyword,1
+Place Keyword Vocabulary,1
+Plan Citation,0
+Platform,1
+Platform Characteristics,1
+Platform Characteristics Data Type,1
+Platform Characteristics Description,1
+Platform Characteristics Name,1
+Platform Characteristics Unit,1
+Platform Characteristics Value,1
+Platform Citation,1
+Platform Description,1
+Platform Keyword,1
+Platform Keyword Vocabulary,1
+Platform Long Name,1
+Platform Orbit Information,1
+Platform Short Name,1
+Platform Sponsor,1
+Platform Type,0
+Platform UUID,1
+Point Latitude,0
+Point Longitude,0
+Portrayal Catalogue Citation,1
+Position Name,1
+Positional Accuracy Report,1
+Postal_Code,1
+Precision of Seconds,0
+Presentation Form,1
+Process Step,1
+Process Step Description,1
+Process Step Purpose,1
+Process Step Reference,1
+Process Step Scope,0
+Process Step Time,1
+Processing Citation,0
+Processing Level,1
+Processing Software Reference,0
+Processor,1
+Producer Identifier,1
+Product Link,1
+Project Contact,1
+Project Description,0
+Project Host,0
+Project Keyword,1
+Project Name,1
+Project Sponsor,0
+Project Website Link,1
+Province or State,1
+Publication Date,1
+Publication Information,1
+Publisher,1
+Publisher E-Mail,1
+Publisher Location,1
+Publisher URL,1
+Purpose,1
+Quality Statement,1
+Quantitative Result,1
+Radius Units,0
+Range Domain Attribute Resolution,0
+Range Domain Maximum Value,1
+Range Domain Minimum Value,1
+Range Domain Units,1
+Related Metadata Citation,0
+Related Resource Citation,1
+Related Resource Identifier,1
+Related URL,1
+Release Constraints,0
+Report,1
+Report Number,0
+Representativity,0
+Reprocessing Plan Note,1
+Requirement Citation,0
+Resource Access Constraints,1
+Resource Citation,1
+Resource Contact,1
+Resource Cost or Fees,1
+Resource Creation Date,1
+Resource Creation/Revision Date,1
+Resource Distribution,0
+Resource Format,1
+Resource Identifier,1
+Resource Identifier Type,0
+Resource Language,1
+Resource Lineage,1
+Resource Long Name,1
+Resource Quality Description,0
+Resource Revision Date,1
+Resource Status,1
+Resource Title,1
+Resource Type,1
+Resource Update Frequency,1
+Resource Use Constraints,1
+Resource Version,1
+Resource on-line Link,1
+Responsibility,1
+Responsible Party Identifier,0
+Responsible Party Identifier Type,0
+Responsible Party Identifier Type URI,0
+Result,1
+Rights,1
+Role,1
+Security Constraints,1
+Sensor Characteristics,1
+Sensor Characteristics Name,1
+Sensor Characteristics Value,1
+Sensor Long Name,0
+Sensor Short Name,1
+Series Title,1
+Service,0
+Service Location,1
+Service Operation Name,1
+Service Operation Reference,0
+Service Parameters,1
+Service Profile Reference,0
+Service Provider,1
+Service Resource Reference,0
+Service Standard Citation,0
+Service Type,1
+Service Type Version,1
+Site,0
+Site Location,0
+Source,1
+Source Citation,1
+Source Citation Abbreviation,0
+Source Description,1
+Source Metadata,0
+Source Produced,1
+Source Reference System,1
+Source Scope,0
+Source Step,1
+Source Time Period,0
+Source Used,1
+Southernmost Latitude,1
+Spatial Extent,1
+Spatial Representation,1
+Spatial Resolution,1
+Specific Usage,1
+Sponsor Project Identifier,0
+Standalone Report Citation,0
+Standard Name Vocabulary,1
+Start Time,1
+Supplemental Information,1
+Table of Contents,0
+Taxonomic Extent,0
+Temporal Extent,1
+Temporal Keyword,1
+Temporal Quality Report,1
+Temporal Range Type,0
+Temporal Resolution,0
+Thematic Accuracy Report,1
+Theme Keyword,1
+Time Type,0
+Topic Category,1
+Transfer Size,1
+Turnaround,0
+TwoDCoordinateSystem,1
+Types,0
+URL,1
+Units,1
+Unrepresentable Domain,0
+Usability Report,0
+Usage Time,1
+User Contact,1
+User Determined Limitations,1
+User Response,0
+Version Date,1
+Version Description,0
+Vertical Dimension Length,1
+Vertical Extent,1
+Vertical Maximum,1
+Vertical Minimum,1
+Vertical Positional Accuracy Explanation,0
+Vertical Positional Accuracy Report,0
+Vertical Positional Accuracy Value,0
+Vertical Resolution,1
+Volume,0
+Web Page,1
+Westernmost Longitude,1

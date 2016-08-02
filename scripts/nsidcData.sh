@@ -1,0 +1,4 @@
+./Data.sh NASA ISO NSIDC
+./Data.sh NASA ISO NSIDC
+#./Data.sh NASA DIF NSIDC
+#./Data.sh NASA DIF NSIDC

@@ -1,8 +1,6 @@
-#This is a batch script that runs the needed instances of Rubric
-# It requires two arguments.
+#This is a batch script that runs the needed instances of Rubric.sh
 # Argument 1 is the tag element's content for the recommendation components desired (cw:spiral/cw:tag).
-# Argument 2 is the cw:dialect/cw:code of the records you wish to assess
-#./Rubric.sh UMM-C DIF
+#./Rubric.sh DIF
 #./Rubric.sh CSDGM
 #./Rubric.sh BDP
 #./Rubric.sh EML
@@ -11,4 +9,4 @@
 #./Rubric.sh Onedcx
 #./Rubric.sh RDA-CISL
 ./Rubric.sh ISO
-./Rubric.sh DIF
+./Rubric.sh DCITE

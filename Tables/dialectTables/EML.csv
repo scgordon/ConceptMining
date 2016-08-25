@@ -85,6 +85,7 @@ Ends at Present Flag,0
 Entity Type Definition,1
 Entity Type Definition Source,0
 Entity Type Label,0
+Entity and Attribute Information,1
 Enumerated Domain Value,0
 Enumerated Domain Value Definition,0
 Enumerated Domain Value Definition Source,0
@@ -168,6 +169,7 @@ Metadata Modified Date,1
 Metadata Profile Citation,0
 Metadata Standard Citation,0
 Metadata Standard Version,0
+Metadata Time Convention,0
 Metadata Use Constraints,1
 Middle Name,0
 Naming Authority,0
@@ -271,7 +273,7 @@ Representativity,0
 Reprocessing Plan Note,0
 Requirement Citation,0
 Resource Access Constraints,1
-Resource Citation,0
+Resource Citation,1
 Resource Contact,1
 Resource Cost or Fees,0
 Resource Creation Date,0
@@ -324,7 +326,6 @@ Source Citation,0
 Source Citation Abbreviation,0
 Source Description,0
 Source Metadata,0
-Source Produced,0
 Source Reference System,0
 Source Scope,0
 Source Step,0
@@ -352,7 +353,6 @@ Theme Keyword,1
 Time Type,0
 Topic Category,0
 Transfer Size,1
-Turnaround,0
 TwoDCoordinateSystem,0
 Types,0
 URL,0

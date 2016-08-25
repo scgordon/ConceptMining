@@ -1,378 +1,378 @@
 Concept,ISO
-Abstract,1
-Acknowledgement,1
-Additional Attributes,1
-Additional Attributes - Content Information,1
-Additional Attributes - Descriptive Keywords,1
-Additional Attributes - Geographic Identifier,1
-Additional Attributes - Instrument,1
-Additional Attributes - Platform,1
-Additional Attributes - Quality Information,1
+Abstract,/*/gmd:identificationInfo/*/gmd:abstract/gco:CharacterString
+Acknowledgement,/*/gmd:identificationInfo/*/gmd:credit/gco:CharacterString
+Additional Attributes,//eos:AdditionalAttribute//*
+Additional Attributes - Content Information,//gmd:contentInfo/gmd:MD_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:otherProperty/gco:Record/eos:AdditionalAttributes/eos:AdditionalAttribute[eos:reference/eos:EOS_AdditionalAttributeDescription/eos:type/eos:EOS_AdditionalAttributeTypeCode='contentInformation']/eos:value/gco:CharacterString
+Additional Attributes - Descriptive Keywords,/gmi:MI_Metadata/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword/gco:CharacterString
+Additional Attributes - Geographic Identifier,/*/gmd:identificationInfo/*/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicDescription/gmd:geographicIdentifier/gmd:MD_Identifier/gmd:code/gco:CharacterString
+Additional Attributes - Instrument,//gmi:instrument/*/eos:otherProperty/gco:Record/eos:AdditionalAttributes/eos:AdditionalAttribute[/eos:reference/eos:EOS_AdditionalAttributeDescription/eos:type/eos:EOS_AdditionalAttributeTypeCode='instrumentInformation']/eos:value/gco:CharacterString //gmi:instrument/*/eos:otherProperty/gco:Record/eos:EOS_AdditionalAttributes/eos:additionalAttribute/eos:EOS_AdditionalAttribute[eos:reference/eos:EOS_AdditionalAttributeDescription/eos:type/eos:EOS_AdditionalAttributeTypeCode='instrumentInformation']/eos:value/gco:CharacterString //gmi:platform/eos:EOS_Platform/gmi:instrument/eos:EOS_Instrument/eos:otherProperty/gco:Record/eos:EOS_AdditionalAttributes/eos:additionalAttribute/eos:EOS_AdditionalAttribute[/eos:reference/eos:EOS_AdditionalAttributeDescription/eos:type/eos:EOS_AdditionalAttributeTypeCode='instrumentInformation']/eos:value/gco:CharacterString
+Additional Attributes - Platform,//gmi:platform/eos:EOS_Platform/gmd:otherProperty/gco:Record/eos:AdditionalAttributes/eos:AdditionalAttribute[eos:reference/eos:EOS_AdditionalAttributeDescription/eos:type/eos:EOS_AdditionalAttributeTypeCode='platformInformation']/eos:value/gco:CharacterString //gmi:platform/*/eos:otherProperty/gco:Record/eos:EOS_AdditionalAttributes/eos:additionalAttribute/eos:EOS_AdditionalAttribute[eos:reference/eos:EOS_AdditionalAttributeDescription/eos:type/eos:EOS_AdditionalAttributeTypeCode='platformInformation']/eos:value/gco:CharacterString //gmi:platform/eos:EOS_Platform/eos:otherProperty/gco:Record/eos:EOS_AdditionalAttributes/eos:additionalAttribute/eos:EOS_AdditionalAttribute[eos:reference/eos:EOS_AdditionalAttributeDescription/eos:type/eos:EOS_AdditionalAttributeTypeCode='platformInformation']/eos:value/gco:CharacterString
+Additional Attributes - Quality Information,//gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:result/gmd:DQ_QuantitativeResult/gmd:value/gco:Record/eos:AdditionalAttributes/eos:AdditionalAttribute[eos:reference/eos:EOS_AdditionalAttributeDescription/eos:type/eos:EOS_AdditionalAttributeTypeCode='qualityInformation']/eos:value/gco:CharacterString
 Additional Lineage Documentation,0
 Additional Resource Documentation,0
 Additional Usage Documentation,0
-Address,1
+Address,//gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:address/gmd:CI_Address/gmd:deliveryPoint/gco:CharacterString
 Algorithm Citation,0
 Alternate Metadata Citation,0
-Alternate Resource Title,1
-Ancillary Keyword,1
+Alternate Resource Title,/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:alternateTitle/gco:CharacterString
+Ancillary Keyword,/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword
 Application Schema Information,0
-AssociatedDIFs,1
-Association,1
+AssociatedDIFs,/*/gmd:identificationInfo/*/gmd:aggregationInfo/gmd:MD_AggregateInformation/gmd:aggregateDataSetIdentifier/gmd:MD_Identifier/gmd:code
+Association,/*/gmd:identificationInfo/*/gmd:aggregationInfo/gmd:MD_AggregateInformation /*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:source /*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmi:LE_Lineage/gmd:source
 Attribute Accuracy Explanation,0
 Attribute Accuracy Report,0
 Attribute Accuracy Value,0
 Attribute Constraints,0
-Attribute Definition,1
+Attribute Definition,/*/gmd:contentInfo/*/gmd:dimension/gmd:MD_Band/gmd:descriptor/gco:CharacterString
 Attribute Definition Source,0
-Attribute Label,1
+Attribute Label,/*/gmd:contentInfo/*/gmd:dimension/gmd:MD_Band/gmd:sequenceIdentifier/gco:MemberName/gco:aName/gco:CharacterString
 Attribute List,0
-Author,1
-Author / Originator,1
-Author / Originator Email Address,1
+Author,//gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)='author']/gmd:individualName/gco:CharacterString
+Author / Originator,/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)='author'] /*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)='originator'] /*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)='principalInvestigator']
+Author / Originator Email Address,/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)='author']/gmd:contactInfo/gmd:CI_Contact/gmd:address/gmd:CI_Address/gmd:electronicMailAddress/gco:CharacterString
 Author / Originator Identifier,0
 Author / Originator Identifier Type,0
-Author / Originator World Wide Web Address,1
+Author / Originator World Wide Web Address,//gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)='author']/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:linkage/gmd:URL
 Award Link,0
 Binding,0
-Bounding Box,1
-Bounding Polygon,1
-Browse Description,1
-Browse File Name,1
+Bounding Box,/*/gmd:identificationInfo/*/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox//* /*/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox//*
+Bounding Polygon,/*/gmd:identificationInfo/*/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_BoundingPolygon//*
+Browse Description,/*/gmd:identificationInfo/*/gmd:graphicOverview/gmd:MD_BrowseGraphic/gmd:fileDescription/gco:CharacterString
+Browse File Name,/*/gmd:identificationInfo/*/gmd:graphicOverview/gmd:MD_BrowseGraphic/gmd:fileName/gco:CharacterString
 Browse File Size,0
-Browse Format,1
-Browse URL,1
+Browse Format,/*/gmd:identificationInfo/*/gmd:graphicOverview/gmd:MD_BrowseGraphic/gmd:fileType/gco:CharacterString
+Browse URL,/*/gmd:identificationInfo/*/gmd:graphicOverview/gmd:MD_BrowseGraphic/gmd:fileName/gmx:FileName/@src
 Caption,0
 Center Latitude,0
 Center Longitude,0
-Cited Resource Alternate Title,1
-Cited Resource Identifier,1
-Cited Resource Title,1
-City,1
-Cloud Cover,1
+Cited Resource Alternate Title,//gmd:CI_Citation/gmd:alternateTitle/gco:CharacterString
+Cited Resource Identifier,//gmd:CI_Citation/gmd:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString
+Cited Resource Title,//gmd:CI_Citation/gmd:title/gco:CharacterString
+City,//gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:address/gmd:CI_Address/gmd:city/gco:CharacterString
+Cloud Cover,/*/gmd:contentInfo/gmd:MD_ImageDescription/gmd:cloudCoverPercentage/gco:Real
 Codeset Domain Codeset Name,0
 Codeset Domain Codeset Source,0
-Collection Data Type,1
-Common Data Model Datatype,1
+Collection Data Type,//gmd:keyword[gco:CharacterString='NEAR_REAL_TIME'] | //gmd:keyword[gco:CharacterString='SCIENCE_QUALITY']
+Common Data Model Datatype,/*/gmd:identificationInfo/*/gmd:spatialRepresentationType/gmd:MD_SpatialRepresentationTypeCode
 Complete Citation,0
-Completeness Report,1
+Completeness Report,/*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_CompletenessCommission /*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_CompletenessOmission
 Confidence,0
-Conformance Result,1
+Conformance Result,/*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:result/gmd:DQ_ConformanceResult
 Constraint Reference,0
-Contact Instructions,1
-Contributor Name,1
-Contributor Role,1
-Coordinate Reference System (CRS),1
-Country,1
-Coupled Resource,1
-Coupled Type,1
-Coverage Content Type,1
+Contact Instructions,//gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:contactInstructions/gco:CharacterString
+Contributor Name,/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[not(normalize-space(gmd:role/gmd:CI_RoleCode[.='author' or .='principalInvestigator' or .='originator']))]//*[contains(name(),'Name')]/gco:CharacterString
+Contributor Role,/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[not(normalize-space(gmd:role/gmd:CI_RoleCode)[.='author' or .='principalInvestigator' or .='originator'])]/gmd:role/gmd:CI_RoleCode
+Coordinate Reference System (CRS),/*/gmd:referenceSystemInfo/gmd:MD_ReferenceSystem/gmd:referenceSystemIdentifier/gmd:RS_Identifier/gmd:code /*/gmd:referenceSystemInfo/gmd:MD_ReferenceSystem/gmd:referenceSystemIdentifier/gmd:RS_Identifier/gmd:codeSpace
+Country,//gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:address/gmd:CI_Address/gmd:country/gco:CharacterString
+Coupled Resource,/*/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:coupledResource
+Coupled Type,/*/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:couplingType
+Coverage Content Type,/*/gmd:contentInfo/gmd:MD_CoverageDescription/gmd:contentType/gmd:MD_CoverageContentTypeCode
 Coverage Result,0
-Data Dates,1
-Data Quality Scope,1
+Data Dates,//gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='creation']/gmd:date//* //gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='creation']/gmd:dateTime//* //gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='revision']/gmd:date//* //gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='revision']/gmd:dateTime//*
+Data Quality Scope,/*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:scope/gmd:DQ_Scope/gmd:level/gmd:MD_ScopeCode
 Date Type,0
-DayNightFlag,1
+DayNightFlag,//gmd:contentInfo/gmd:MD_CoverageDescription/gmd:dimension/gmd:MD_Band/eos:otherProperty/gco:Record/eos:AdditionalAttributes/eos:AdditionalAttribute[eos:reference/eos:EOS_AdditionalAttributeDescription/eos:name/gco:CharacterString='DayNightFlag']/eos:value/gco:CharacterString //gmd:contentInfo/gmd:MD_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:otherProperty/gco:Record/eos:AdditionalAttributes/eos:AdditionalAttribute[eos:reference/eos:EOS_AdditionalAttributeDescription/eos:name/gco:CharacterString='DayNightFlag']/eos:value/gco:CharacterString
 Descriptive Result,0
-Distribution Contact,1
-Distribution Format,1
+Distribution Contact,/*/gmd:distributionInfo/gmd:MD_Distribution/gmd:distributor/gmd:MD_Distributor/gmd:distributorContact/gmd:CI_ResponsibleParty
+Distribution Format,/*/gmd:distributionInfo/gmd:MD_Distribution/gmd:distributor/gmd:MD_Distributor/gmd:distributorFormat/gmd:MD_Format/gmd:name/gco:CharacterString /*/gmd:distributionInfo/gmd:MD_Distribution/gmd:distributionFormat/gmd:MD_Format/gmd:name/gco:CharacterString
 Distribution Liability,0
-Easternmost Longitude,1
-Editor,1
-Email,1
+Easternmost Longitude,/*/gmd:identificationInfo/*/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox/gmd:eastBoundLongitude/gco:Decimal
+Editor,//gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)='editor']/gmd:organisationName/gco:CharacterString
+Email,//gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:address/gmd:CI_Address/gmd:electronicMailAddress/gco:CharacterString
 Embargo Date,0
-End Time,1
+End Time,/*/gmd:identificationInfo/*/gmd:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml:TimePeriod/gml:endPosition
 Ends at Present Flag,0
 Entity Type Definition,0
 Entity Type Definition Source,0
 Entity Type Label,0
-Enumerated Domain Value,1
-Enumerated Domain Value Definition,1
-Enumerated Domain Value Definition Source,1
-Evaluation Method Description,1
-Evaluation Procedure,1
+Entity and Attribute Information,0
+Enumerated Domain Value,/*/gmd:contentInfo/gmi:MI_CoverageDescription/gmi:rangeElementDescription/gmi:MI_RangeElementDescription/gmi:rangeElement/gco:Record/gco:CharacterString /*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword/gco:CharacterString
+Enumerated Domain Value Definition,/gmi:MI_Metadata/gmd:contentInfo/gmi:MI_CoverageDescription/gmi:rangeElementDescription/gmi:MI_RangeElementDescription/gmi:definition/gco:CharacterString
+Enumerated Domain Value Definition Source,/gmi:MI_Metadata/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:thesaurusName/gmd:CI_Citation/gmd:title/gco:CharacterString
+Evaluation Method Description,/*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:evaluationMethod/gmd:DQ_FullInspection/gmd:evaluationMethodDescription/gco:CharacterString
+Evaluation Procedure,/*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:evaluationProcedure/gmd:CI_Citation
 Evaluation Reference,0
 Evaluation Reference Document,0
 Evaluation Specification,0
 Evalulation Method,0
-Evalulation Method Type,1
+Evalulation Method Type,/*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:evaluationMethodType/gmd:DQ_EvaluationMethodTypeCode
 Exclusion GRing Flag,0
-Fax,1
-Feature Catalogue Citation,1
-First Name,1
+Fax,//gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:phone/gmd:CI_Telephone/gmd:facsimile/gco:CharacterString
+Feature Catalogue Citation,/*/gmd:contentInfo/gmd:MD_FeatureCatalogueDescription/gmd:featureCatalogueCitation/gmd:CI_Citation
+First Name,//gmd:CI_ResponsibleParty/gmd:individualName/gco:CharacterString
 Format Citation,0
-Format of the Online Resource,1
+Format of the Online Resource,//gmd:CI_OnlineResource/gmd:applicationProfile/gco:CharacterString
 GRing Point Latitude,0
 GRing Point Longitude,0
 GRing Point Sequence Number,0
-Geographic Description,1
+Geographic Description,/*/gmd:identificationInfo/*/gmd:extent/gmd:EX_Extent/gmd:description/gco:CharacterString
 Homogeneity,0
 Horizontal Positional Accuracy Explanation,0
 Horizontal Positional Accuracy Report,0
 Horizontal Positional Accuracy Value,0
 Host Project Identifier,0
-Hours of Service,1
-ISBN,1
-ISSN,1
+Hours of Service,//gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:hoursOfService/gco:CharacterString
+ISBN,//gmd:CI_Citation/gmd:ISBN
+ISSN,//gmd:CI_Citation/gmd:ISSN
 Identified Issues Citation,0
-Input Granule,1
-Instrument,1
-Instrument Characteristics,1
-Instrument Characteristics Data Type,1
-Instrument Characteristics Description,1
-Instrument Characteristics Name,1
-Instrument Characteristics Unit,1
-Instrument Characteristics Value,1
-Instrument Citation,1
-Instrument Description,1
-Instrument Keyword,1
-Instrument Keyword Vocabulary,1
-Instrument Long Name,1
-Instrument Operation Modes,1
-Instrument Short Name,1
-Instrument Type,1
-Instrument UUID,1
+Input Granule,//gmd:source/*/gmd:sourceCitation/gmd:CI_Citation/gmd:title/gmx:FileName/@src
+Instrument,/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:instrument/* /gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:platform/*/gmi:instrument/*
+Instrument Characteristics,/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:instrument/eos:EOS_Instrument/eos:otherProperty/gco:Record/eos:AdditionalAttributes/eos:AdditionalAttribute
+Instrument Characteristics Data Type,/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:Instrument/eos:EOS_Instrument/eos:otherProperty/gco:Record/eos:AdditionalAttributes/eos:AdditionalAttribute/eos:reference/eos:EOS_AdditionalAttributeDescription[eos:type/eos:EOS_AdditionalAttributeTypeCode='instrumentInformation']/eos:dataType
+Instrument Characteristics Description,/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:instrument/eos:EOS_Instrument/eos:otherProperty/gco:Record/eos:AdditionalAttributes/eos:AdditionalAttribute/eos:reference/eos:EOS_AdditionalAttributeDescription[eos:type/eos:EOS_AdditionalAttributeTypeCode='instrumentInformation']/eos:description/gco:CharacterString
+Instrument Characteristics Name,//gmi:instrument/*/eos:otherProperty/gco:Record/eos:EOS_AdditionalAttributes/eos:additionalAttribute/eos:EOS_AdditionalAttribute/eos:reference/eos:EOS_AdditionalAttributeDescription[eos:type/eos:EOS_AdditionalAttributeTypeCode='instrumentInformation']/eos:name/gco:CharacterString //gmi:instrument/*/gmd:otherProperty/gco:Record/eos:EOS_AdditionalAttributes/eos:additionalAttribute/eos:EOS_AdditionalAttribute/eos:reference/eos:EOS_AdditionalAttributeDescription[eos:type/eos:EOS_AdditionalAttributeTypeCode='instrumentInformation']/eos:name/gco:CharacterString //gmi:platform/eos:EOS_Platform/gmi:instrument/eos:EOS_Instrument/eos:otherProperty/gco:Record/eos:EOS_AdditionalAttributes/eos:additionalAttribute/eos:EOS_AdditionalAttribute/eos:reference/eos:EOS_AdditionalAttributeDescription[eos:type/eos:EOS_AdditionalAttributeTypeCode='instrumentInformation']/eos:name/gco:CharacterString
+Instrument Characteristics Unit,/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:instrument/eos:EOS_Instrument/eos:otherProperty/gco:Record/eos:AdditionalAttributes/eos:AdditionalAttribute/eos:reference/eos:EOS_AdditionalAttributeDescription[eos:type/eos:EOS_AdditionalAttributeTypeCode='instrumentInformation']/eos:unit/gco:CharacterString
+Instrument Characteristics Value,//gmi:instrument/*/eos:otherProperty/gco:Record/eos:EOS_AdditionalAttributes/eos:additionalAttribute/eos:EOS_AdditionalAttribute[eos:reference/eos:EOS_AdditionalAttributeDescription/eos:type/eos:EOS_AdditionalAttributeTypeCode='instrumentInformation']/eos:value/gco:CharacterString //gmi:instrument/*/gmd:otherProperty/gco:Record/eos:EOS_AdditionalAttributes/eos:additionalAttribute/eos:EOS_AdditionalAttribute[eos:reference/eos:EOS_AdditionalAttributeDescription/eos:type/eos:EOS_AdditionalAttributeTypeCode='instrumentInformation']/eos:value/gco:CharacterString //gmi:platform/eos:EOS_Platform/gmi:instrument/eos:EOS_Instrument/eos:otherProperty/gco:Record/eos:EOS_AdditionalAttributes/eos:additionalAttribute/eos:EOS_AdditionalAttribute[eos:reference/eos:EOS_AdditionalAttributeDescription/eos:type/eos:EOS_AdditionalAttributeTypeCode='instrumentInformation']/eos:value/gco:CharacterString
+Instrument Citation,/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:Instrument/*/gmi:citation/gmi:CI_Citation
+Instrument Description,/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:Instrument/*/gmi:description/gco:CharacterString
+Instrument Keyword,/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='instrument']/gmd:keyword/gco:CharacterString
+Instrument Keyword Vocabulary,/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='instrument']/gmd:thesaurusName/gmd:CI_Citation/gmd:title/gco:CharacterString
+Instrument Long Name,/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:Instrument/*/gmi:description/gco:CharacterString
+Instrument Operation Modes,//gmi:instrument/*/eos:otherProperty/gco:Record/eos:EOS_AdditionalAttributes/eos:additionalAttribute/eos:EOS_AdditionalAttribute[eos:reference/eos:EOS_AdditionalAttributeDescription/eos:name/gco:CharacterString='OperationMode']/eos:value/gco:CharacterString //gmi:instrument/*/gmd:otherProperty/gco:Record/eos:EOS_AdditionalAttributes/eos:additionalAttribute/eos:EOS_AdditionalAttribute[eos:reference/eos:EOS_AdditionalAttributeDescription/eos:name/gco:CharacterString='OperationMode']/eos:value/gco:CharacterString
+Instrument Short Name,//gmi:instrument/*/gmi:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString
+Instrument Type,/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:instrument/*/gmi:type/gco:CharacterString
+Instrument UUID,//gmi:instrument/eos:EOS_Instrument/@uuid //gmi:instrument/gmi:MI_Instrument/@uuid
 Interface,0
-Issue,1
-Issue Date,1
-Keyword,1
+Issue,//gmd:CI_Citation/gmd:series/gmd:CI_Series/gmd:issueIdentification/gco:CharacterString
+Issue Date,/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gco:dateType/gco:CI_DateTypeCode)='publication']/gmd:date/gco:Date
+Keyword,/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword /*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='place']/gmd:keyword/gco:CharacterString /*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='instrument']/gmd:keyword/gco:CharacterString /*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='platform']/gmd:keyword/gco:CharacterString /*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='project']/gmd:keyword/gco:CharacterString
 Keyword Ontology Citation,0
-Keyword Type,1
-Keyword Vocabulary,1
-Keyword Vocabulary Citation,1
-Last Name,1
-Latitude Dimension Length,1
-Latitude Resolution,1
-Lineage Scope,1
-Lineage Statement,1
-Local Version Identifier,1
-Logical Consistency,1
+Keyword Type,/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:type/gmd:MD_KeywordTypeCode
+Keyword Vocabulary,/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:thesaurusName
+Keyword Vocabulary Citation,/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:thesaurusName/gmd:CI_Citation /*/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:thesaurusName/gmd:CI_Citation
+Last Name,//gmd:CI_ResponsibleParty/gmd:individualName/gco:CharacterString
+Latitude Dimension Length,/*/gmd:spatialRepresentationInfo/gmd:MD_GridSpatialRepresentation/gmd:axisDimensionProperties/gmd:MD_Dimension/gmd:dimensionSize/gco:Integer
+Latitude Resolution,/*/gmd:spatialRepresentationInfo/gmd:MD_GridSpatialRepresentation/gmd:axisDimensionProperties/gmd:MD_Dimension/gmd:resolution/gco:Measure
+Lineage Scope,/*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:statement/gco:CharacterString
+Lineage Statement,/*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:statement/gco:CharacterString
+Local Version Identifier,//gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:identifier/gmd:MD_Identifier[gmd:description/gco:CharacterString='LocalVersionId']/gmd:code/gco:CharacterString
+Logical Consistency,/*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_ConceptualConsistency /*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_DomainConsistency /*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_FormatConsistency /*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_TopologicalConsistency
 Logical Consistency Report,0
-Longitude Dimension Length,1
-Longitude Resolution,1
+Longitude Dimension Length,/*/gmd:spatialRepresentationInfo/gmd:MD_GridSpatialRepresentation/gmd:axisDimensionProperties/gmd:MD_Dimension/gmd:dimensionSize/gco:Integer
+Longitude Resolution,/*/gmd:spatialRepresentationInfo/gmd:MD_GridSpatialRepresentation/gmd:axisDimensionProperties/gmd:MD_Dimension/gmd:resolution/gco:Measure
 Maintenance,0
 Measure,0
-Measure Description,1
-Measure Identifier,1
-Measure Name,1
+Measure Description,/*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:measureDescription/gco:CharacterString
+Measure Identifier,/*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/*/gmd:measureIdentification/gmd:MD_Identifier/gmd:code/gco:CharacterString
+Measure Name,/*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:nameOfMeasure/gco:CharacterString
 Measure Source Citation,0
-Measure Time,1
-Media,1
+Measure Time,/*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:dateTime/gco:DateTime
+Media,/*/gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:offLine/gmd:MD_Medium/gmd:name/gmd:MD_MediumNameCode /*/gmd:distributionInfo/gmd:MD_Distribution/gmd:distributor/gmd:MD_Distributor/gmd:distributorTransferOptions/gmd:MD_DigitalTransferOptions/gmd:offLine/gmd:MD_Medium/gmd:name/gmd:MD_MediumNameCode
 Medium Reference,0
-Metadata Access Constraints,1
-Metadata Association,1
-Metadata Contact,1
-Metadata Dates,1
-Metadata Identifier,1
-Metadata Language,1
-Metadata Modified Date,1
+Metadata Access Constraints,/*/gmd:identificationInfo/*/gmd:resourceConstraints/gmd:MD_LegalConstraints/gmd:accessConstraints/gmd:MD_RestrictionCode /*/gmd:metadataConstraints/gmd:MD_LegalConstraints/gmd:otherConstraints/gco:CharacterString
+Metadata Association,//gmd:MD_AggregateInformation/gmd:aggregateDataSetName//*
+Metadata Contact,/*/gmd:contact
+Metadata Dates,/*/gmd:dateStamp/gco:Date /*/gmd:dateStamp/gco:DateTime
+Metadata Identifier,/*/gmd:fileIdentifier/gco:CharacterString
+Metadata Language,/*/gmd:language/gco:CharacterString /*/gmd:language/gmd:LanguageCode
+Metadata Modified Date,/*/gmd:dateStamp/gco:Date /*/gmd:dateStamp/gco:DateTime
 Metadata Profile Citation,0
-Metadata Standard Citation,1
-Metadata Standard Version,1
-Metadata Use Constraints,1
-Middle Name,1
-Naming Authority,1
-Northernmost Latitude,1
-Online Resource,1
-Online Resource Description,1
-Online Resource Function,1
-Online Resource Name/Title,1
+Metadata Standard Citation,/*/gmd:metadataStandardName
+Metadata Standard Version,/*/gmd:metadataStandardVersion
+Metadata Time Convention,0
+Metadata Use Constraints,/*/gmd:metadataConstraints/gmd:MD_Constraints/gmd:useLimitation/gco:CharacterString /*/gmd:metadataConstraints/gmd:MD_LegalConstraints/gmd:useConstraints/gmd:MD_RestrictionCode
+Middle Name,//gmd:CI_ResponsibleParty/gmd:individualName/gco:CharacterString
+Naming Authority,/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:identifier/gmd:MD_Identifier/gmd:authority
+Northernmost Latitude,/*/gmd:identificationInfo/*/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox/gmd:northBoundLatitude/gco:Decimal
+Online Resource,//gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource
+Online Resource Description,//gmd:CI_OnlineResource/gmd:description/gco:CharacterString
+Online Resource Function,//gmd:CI_OnlineResource/gmd:function/gco:CI_OnLineFunctionCode
+Online Resource Name/Title,//gmd:CI_OnlineResource/gmd:name/gco:CharacterString
 Operation Citation,0
-Ordering Instructions,1
-Organization Name,1
-Originating Organization,1
-Other Citation Details,1
+Ordering Instructions,/*/gmd:distributionInfo/gmd:MD_Distribution/gmd:distributor/gmd:MD_Distributor/gmd:distributionOrderProcess/gmd:MD_StandardOrderProcess/gmd:orderingInstructions/gco:CharacterString
+Organization Name,//gmd:CI_ResponsibleParty/gmd:organisationName/gco:CharacterString
+Originating Organization,/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)='author']/gmd:organisationName/gco:CharacterString
+Other Citation Details,//gmd:CI_Citation/gmd:otherCitationDetails/gco:CharacterString
 Overview,0
 Overview Citation,0
-PGE Name,1
-PGE Version,1
-Pages,1
-Paleo Temporal Coverage,1
-Parameter Definition,1
-Parameter Name,1
+PGE Name,//gmd:processStep/gmi:LE_ProcessStep/gmi:processingInformation/eos:EOS_Processing/gmi:identifier/gmd:MD_Identifier/gmd:description/gco:CharacterString
+PGE Version,//gmd:processStep/gmi:LE_ProcessStep/gmi:processingInformation/eos:EOS_Processing/gmi:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString
+Pages,//gmd:CI_Citation/gmd:series/gmd:CI_Series/gmd:page/gco:CharacterString
+Paleo Temporal Coverage,/*/gmd:identificationInfo/*/gmd:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml:TimePeriod//*
+Parameter Definition,/*/gmd:contentInfo/gmd:MD_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:descriptor/gco:CharacterString
+Parameter Name,/*/gmd:contentInfo/gmd:MD_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:sequenceIdentifier/gco:MemberName/gco:aName/gco:CharacterString
 Parameter Name (Long),0
 Parameter Name (Standard),0
-Parameter Units,1
+Parameter Units,/*/gmd:contentInfo/gmd:MD_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:units
 Parameters Citation,0
-Parent Identifier,1
+Parent Identifier,/*/gmd:identificationInfo/*/gmd:aggregationInfo/gmd:MD_AggregateInformation[gmd:associationType/gmd:DS_AssociationTypeCode='LargerWorkCitation']/gmd:aggregateDataSetIdentifier/gmd:MD_Identifier/gmd:code/gco:CharacterString
 Parent Metadata Reference,0
-Party,1
-Phone,1
+Party,//gmd:CI_ResponsibleParty/gmd:individualName/gco:CharacterString //gmd:CI_ResponsibleParty/gmd:organisationName/gco:CharacterString //gmd:CI_ResponsibleParty/gmd:contactInfo//*
+Phone,//gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:phone/gmd:CI_Telephone/gmd:voice/gco:CharacterString
 Phone Type,0
-Place Keyword,1
-Place Keyword Vocabulary,1
+Place Keyword,/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='place']/gmd:keyword/gco:CharacterString
+Place Keyword Vocabulary,/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='place']/gmd:thesaurusName/gmd:CI_Citation/gmd:title/gco:CharacterString
 Plan Citation,0
-Platform,1
-Platform Characteristics,1
-Platform Characteristics Data Type,1
-Platform Characteristics Description,1
-Platform Characteristics Name,1
-Platform Characteristics Unit,1
-Platform Characteristics Value,1
-Platform Citation,1
-Platform Description,1
-Platform Keyword,1
-Platform Keyword Vocabulary,1
-Platform Long Name,1
-Platform Orbit Information,1
-Platform Short Name,1
-Platform Sponsor,1
+Platform,/*/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:platform//*
+Platform Characteristics,//gmi:platform/*/eos:otherProperty/gco:Record/eos:EOS_AdditionalAttributes/eos:additionalAttribute/eos:EOS_AdditionalAttribute/eos:reference/eos:EOS_AdditionalAttributeDescription[eos:type/eos:EOS_AdditionalAttributeTypeCode='platformInformation']/eos:name/gco:CharacterString //gmi:platform/*/gmd:otherProperty/gco:Record/eos:EOS_AdditionalAttributes/eos:additionalAttribute/eos:EOS_AdditionalAttribute/eos:reference/eos:EOS_AdditionalAttributeDescription[eos:type/eos:EOS_AdditionalAttributeTypeCode='platformInformation']/eos:name/gco:CharacterString
+Platform Characteristics Data Type,/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:platform/eos:EOS_Platform/eos:otherProperty/gco:Record/eos:AdditionalAttributes/eos:AdditionalAttribute/eos:reference/eos:EOS_AdditionalAttributeDescription[eos:type/eos:EOS_AdditionalAttributeTypeCode='platformInformation']/eos:dataType
+Platform Characteristics Description,/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:platform/eos:EOS_Platform/eos:otherProperty/gco:Record/eos:AdditionalAttributes/eos:AdditionalAttribute/eos:reference/eos:EOS_AdditionalAttributeDescription[eos:type/eos:EOS_AdditionalAttributeTypeCode='platformInformation']/eos:description/gco:CharacterString
+Platform Characteristics Name,//gmi:platform/*/eos:otherProperty/gco:Record/eos:EOS_AdditionalAttributes/eos:additionalAttribute/eos:EOS_AdditionalAttribute/eos:reference/eos:EOS_AdditionalAttributeDescription[eos:type/eos:EOS_AdditionalAttributeTypeCode='platformInformation']/eos:name/gco:CharacterString
+Platform Characteristics Unit,/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:platform/eos:EOS_Platform/eos:otherProperty/gco:Record/eos:AdditionalAttributes/eos:AdditionalAttribute/eos:reference/eos:EOS_AdditionalAttributeDescription[eos:type/eos:EOS_AdditionalAttributeTypeCode='platformInformation']/eos:unit/gco:CharacterString
+Platform Characteristics Value,//gmi:platform/*/eos:otherProperty/gco:Record/eos:EOS_AdditionalAttributes/eos:additionalAttribute/eos:EOS_AdditionalAttribute[eos:reference/eos:EOS_AdditionalAttributeDescription/eos:type/eos:EOS_AdditionalAttributeTypeCode='platformInformation']/eos:value/gco:CharacterString //gmi:platform/*/gmd:otherProperty/gco:Record/eos:EOS_AdditionalAttributes/eos:additionalAttribute/eos:EOS_AdditionalAttribute[eos:reference/eos:EOS_AdditionalAttributeDescription/eos:type/eos:EOS_AdditionalAttributeTypeCode='platformInformation']/eos:value/gco:CharacterString
+Platform Citation,/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:platform/*/gmi:citation/gmi:CI_Citation
+Platform Description,/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:platform/*/gmi:description/gco:CharacterString
+Platform Keyword,/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='platform']/gmd:keyword/gco:CharacterString
+Platform Keyword Vocabulary,/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='platform']/gmd:keyword/gco:CharacterString
+Platform Long Name,/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:platform/eos:EOS_Platform/gmi:identifier/gmd:MD_Identifier/gmd:description/gco:CharacterString
+Platform Orbit Information,//gmi:platform/eos:EOS_Platform/eos:otherProperty/gco:Record/eos:EOS_AdditionalAttributes/eos:additionalAttribute/eos:EOS_AdditionalAttribute[eos:reference/eos:EOS_AdditionalAttributeDescription/eos:name/gco:CharacterString='OrbitalModelName']/eos:value/gco:CharacterString //gmi:platform/eos:EOS_Platform/eos:otherProperty/gco:Record/eos:EOS_AdditionalAttributes/eos:additionalAttribute/eos:EOS_AdditionalAttribute[eos:reference/eos:EOS_AdditionalAttributeDescription/eos:name/gco:CharacterString='OrbitNumber']/eos:value/gco:CharacterString //gmi:platform/eos:EOS_Platform/eos:otherProperty/gco:Record/eos:EOS_AdditionalAttributes/eos:additionalAttribute/eos:EOS_AdditionalAttribute[eos:reference/eos:EOS_AdditionalAttributeDescription/eos:name/gco:CharacterString='StartOrbitNumber']/eos:value/gco:CharacterString //gmi:platform/eos:EOS_Platform/eos:otherProperty/gco:Record/eos:EOS_AdditionalAttributes/eos:additionalAttribute/eos:EOS_AdditionalAttribute[eos:reference/eos:EOS_AdditionalAttributeDescription/eos:name/gco:CharacterString='StopOrbitNumber']/eos:value/gco:CharacterString //gmi:platform/eos:EOS_Platform/eos:otherProperty/gco:Record/eos:EOS_AdditionalAttributes/eos:additionalAttribute/eos:EOS_AdditionalAttribute[eos:reference/eos:EOS_AdditionalAttributeDescription/eos:name/gco:CharacterString='EquatorCrossingLongitude']/eos:value/gco:CharacterString //gmi:platform/eos:EOS_Platform/eos:otherProperty/gco:Record/eos:EOS_AdditionalAttributes/eos:additionalAttribute/eos:EOS_AdditionalAttribute[eos:reference/eos:EOS_AdditionalAttributeDescription/eos:name/gco:CharacterString='EquatorCrossingDateTime']/eos:value/gco:CharacterString
+Platform Short Name,//gmi:platform/*/gmi:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString
+Platform Sponsor,/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:platform/*/gmi:sponsor/gmd:CI_ResponsibleParty
 Platform Type,0
-Platform UUID,1
+Platform UUID,//gmi:platform/eos:EOS_Platform/@uuid //gmi:platform/gmi:MI_Platform/@uuid
 Point Latitude,0
 Point Longitude,0
-Portrayal Catalogue Citation,1
-Position Name,1
-Positional Accuracy Report,1
-Postal_Code,1
+Portrayal Catalogue Citation,/*/gmd:portrayalCatalogueInfo/gmd:MD_PortrayalCatalogueReference/gmd:portrayalCatalogueCitation/gmd:CI_Citation
+Position Name,//gmd:CI_ResponsibleParty/gmd:positionName/gco:CharacterString
+Positional Accuracy Report,/*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_AbsoluteExternalPositionalAccuracy /*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_RelativeExternalPositionalAccuracy /*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_GriddedDataPositionalAccuracy
+Postal_Code,//gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:address/gmd:CI_Address/gmd:postalCode/gco:CharacterString
 Precision of Seconds,0
-Presentation Form,1
-Process Step,1
-Process Step Description,1
-Process Step Purpose,1
-Process Step Reference,1
+Presentation Form,//gmd:CI_Citation/gmd:presentationForm/CI_PresentationFormCode
+Process Step,/*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:processStep/gmd:LI_ProcessStep /*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:processStep/gmd:LE_ProcessStep /*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:source/gmd:LI_Source/gmd:sourceStep/gmd:LI_ProcessStep /*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:source/gmd:LE_Source/gmd:sourceStep/gmd:LE_ProcessStep
+Process Step Description,//gmd:processStep/*/gmd:description
+Process Step Purpose,/*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:processStep/gmd:LI_ProcessStep/gmd:rationale
+Process Step Reference,/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:processStep/gmi:LE_ProcessStep/gmi:processingInformation/gmi:LE_Processing/gmi:softwareReference/gmd:CI_Citation /gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:processStep/gmi:LE_ProcessStep/gmi:processingInformation/gmi:LE_Processing/gmi:documentation/gmd:CI_Citation /gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:processStep/gmi:LE_ProcessStep/gmi:processingInformation/gmi:LE_Processing/gmi:algorithm/gmi:LE_Algorithm/gmi:citation/gmd:CI_Citation
 Process Step Scope,0
-Process Step Time,1
+Process Step Time,//gmd:processStep/*/gmd:dateTime
 Processing Citation,0
-Processing Level,1
+Processing Level,/*/gmd:contentInfo/*/gmd:processingLevelCode/gmd:MD_Identifier/gmd:code/gco:CharacterString
 Processing Software Reference,0
-Processor,1
-Producer Identifier,1
-Product Link,1
-Project Contact,1
+Processor,/*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:processStep/gmd:LI_ProcessStep/gmd:processor /*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:processStep/gmi:LE_ProcessStep/gmd:processor
+Producer Identifier,//gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:identifier/gmd:MD_Identifier[gmd:description/gco:CharacterString='ProducerGranuleId']/gmd:code/gco:CharacterString
+Product Link,/*/gmd:distributionInfo/gmd:MD_Distribution/gmd:distributor/gmd:MD_Distributor/gmd:distributorTransferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource[normalize-space(gmd:function/gmd:CI_OnLineFunctionCode)='download'] /*/gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource[normalize-space(gmd:function/gmd:CI_OnLineFunctionCode)='download']
+Project Contact,/gmi:MI_Metadata/gmd:identificationInfo/*/gmd:pointOfContact[normalize-space(gmi:MI_Metadata/gmd:hierarchyLevel/gmd:MD_ScopeCode)='initiative']
 Project Description,0
 Project Host,0
-Project Keyword,1
-Project Name,1
+Project Keyword,/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='project']/gmd:keyword/gco:CharacterString
+Project Name,/*/gmd:identificationInfo/*/gmd:aggregationInfo/gmd:MD_AggregateInformation[normalize-space(gmd:associationType/gmd:DS_AssociationTypeCode)='largerWorkCitation' and normalize-space(gmd:initiativeType/gmd:DS_InitiativeTypeCode)='project']/gmd:aggregateDataSetName/gmd:CI_Citation/gmd:title/gco:CharacterString /*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='project']/gmd:keyword/gco:CharacterString
 Project Sponsor,0
-Project Website Link,1
-Province or State,1
-Publication Date,1
-Publication Information,1
-Publisher,1
-Publisher E-Mail,1
-Publisher Location,1
-Publisher URL,1
-Purpose,1
-Quality Statement,1
-Quantitative Result,1
+Project Website Link,/*/gmd:distributionInfo/gmd:MD_Distribution/gmd:distributor/gmd:MD_Distributor/gmd:distributorTransferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource[normalize-space(gmd:function/gmd:CI_OnLineFunctionCode)='information'] /*/gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource[normalize-space(gmd:function/gmd:CI_OnLineFunctionCode)='information']
+Province or State,//gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:address/gmd:CI_Address/gmd:administrativeArea/gco:CharacterString
+Publication Date,//gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='publication']/gmd:date/gco:Date //gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='publication']/gmd:date/gco:DateTime
+Publication Information,/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation//*
+Publisher,//gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)='publisher']/gmd:organisationName/gco:CharacterString
+Publisher E-Mail,//gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[gmd:role/gmd:CI_RoleCode ='publisher']/gmd:contactInfo/gmd:address/gmd:CI_Address/gmd:electronicMailAddress/gco:CharacterString
+Publisher Location,//gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[gmd:role/gmd:CI_RoleCode ='publisher']/gmd:contactInfo/gmd:CI_Contact/gmd:address/gmd:CI_Address
+Publisher URL,//gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[gmd:role/gmd:CI_RoleCode ='publisher']/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource/gmd:linkage/gmd:URL
+Purpose,/*/gmd:identificationInfo/*/gmd:purpose/gco:CharacterString
+Quality Statement,/gmi:MI_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report//*
+Quantitative Result,/*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy/gmd:result/gmd:DQ_QuantitativeResult
 Radius Units,0
 Range Domain Attribute Resolution,0
-Range Domain Maximum Value,1
-Range Domain Minimum Value,1
-Range Domain Units,1
+Range Domain Maximum Value,/gmi:MI_Metadata/gmd:contentInfo/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:minValue/gco:Real
+Range Domain Minimum Value,/gmi:MI_Metadata/gmd:contentInfo/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:minValue/gco:Real
+Range Domain Units,/gmi:MI_Metadata/gmd:contentInfo/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:units/gml:UnitDefinition/gml:name
 Related Metadata Citation,0
-Related Resource Citation,1
-Related Resource Identifier,1
-Related URL,1
+Related Resource Citation,/*/gmd:identificationInfo/*/gmd:aggregationInfo/gmd:MD_AggregateInformation/gmd:aggregateDataSetName/gmd:CI_Citation /*/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:aggregationInfo/gmd:MD_AggregateInformation/gmd:aggregateDataSetName/gmd:CI_Citation
+Related Resource Identifier,/*/gmd:identificationInfo/*/gmd:aggregationInfo/gmd:MD_AggregateInformation/gmd:aggregateDataSetIdentifier/gmd:MD_Identifier/gmd:code/gco:CharacterString /*/gmd:identificationInfo/*/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicDescription/gmd:geographicIdentifier/gmd:MD_Identifier/gmd:code/gco:CharacterString /*/gmd:identificationInfo/*/gmd:processingLevel/gmd:MD_Identifier/gmd:code/gco:CharacterString /*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_AccuracyOfATimeMeasurement/gmd:measureIdentification/gmd:MD_Identifier/gmd:code/gco:CharacterString /gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:operation/gmi:MI_Operation/gmi:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString /gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:platform/*/gmi:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString /gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:instrument/*/gmi:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString /gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/eos:sensor/eos:EOS_Sensor/eos:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString
+Related URL,//gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd:linkage/gmd:URL /*/gmd:identificationInfo/*/gmd:graphicOverview/gmd:MD_BrowseGraphic/gmd:fileName//* /*/gmd:identificationInfo/*/gmd:graphicOverview/gmd:MD_BrowseGraphic/gmx:fileName//*
 Release Constraints,0
-Report,1
+Report,/*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report
 Report Number,0
 Representativity,0
-Reprocessing Plan Note,1
+Reprocessing Plan Note,/*/gmd:metadataMaintenance/gmd:MD_MaintenanceInformation/gmd:maintenanceNote/gco:CharacterString
 Requirement Citation,0
-Resource Access Constraints,1
-Resource Citation,1
-Resource Contact,1
-Resource Cost or Fees,1
-Resource Creation Date,1
-Resource Creation/Revision Date,1
+Resource Access Constraints,/*/gmd:identificationInfo/*/gmd:resourceConstraints/gmd:MD_LegalConstraints/gmd:accessConstraints/gmd:MD_RestrictionCode /*/gmd:identificationInfo/*/gmd:resourceConstraints/gmd:MD_LegalConstraints/gmd:otherConstraints/gco:CharacterString
+Resource Citation,/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:otherCitationDetails/gco:CharacterString
+Resource Contact,/*/gmd:identificationInfo/*/gmd:pointOfContact
+Resource Cost or Fees,/*/gmd:distributionInfo/gmd:MD_Distribution/gmd:distributor/gmd:MD_Distributor/gmd:distributionOrderProcess/gmd:MD_StandardOrderProcess/gmd:fees/gco:CharacterString
+Resource Creation Date,//gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='creation']/gmd:date/gco:Date //gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='creation']/gmd:date/gco:DateTime
+Resource Creation/Revision Date,/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='creation']/gmd:date/gco:Date /*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='creation']/gmd:date/gco:DateTime /*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='revision']/gmd:date/gco:Date /*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='revision']/gmd:date/gco:DateTime /*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='publication']/gmd:date/gco:Date /*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='publication']/gmd:date/gco:DateTime
 Resource Distribution,0
-Resource Format,1
-Resource Identifier,1
+Resource Format,//gmd:resourceFormat/gmd:MD_Format/gmd:name/gco:CharacterString
+Resource Identifier,/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString
 Resource Identifier Type,0
-Resource Language,1
-Resource Lineage,1
-Resource Long Name,1
+Resource Language,/*/gmd:identificationInfo/*/gmd:language/gco:CharacterString /*/gmd:identificationInfo/*/gmd:language/gmd:LanguageCode
+Resource Lineage,/*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage
+Resource Long Name,/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:title/gco:CharacterString
 Resource Quality Description,0
-Resource Revision Date,1
-Resource Status,1
-Resource Title,1
-Resource Type,1
-Resource Update Frequency,1
-Resource Use Constraints,1
-Resource Version,1
-Resource on-line Link,1
-Responsibility,1
+Resource Revision Date,//gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='revision']/gmd:date/gco:Date //gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='revision']/gmd:date/gco:DateTime
+Resource Status,/*/gmd:identificationInfo/*/gmd:status/gmd:MD_ProgressCode
+Resource Title,/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:title/gco:CharacterString
+Resource Type,/*/gmd:hierarchyLevel/gmd:MD_ScopeCode
+Resource Update Frequency,/*/gmd:identificationInfo/*/gmd:resourceMaintenance/gmd:MD_MaintenanceInformation/gmd:maintenanceAndUpdateFrequency/gmd:MD_MaintenanceFrequencyCode
+Resource Use Constraints,/*/gmd:identificationInfo/*/gmd:resourceConstraints/gmd:MD_LegalConstraints/gmd:otherConstraints/gco:CharacterString
+Resource Version,/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:edition/gco:CharacterString
+Resource on-line Link,/*/gmd:distributionInfo/gmd:MD_Distribution/gmd:distributor/gmd:MD_Distributor/gmd:distributorTransferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource[normalize-space(gmd:function/gmd:CI_OnLineFunctionCode)='information'] /*/gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource[normalize-space(gmd:function/gmd:CI_OnLineFunctionCode)='information'] /*/gmd:distributionInfo/gmd:MD_Distribution/gmd:distributor/gmd:MD_Distributor/gmd:distributorTransferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource[normalize-space(gmd:function/gmd:CI_OnLineFunctionCode)='download'] /*/gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource[normalize-space(gmd:function/gmd:CI_OnLineFunctionCode)='download'] /*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource
+Responsibility,//gmd:CI_ResponsibleParty//* //gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode
 Responsible Party Identifier,0
 Responsible Party Identifier Type,0
 Responsible Party Identifier Type URI,0
-Result,1
-Rights,1
-Role,1
-Security Constraints,1
-Sensor Characteristics,1
-Sensor Characteristics Name,1
-Sensor Characteristics Value,1
+Result,/*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/*/gmd:result
+Rights,/*/gmd:identificationInfo/*/gmd:resourceConstraints/gmd:MD_LegalConstraints
+Role,//gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode
+Security Constraints,/*/gmd:identificationInfo//*/gmd:resourceConstraints/gmd:MD_SecurityConstraints
+Sensor Characteristics,/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:platform/eos:EOS_Platform/eos:otherProperty/gco:Record/eos:AdditionalAttributes/eos:AdditionalAttribute
+Sensor Characteristics Name,//eos:sensor/eos:EOS_Sensor/eos:otherProperty/gco:Record/eos:EOS_AdditionalAttributes/eos:additionalAttribute/eos:EOS_AdditionalAttribute/eos:reference/eos:EOS_AdditionalAttributeDescription[eos:type/eos:EOS_AdditionalAttributeTypeCode='sensorInformation']/eos:name/gco:CharacterString
+Sensor Characteristics Value,//eos:sensor/eos:EOS_Sensor/eos:otherProperty/gco:Record/eos:EOS_AdditionalAttributes/eos:additionalAttribute/eos:EOS_AdditionalAttribute[eos:reference/eos:EOS_AdditionalAttributeDescription/eos:type/eos:EOS_AdditionalAttributeTypeCode='sensorInformation']/eos:value/gco:CharacterString
 Sensor Long Name,0
-Sensor Short Name,1
-Series Title,1
+Sensor Short Name,//eos:sensor/eos:EOS_Sensor/eos:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString
+Series Title,//gmd:CI_Citation/gmd:collectiveTitle/gco:CharacterString //gmd:CI_Citation/gmd:series/gmd:CI_Series/gmd:name/gco:CharacterString
 Service,0
-Service Location,1
-Service Operation Name,1
+Service Location,/*/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:containsOperations/srv:SV_OperationMetadata/srv:connectPoint/gmd:CI_OnlineResource/gmd:linkage/gmd:URL
+Service Operation Name,/*/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:containsOperations/srv:SV_OperationMetadata/srv:operationName/gco:CharacterString
 Service Operation Reference,0
-Service Parameters,1
+Service Parameters,/*/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:containsOperations/srv:SV_OperationMetadata/srv:parameters/srv:SV_Parameter/srv:description/gco:CharacterString
 Service Profile Reference,0
-Service Provider,1
+Service Provider,/*/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:pointOfContact
 Service Resource Reference,0
 Service Standard Citation,0
-Service Type,1
-Service Type Version,1
+Service Type,/*/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:serviceType/gco:LocalName
+Service Type Version,/*/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:serviceTypeVersion/gco:CharacterString
 Site,0
 Site Location,0
-Source,1
-Source Citation,1
+Source,/*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:source/gmd:LI_Source /*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:source/gmd:LE_Source /*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:processStep/gmd:LI_ProcessStep/gmd:source/gmd:LI_Source /*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:processStep/gmd:LE_ProcessStep/gmd:source/gmd:LE_Source
+Source Citation,/*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:source/gmd:LI_Source/gmd:sourceCitation/gmd:CI_Citation /*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:processStep/gmd:LI_ProcessStep/gmd:source/gmd:LI_Source/gmd:sourceCitation/gmd:CI_Citation
 Source Citation Abbreviation,0
-Source Description,1
+Source Description,/*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:source/gmd:LI_Source/gmd:description
 Source Metadata,0
-Source Produced,1
-Source Reference System,1
+Source Reference System,/*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:source/gmd:LI_Source/gmd:sourceReferenceSystem
 Source Scope,0
-Source Step,1
+Source Step,/*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:source/gmd:LI_Source/gmd:sourceStep
 Source Time Period,0
-Source Used,1
-Southernmost Latitude,1
-Spatial Extent,1
-Spatial Representation,1
-Spatial Resolution,1
-Specific Usage,1
+Source Used,/*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:processStep/gmd:LI_ProcessStep/gmd:source/gmi:LE_Source/gmd:description
+Southernmost Latitude,/*/gmd:identificationInfo/*/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox/gmd:southBoundLatitude/gco:Decimal
+Spatial Extent,/*/gmd:identificationInfo/*/gmd:extent/gmd:EX_Extent/gmd:geographicElement
+Spatial Representation,/*/gmd:identificationInfo/*/gmd:spatialResolution /*/gmd:referenceSystemInfo/gmd:MD_ReferenceSystem/gmd:referenceSystemIdentifier
+Spatial Resolution,/*/gmd:identificationInfo/*/gmd:spatialResolution
+Specific Usage,/*/gmd:identificationInfo/*/gmd:resourceSpecificUsage/gmd:MD_Usage/gmd:specificUsage/gco:CharacterString
 Sponsor Project Identifier,0
 Standalone Report Citation,0
-Standard Name Vocabulary,1
-Start Time,1
-Supplemental Information,1
+Standard Name Vocabulary,/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:thesaurusName/gmd:CI_Citation/gmd:title/gco:CharacterString
+Start Time,/*/gmd:identificationInfo/*/gmd:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent/gml:TimePeriod/gml:beginPosition
+Supplemental Information,/*/gmd:identificationInfo/*/gmd:supplementalInformation/gco:CharacterString
 Table of Contents,0
 Taxonomic Extent,0
-Temporal Extent,1
-Temporal Keyword,1
-Temporal Quality Report,1
+Temporal Extent,/*/gmd:identificationInfo/*/gmd:extent/gmd:EX_Extent/gmd:temporalElement/gmd:EX_TemporalExtent//*
+Temporal Keyword,/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='temporal']/gmd:keyword/gco:CharacterString
+Temporal Quality Report,/*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_AccuracyOfATimeMeasurement /*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_TemporalConsistency /*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_TemporalValidity
 Temporal Range Type,0
 Temporal Resolution,0
-Thematic Accuracy Report,1
-Theme Keyword,1
+Thematic Accuracy Report,/*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_ThematicClassificationCorrectness /*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_NonQuantitativeAttributeCorrectness /*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_QuantitativeAttributeAccuracy
+Theme Keyword,/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='theme']/gmd:keyword/gco:CharacterString
 Time Type,0
-Topic Category,1
-Transfer Size,1
-Turnaround,0
-TwoDCoordinateSystem,1
+Topic Category,/*/gmd:identificationInfo/*/gmd:topicCategory/gmd:MD_TopicCategoryCode
+Transfer Size,/*/gmd:distributionInfo/gmd:MD_Distribution/gmd:distributionFormat/gmd:MD_Format/gmd:formatDistributor/gmd:MD_Distributor/gmd:distributorTransferOptions/gmd:MD_DigitalTransferOptions/gmd:transferSize/gco:Real /*/gmd:distributionInfo/gmd:MD_Distribution/gmd:distributor/gmd:MD_Distributor/gmd:distributorTransferOptions/gmd:MD_DigitalTransferOptions/gmd:transferSize/gco:Real
+TwoDCoordinateSystem,/*/gmd:identificationInfo/*/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicDescription/gmd:geographicIdentifier
 Types,0
-URL,1
-Units,1
+URL,//gmd:CI_OnlineResource/gmd:linkage/gmd:URL
+Units,/gmi:MI_Metadata/gmd:contentInfo/gmi:MI_CoverageDescription/gmd:dimension/gmd:MD_Band/gmd:units
 Unrepresentable Domain,0
 Usability Report,0
-Usage Time,1
-User Contact,1
-User Determined Limitations,1
+Usage Time,/*/gmd:identificationInfo/*/gmd:resourceSpecificUsage/gmd:MD_Usage/gmd:usageDateTime/gco:DateTime
+User Contact,/*/gmd:identificationInfo/*/gmd:resourceSpecificUsage/gmd:MD_Usage/gmd:userContactInfo//*
+User Determined Limitations,/*/gmd:identificationInfo/*/gmd:resourceSpecificUsage/gmd:MD_Usage/gmd:usageDateTime/gco:DateTime
 User Response,0
-Version Date,1
+Version Date,//gmd:CI_Citation/gmd:editionDate/gco:DateTime
 Version Description,0
-Vertical Dimension Length,1
-Vertical Extent,1
-Vertical Maximum,1
-Vertical Minimum,1
+Vertical Dimension Length,/*/gmd:spatialRepresentationInfo/gmd:MD_GridSpatialRepresentation/gmd:axisDimensionProperties/gmd:MD_Dimension[normalize-space(gmd:dimensionName/gmd:MD_DimensionNameTypeCode)='vertical']/gmd:dimensionSize/gco:Integer
+Vertical Extent,/*/gmd:identificationInfo/*/gmd:extent/gmd:EX_Extent/gmd:verticalElement/gmd:EX_VerticalExtent
+Vertical Maximum,/*/gmd:identificationInfo/*/gmd:extent/gmd:EX_Extent/gmd:verticalElement/gmd:EX_VerticalExtent/gmd:maximumValue/gco:Real
+Vertical Minimum,/*/gmd:identificationInfo/*/gmd:extent/gmd:EX_Extent/gmd:verticalElement/gmd:EX_VerticalExtent/gmd:minimumValue/gco:Real
 Vertical Positional Accuracy Explanation,0
 Vertical Positional Accuracy Report,0
 Vertical Positional Accuracy Value,0
-Vertical Resolution,1
+Vertical Resolution,/*/gmd:spatialRepresentationInfo/gmd:MD_GridSpatialRepresentation/gmd:axisDimensionProperties/gmd:MD_Dimension/gmd:resolution/gco:Measure
 Volume,0
-Web Page,1
-Westernmost Longitude,1
+Web Page,//gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:onlineResource/gmd:CI_OnlineResource
+Westernmost Longitude,/*/gmd:identificationInfo/*/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox/gmd:westBoundLongitude/gco:Decimal

@@ -1,0 +1,378 @@
+Concept,Mercury
+Abstract,/mercury:metadata/mercury:idinfo/mercury:descript/mercury:abstract
+Acknowledgement,0
+Additional Attributes,0
+Additional Attributes - Content Information,0
+Additional Attributes - Descriptive Keywords,0
+Additional Attributes - Geographic Identifier,0
+Additional Attributes - Instrument,0
+Additional Attributes - Platform,0
+Additional Attributes - Quality Information,0
+Additional Lineage Documentation,0
+Additional Resource Documentation,0
+Additional Usage Documentation,0
+Address,0
+Algorithm Citation,0
+Alternate Metadata Citation,0
+Alternate Resource Title,0
+Ancillary Keyword,0
+Application Schema Information,0
+AssociatedDIFs,0
+Association,0
+Attribute Accuracy Explanation,0
+Attribute Accuracy Report,0
+Attribute Accuracy Value,0
+Attribute Constraints,0
+Attribute Definition,0
+Attribute Definition Source,0
+Attribute Label,0
+Attribute List,0
+Author,/mercury:metadata/mercury:idinfo/mercury:citation/mercury:citeinfo/mercury:origin /mercury:metadata/mercury:idinfo/mercury:citation/mercury:citeinfo/mercury:Principal_Investigator/mercury:Name
+Author / Originator,/mercury:metadata/mercury:idinfo/mercury:citation/mercury:citeinfo/mercury:Principal_Investigator/mercury:Name /mercury:metadata/mercury:idinfo/mercury:citation/mercury:citeinfo/mercury:origin
+Author / Originator Email Address,/mercury:metadata/mercury:mercury/Principal_Investigator/Email
+Author / Originator Identifier,0
+Author / Originator Identifier Type,0
+Author / Originator World Wide Web Address,0
+Award Link,0
+Binding,0
+Bounding Box,/mercury:metadata/mercury:idinfo/mercury:spdom/mercury:bounding
+Bounding Polygon,0
+Browse Description,0
+Browse File Name,0
+Browse File Size,0
+Browse Format,0
+Browse URL,0
+Caption,0
+Center Latitude,0
+Center Longitude,0
+Cited Resource Alternate Title,0
+Cited Resource Identifier,0
+Cited Resource Title,0
+City,0
+Cloud Cover,0
+Codeset Domain Codeset Name,0
+Codeset Domain Codeset Source,0
+Collection Data Type,0
+Common Data Model Datatype,0
+Complete Citation,0
+Completeness Report,0
+Confidence,0
+Conformance Result,0
+Constraint Reference,0
+Contact Instructions,0
+Contributor Name,0
+Contributor Role,0
+Coordinate Reference System (CRS),0
+Country,0
+Coupled Resource,0
+Coupled Type,0
+Coverage Content Type,0
+Coverage Result,0
+Data Dates,0
+Data Quality Scope,0
+Date Type,0
+DayNightFlag,0
+Descriptive Result,0
+Distribution Contact,/mercury:metadata/mercury:distinfo/mercury:distrib/mercury:cntinfo /mercury:metadata/mercury:mercury/mercury:Contact_Person
+Distribution Format,0
+Distribution Liability,0
+Easternmost Longitude,/mercury:metadata/mercury:idinfo/mercury:spdom/mercury:bounding/mercury:eastbc /mercury:metadata/mercury:mercury/mercury:Site_Information/mercury:Easternmost_Longitude
+Editor,0
+Email,0
+Embargo Date,0
+End Time,/mercury:metadata/mercury:idinfo/mercury:timeperd/mercury:timeinfo/mercury:rngdates/mercury:enddate | /mercury:metadata/mercury:idinfo/mercury:timeperd/mercury:timeinfo/mercury:rngdates/mercury:endtime
+Ends at Present Flag,0
+Entity Type Definition,0
+Entity Type Definition Source,0
+Entity Type Label,0
+Entity and Attribute Information,0
+Enumerated Domain Value,0
+Enumerated Domain Value Definition,0
+Enumerated Domain Value Definition Source,0
+Evaluation Method Description,0
+Evaluation Procedure,0
+Evaluation Reference,0
+Evaluation Reference Document,0
+Evaluation Specification,0
+Evalulation Method,0
+Evalulation Method Type,0
+Exclusion GRing Flag,0
+Fax,0
+Feature Catalogue Citation,0
+First Name,0
+Format Citation,0
+Format of the Online Resource,0
+GRing Point Latitude,0
+GRing Point Longitude,0
+GRing Point Sequence Number,0
+Geographic Description,0
+Homogeneity,0
+Horizontal Positional Accuracy Explanation,0
+Horizontal Positional Accuracy Report,0
+Horizontal Positional Accuracy Value,0
+Host Project Identifier,0
+Hours of Service,0
+ISBN,0
+ISSN,0
+Identified Issues Citation,0
+Input Granule,0
+Instrument,0
+Instrument Characteristics,0
+Instrument Characteristics Data Type,0
+Instrument Characteristics Description,0
+Instrument Characteristics Name,0
+Instrument Characteristics Unit,0
+Instrument Characteristics Value,0
+Instrument Citation,0
+Instrument Description,0
+Instrument Keyword,0
+Instrument Keyword Vocabulary,0
+Instrument Long Name,0
+Instrument Operation Modes,0
+Instrument Short Name,0
+Instrument Type,0
+Instrument UUID,0
+Interface,0
+Issue,0
+Issue Date,0
+Keyword,/mercury:metadata/mercury:idinfo/mercury:keywords/mercury:theme/mercury:themekey /mercury:metadata/mercury:mercury/mercury:Parameter_Description/mercury:Sensor /mercury:metadata/mercury:mercury/mercury:Parameter_Description/mercury:Source /mercury:metadata/mercury:mercury/mercury:Parameter_Description/mercury:Term /mercury:metadata/mercury:mercury/mercury:Parameter_Description/mercury:Topic /mercury:metadata/mercury:idinfo/mercury:keywords/mercury:place/mercury:placekey /mercury:metadata/mercury:mercury/mercury:Site_Information/mercury:Site
+Keyword Ontology Citation,0
+Keyword Type,/mercury:metadata/mercury:idinfo/mercury:keywords/mercury:theme/mercury:themekt
+Keyword Vocabulary,/mercury:metadata/mercury:idinfo/mercury:keywords/mercury:theme/mercury:themekt
+Keyword Vocabulary Citation,0
+Last Name,0
+Latitude Dimension Length,0
+Latitude Resolution,0
+Lineage Scope,0
+Lineage Statement,0
+Local Version Identifier,0
+Logical Consistency,0
+Logical Consistency Report,0
+Longitude Dimension Length,0
+Longitude Resolution,0
+Maintenance,/mercury:metadata/mercury:idinfo/mercury:status/mercury:update
+Measure,0
+Measure Description,0
+Measure Identifier,0
+Measure Name,0
+Measure Source Citation,0
+Measure Time,0
+Media,0
+Medium Reference,0
+Metadata Access Constraints,0
+Metadata Association,0
+Metadata Contact,/mercury:metadata/mercury:metainfo/mercury:metc/mercury:cntinfo
+Metadata Dates,0
+Metadata Identifier,/mercury:metadata/mercury:mercury/mercury:MD_Entry_id
+Metadata Language,/mercury:metadata/mercury:metainfo/mercury:metstdn
+Metadata Modified Date,/mercury:metadata/mercury:idinfo/mercury:timeperd/mercury:timeinfo/mercury:rngdates/mercury:enddate | /mercury:metadata/mercury:idinfo/mercury:timeperd/mercury:timeinfo/mercury:rngdates/mercury:endtime
+Metadata Profile Citation,0
+Metadata Standard Citation,/mercury:metadata/mercury:metainfo/mercury:metstdn
+Metadata Standard Version,0
+Metadata Time Convention,0
+Metadata Use Constraints,0
+Middle Name,0
+Naming Authority,0
+Northernmost Latitude,/mercury:metadata/mercury:idinfo/mercury:spdom/mercury:bounding/mercury:northbc
+Online Resource,/mercury:metadata/mercury:distinfo/mercury:stdorder/mercury:digform/mercury:digtopt/mercury:onlinopt/mercury:computer
+Online Resource Description,/mercury:metadata/mercury:mercury/mercury:Data_Set_Link/mercury:Link_Note /mercury:metadata/mercury:mercury/mercury:Documentation_Link/mercury:Link_Note /mercury:metadata/mercury:mercury/mercury:Search_Text_Link/mercury:Link_Note
+Online Resource Function,0
+Online Resource Name/Title,/mercury:metadata/mercury:mercury/mercury:Data_Set_Link/mercury:Label
+Operation Citation,0
+Ordering Instructions,0
+Organization Name,/mercury:metadata/mercury:idinfo/mercury:citation/mercury:citeinfo/mercury:origin
+Originating Organization,/mercury:metadata/mercury:idinfo/mercury:citation/mercury:citeinfo/mercury:origin
+Other Citation Details,0
+Overview,0
+Overview Citation,0
+PGE Name,0
+PGE Version,0
+Pages,0
+Paleo Temporal Coverage,0
+Parameter Definition,0
+Parameter Name,0
+Parameter Name (Long),0
+Parameter Name (Standard),0
+Parameter Units,0
+Parameters Citation,0
+Parent Identifier,0
+Parent Metadata Reference,0
+Party,0
+Phone,/mercury:metadata/mercury:distinfo/mercury:distrib/mercury:cntinfo/mercury:cntvoice /mercury:metadata/mercury:metainfo/mercury:metc/mercury:cntinfo/mercury:cntvoice
+Phone Type,0
+Place Keyword,/mercury:metadata/mercury:idinfo/mercury:keywords/mercury:place/mercury:placekey /mercury:metadata/mercury:mercury/mercury:Site_Information/mercury:Site
+Place Keyword Vocabulary,/mercury:metadata/mercury:idinfo/mercury:keywords/mercury:place/mercury:placekt
+Plan Citation,0
+Platform,0
+Platform Characteristics,0
+Platform Characteristics Data Type,0
+Platform Characteristics Description,0
+Platform Characteristics Name,0
+Platform Characteristics Unit,0
+Platform Characteristics Value,0
+Platform Citation,0
+Platform Description,0
+Platform Keyword,0
+Platform Keyword Vocabulary,0
+Platform Long Name,0
+Platform Orbit Information,0
+Platform Short Name,0
+Platform Sponsor,0
+Platform Type,0
+Platform UUID,0
+Point Latitude,0
+Point Longitude,0
+Portrayal Catalogue Citation,0
+Position Name,0
+Positional Accuracy Report,0
+Postal_Code,0
+Precision of Seconds,0
+Presentation Form,/mercury:idinfo/mercury:citation/mercury:citeinfo/mercury:geoform
+Process Step,0
+Process Step Description,0
+Process Step Purpose,0
+Process Step Reference,0
+Process Step Scope,0
+Process Step Time,0
+Processing Citation,0
+Processing Level,0
+Processing Software Reference,0
+Processor,0
+Producer Identifier,0
+Product Link,0
+Project Contact,0
+Project Description,0
+Project Host,0
+Project Keyword,0
+Project Name,/mercury:metadata/mercury:mercury/mercury:Project
+Project Sponsor,0
+Project Website Link,0
+Province or State,0
+Publication Date,0
+Publication Information,0
+Publisher,0
+Publisher E-Mail,0
+Publisher Location,0
+Publisher URL,0
+Purpose,0
+Quality Statement,0
+Quantitative Result,0
+Radius Units,0
+Range Domain Attribute Resolution,0
+Range Domain Maximum Value,0
+Range Domain Minimum Value,0
+Range Domain Units,0
+Related Metadata Citation,0
+Related Resource Citation,0
+Related Resource Identifier,0
+Related URL,0
+Release Constraints,0
+Report,0
+Report Number,0
+Representativity,0
+Reprocessing Plan Note,0
+Requirement Citation,0
+Resource Access Constraints,0
+Resource Citation,/mercury:metadata/mercury:idinfo/mercury:citation/mercury:citeinfo
+Resource Contact,/mercury:metadata/mercury:idinfo/mercury:ptcontac
+Resource Cost or Fees,0
+Resource Creation Date,0
+Resource Creation/Revision Date,/mercury:metadata/mercury:idinfo/mercury:citation/mercury:citeinfo/mercury:pubdate
+Resource Distribution,/mercury:metadata/mercury:distinfo
+Resource Format,0
+Resource Identifier,/mercury:metadata/mercury:mercury/mercury:File_ID
+Resource Identifier Type,0
+Resource Language,0
+Resource Lineage,0
+Resource Long Name,0
+Resource Quality Description,0
+Resource Revision Date,0
+Resource Status,/mercury:metadata/mercury:idinfo/mercury:status
+Resource Title,/mercury:metadata/mercury:idinfo/mercury:citation/mercury:citeinfo/mercury:title
+Resource Type,/mercury:metadata/mercury:distinfo/mercury:resdesc
+Resource Update Frequency,/mercury:metadata/mercury:idinfo/mercury:status/mercury:update
+Resource Use Constraints,0
+Resource Version,0
+Resource on-line Link,/mercury:metadata/mercury:mercury/mercury:Data_Set_Link/mercury:URL /mercury:metadata/mercury:mercury/mercury:Documentation_Link/mercury:URL /mercury:metadata/mercury:mercury/mercury:Search_Text_Link/mercury:URL /mercury:metadata/mercury:idinfo/mercury:citation/mercury:citeinfo/mercury:onlink /mercury:metadata/mercury:mercury/mercury:Data_Set_Link/mercury:URL
+Responsibility,0
+Responsible Party Identifier,0
+Responsible Party Identifier Type,0
+Responsible Party Identifier Type URI,0
+Result,0
+Rights,0
+Role,0
+Security Constraints,0
+Sensor Characteristics,0
+Sensor Characteristics Name,0
+Sensor Characteristics Value,0
+Sensor Long Name,0
+Sensor Short Name,0
+Series Title,0
+Service,0
+Service Location,0
+Service Operation Name,0
+Service Operation Reference,0
+Service Parameters,0
+Service Profile Reference,0
+Service Provider,0
+Service Resource Reference,0
+Service Standard Citation,0
+Service Type,0
+Service Type Version,0
+Site,0
+Site Location,0
+Source,0
+Source Citation,0
+Source Citation Abbreviation,0
+Source Description,0
+Source Metadata,0
+Source Reference System,0
+Source Scope,0
+Source Step,0
+Source Time Period,0
+Source Used,0
+Southernmost Latitude,/mercury:metadata/mercury:idinfo/mercury:spdom/mercury:bounding/mercury:southbc
+Spatial Extent,/mercury:metadata/mercury:mercury:Spatial_Extent /mercury:metadata/mercury:idinfo/mercury:spdom/mercury:bounding
+Spatial Representation,0
+Spatial Resolution,0
+Specific Usage,0
+Sponsor Project Identifier,0
+Standalone Report Citation,0
+Standard Name Vocabulary,0
+Start Time,0
+Supplemental Information,0
+Table of Contents,0
+Taxonomic Extent,0
+Temporal Extent,/mercury:metadata/mercury:idinfo/mercury:timeperd/mercury:timeinfo/mercury:rngdates /mercury:metadata/mercury:mercury/mercury:begdate and /mercury:metadata/mercury:mercury/mercury:enddate
+Temporal Keyword,0
+Temporal Quality Report,0
+Temporal Range Type,0
+Temporal Resolution,/metadata/mercury/Temporal_Resolution
+Thematic Accuracy Report,0
+Theme Keyword,0
+Time Type,0
+Topic Category,0
+Transfer Size,/mercury:metadata/mercury:distinfo/mercury:stdorder/mercury:digform/mercury:digtinfo/mercury:transize
+TwoDCoordinateSystem,0
+Types,0
+URL,/mercury:metadata/mercury:mercury/mercury:Documentation_Link/mercury:Label /mercury:metadata/mercury:mercury/mercury:Search_Text_Link/mercury:Label /mercury:metadata/mercury:mercury/mercury:Data_Set_Link/mercury:URL /mercury:metadata/mercury:idinfo/mercury:citation/mercury:citeinfo/mercury:onlink
+Units,0
+Unrepresentable Domain,0
+Usability Report,0
+Usage Time,0
+User Contact,0
+User Determined Limitations,0
+User Response,0
+Version Date,0
+Version Description,0
+Vertical Dimension Length,0
+Vertical Extent,0
+Vertical Maximum,0
+Vertical Minimum,0
+Vertical Positional Accuracy Explanation,0
+Vertical Positional Accuracy Report,0
+Vertical Positional Accuracy Value,0
+Vertical Resolution,0
+Volume,0
+Web Page,0
+Westernmost Longitude,/mercury:metadata/mercury:idinfo/mercury:spdom/mercury:bounding/mercury:westbc /mercury:metadata/mercury:mercury/mercury:Site_Information/mercury:Westernmost_Longitude

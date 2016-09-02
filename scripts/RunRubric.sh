@@ -1,5 +1,7 @@
 #This is a batch script that runs the needed instances of Rubric.sh
-# Argument 1 is the tag element's content for the recommendation components desired (cw:spiral/cw:tag).
+#Rubric runs the xsl WriteDialectXSL to create a xsl rubric used to assess the collections records 
+#It requires one argument: the dialect code of the dialect needed for analysis.
+
 #./Rubric.sh DIF
 #./Rubric.sh CSDGM
 #./Rubric.sh BDP

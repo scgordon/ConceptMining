@@ -1,3 +1,6 @@
+#Data.sh applies the rubric for a dialect to a collection. This creates the data.csv that
+#a RAD.xlsx functions on. It requires three arguments. The first is the organization the second 
+#is the dialect, the third is the collection. GetData.sh is the batch script for Data.sh
 cd ../
 ConceptMining=$(pwd)
 cd ../CrosswalksWorkflow

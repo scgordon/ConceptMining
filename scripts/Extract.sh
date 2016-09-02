@@ -1,3 +1,6 @@
+#Extract runs the xsl DialectExtractor to create an xml representation of every known definition 
+#in a dialect for concepts in AllCrosswalks. It requires one argument: the dialect code of the 
+#dialect needed for analysis.
 cd ../../Crosswalks
 CrosswalkHome=$(pwd)
 

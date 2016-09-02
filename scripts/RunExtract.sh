@@ -1,5 +1,7 @@
 #This is a batch script that runs the needed instances of Extract
-# Argument 1 is the cw:dialect/cw:code of the records you wish to assess
+#Extract runs the xsl DialectExtractor to create an xml representation of every known definition 
+#in a dialect for concepts in AllCrosswalks. It requires one argument: the dialect code of the 
+#dialect needed for analysis.
 #./Extract.sh CSDGM
 #./Extract.sh BDP
 #./Extract.sh EML

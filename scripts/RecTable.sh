@@ -1,3 +1,4 @@
+#This script creates the table of all spirals that have a tag, and if they have the same tag, group them together. the resultant RecTag.csv can be copy-pasted into the RAD.xlsx worksheet of the same name. 
 cd ../
 ConceptMining=$(pwd)
 cd ../Crosswalks 

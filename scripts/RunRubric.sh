@@ -11,4 +11,4 @@
 #./Rubric.sh Onedcx
 #./Rubric.sh RDA-CISL
 ./Rubric.sh ISO
-./Rubric.sh DCITE
+#./Rubric.sh DCITE

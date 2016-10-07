@@ -14,5 +14,6 @@
 ./RunRubric.sh &&
 ./RubricCleaner.sh &&
 ./GetData.sh
+./GetRawData.sh
 ./RecTable.sh
 ./DialectTable.sh

@@ -19,6 +19,6 @@ CrosswalkHome=$(pwd)
     -s:$CrosswalkHome/AllCrosswalks.xml \
     -xsl:$CrosswalkHome/Tables/xsl/excelDialectExtractor.xsl \
     -o:$ConceptMining/Tables/dialectTable/dialectContains.csv \
-    dialectDisplayListString=$1
-    pathsOr1s=$2
+    #dialectDisplayListString=$1
+    #pathsOr1s=$2
 

@@ -12,8 +12,8 @@
 
 ./RunExtract.sh &&
 ./RunRubric.sh &&
-./RubricCleaner.sh &&
+#./RubricCleaner.sh &&
 ./GetData.sh
 #need saxon PE or EE to run this./GetRawData.sh
-./RecTable.sh
-./DialectTable.sh
+#./RecTable.sh
+#./DialectTable.sh

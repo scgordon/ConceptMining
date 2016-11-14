@@ -3,12 +3,12 @@
 #It requires one argument: the dialect code of the dialect needed for analysis.
 
 #./Rubric.sh DIF
-#./Rubric.sh CSDGM
+./Rubric.sh CSDGM
 #./Rubric.sh BDP
 #./Rubric.sh EML
 #./Rubric.sh Mercury
 #./Rubric.sh Dryad
 #./Rubric.sh Onedcx
 #./Rubric.sh RDA-CISL
-./Rubric.sh ISO
-./Rubric.sh DCITE
+#./Rubric.sh ISO
+#./Rubric.sh DCITE

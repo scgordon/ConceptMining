@@ -3,7 +3,7 @@
 #but also to reanalyze as understandings
 #The first script, RunExtract, is a batch script that extracts the dialect xml that is used by RunRubric to create the analysis tools 
 #which after being cleaned if neccessary by the RubricCleaner, are used directly on the organizations xml to produce 
-#a data.csv that contains a row for each concept found in each record. Each row contains: Collection Name, File Name, Dialect Code, and Concept Name
+#a cd.csv that contains a row for each concept found in each record. Each row contains: Collection Name, File Name, Dialect Code, and Concept Name
 #RecTable pulls out every tagged recommendation and their subset concepts in each recommendation profile and creates a recTag.csv 
 #that can update the hidden worksheet of the same name in a RAD.xlsx 
 #DialectTables does the same thing for every dialect it creates a binary representation of whether the dialect contains the concept. 
@@ -15,5 +15,5 @@
 ./RubricCleaner.sh &&
 ./GetData.sh
 #need saxon PE or EE to run this./GetRawData.sh
-./RecTable.sh
-./DialectTable.sh
+#./RecTable.sh
+#./DialectTable.sh

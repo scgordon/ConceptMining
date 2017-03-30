@@ -1,0 +1,1405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdq:suite xmlns:mdq="https://nceas.ucsb.edu/mdqe/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://nceas.ucsb.edu/mdqe/v1 ../schemas/schema1.xsd">
+  <id>ACDD_Discovery_ACDD_ISO</id>
+  <name>ACDD_Discovery_ACDD_ISO</name>
+  <check>
+    <id>ACDD_highlyRecommended_ResourceTitle_ACDD_ISO_EML</id>
+    <name>ResourceTitlePresent</name>
+    <description>Checks to see if at least one Resource Title concept exists.</description>
+    <type>ACDD_highlyRecommended</type>
+    <level>OPTIONAL</level>
+    <environment>python</environment>
+    <code><![CDATA[
+def call():
+  global output
+  global status
+ 
+  output = "The concept ResourceTitle is present."
+                                        
+  if(ResourceTitle is not None and len(ResourceTitle) > 0):
+    status = "SUCCESS"
+    return True
+    
+  status = "FAILURE"
+  output = "ResourceTitle concept is not present"
+  
+  return False
+      ]]></code>
+    <selector>
+      <name>ResourceTitle</name>
+      <xpath>(/*/identificationInfo/*/citation/CI_Citation/title//*) | (/eml/*/title) | (/netcdf/attribute[@name='title']/@value)</xpath>
+    </selector>
+    <dialect>
+      <name>acdd</name>
+      <xpath>boolean(/*[local-name() = 'netcdf'])</xpath>
+    </dialect>
+    <dialect>
+      <name>iso</name>
+      <xpath>boolean(/*[local-name() = 'MI_Metadata' or local-name() = 'MD_Metadata'])</xpath>
+    </dialect>
+    <dialect>
+      <name>eml</name>
+      <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+  </check>
+  <check>
+    <id>ACDD_highlyRecommended_Abstract_ACDD_ISO_EML</id>
+    <name>AbstractPresent</name>
+    <description>Checks to see if at least one Abstract concept exists.</description>
+    <type>ACDD_highlyRecommended</type>
+    <level>OPTIONAL</level>
+    <environment>python</environment>
+    <code><![CDATA[
+def call():
+  global output
+  global status
+ 
+  output = "The concept Abstract is present."
+                                        
+  if(Abstract is not None and len(Abstract) > 0):
+    status = "SUCCESS"
+    return True
+    
+  status = "FAILURE"
+  output = "Abstract concept is not present"
+  
+  return False
+      ]]></code>
+    <selector>
+      <name>Abstract</name>
+      <xpath>(/*/identificationInfo/*/abstract//*) | (/eml/*/abstract) | (/netcdf/attribute[@name='summary']/@value)</xpath>
+    </selector>
+    <dialect>
+      <name>acdd</name>
+      <xpath>boolean(/*[local-name() = 'netcdf'])</xpath>
+    </dialect>
+    <dialect>
+      <name>iso</name>
+      <xpath>boolean(/*[local-name() = 'MI_Metadata' or local-name() = 'MD_Metadata'])</xpath>
+    </dialect>
+    <dialect>
+      <name>eml</name>
+      <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+  </check>
+  <check>
+    <id>ACDD_highlyRecommended_Keyword_ACDD_ISO_EML</id>
+    <name>KeywordPresent</name>
+    <description>Checks to see if at least one Keyword concept exists.</description>
+    <type>ACDD_highlyRecommended</type>
+    <level>OPTIONAL</level>
+    <environment>python</environment>
+    <code><![CDATA[
+def call():
+  global output
+  global status
+ 
+  output = "The concept Keyword is present."
+                                        
+  if(Keyword is not None and len(Keyword) > 0):
+    status = "SUCCESS"
+    return True
+    
+  status = "FAILURE"
+  output = "Keyword concept is not present"
+  
+  return False
+      ]]></code>
+    <selector>
+      <name>Keyword</name>
+      <xpath>(/*/identificationInfo/*/descriptiveKeywords/MD_Keywords/keyword) | (/*/identificationInfo/*/descriptiveKeywords/MD_Keywords[normalize-space(type/MD_KeywordTypeCode)='place']/keyword//*) | (/*/identificationInfo/*/descriptiveKeywords/MD_Keywords[normalize-space(type/MD_KeywordTypeCode)='instrument']/keyword//*) | (/*/identificationInfo/*/descriptiveKeywords/MD_Keywords[normalize-space(type/MD_KeywordTypeCode)='platform']/keyword//*) | (/*/identificationInfo/*/descriptiveKeywords/MD_Keywords[normalize-space(type/MD_KeywordTypeCode)='project']/keyword//*) | (/eml/*/keywordSet/keyword) | (/netcdf/attribute[@name='keywords']/@value)</xpath>
+    </selector>
+    <dialect>
+      <name>acdd</name>
+      <xpath>boolean(/*[local-name() = 'netcdf'])</xpath>
+    </dialect>
+    <dialect>
+      <name>iso</name>
+      <xpath>boolean(/*[local-name() = 'MI_Metadata' or local-name() = 'MD_Metadata'])</xpath>
+    </dialect>
+    <dialect>
+      <name>eml</name>
+      <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+  </check>
+ <check>
+    <id>ACDD_recommended_ResourceIdentifier_ACDD_ISO_EML</id>
+    <name>ResourceIdentifierPresent</name>
+    <description>Checks to see if at least one Resource Identifier concept exists.</description>
+    <type>ACDD_recommended</type>
+    <level>OPTIONAL</level>
+    <environment>python</environment>
+    <code><![CDATA[
+def call():
+  global output
+  global status
+ 
+  output = "The concept ResourceIdentifier is present."
+                                        
+  if(ResourceIdentifier is not None and len(ResourceIdentifier) > 0):
+    status = "SUCCESS"
+    return True
+    
+  status = "FAILURE"
+  output = "ResourceIdentifier concept is not present"
+  
+  return False
+      ]]></code>
+    <selector>
+      <name>ResourceIdentifier</name>
+      <xpath>(/*/identificationInfo/*/citation/CI_Citation/identifier/MD_Identifier/code//*) | (/eml/@packageId) | (/netcdf/attribute[@name='id']/@value)</xpath>
+    </selector>
+    <dialect>
+      <name>acdd</name>
+      <xpath>boolean(/*[local-name() = 'netcdf'])</xpath>
+    </dialect>
+    <dialect>
+      <name>iso</name>
+      <xpath>boolean(/*[local-name() = 'MI_Metadata' or local-name() = 'MD_Metadata'])</xpath>
+    </dialect>
+    <dialect>
+      <name>eml</name>
+      <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+  </check>
+  <check>
+    <id>ACDD_recommended_NamingAuthority_ACDD_ISO_EML</id>
+    <name>NamingAuthorityPresent</name>
+    <description>Checks to see if at least one Naming Authority concept exists.</description>
+    <type>ACDD_recommended</type>
+    <level>OPTIONAL</level>
+    <environment>python</environment>
+    <code><![CDATA[
+def call():
+  global output
+  global status
+ 
+  output = "The concept NamingAuthority is present."
+                                        
+  if(NamingAuthority is not None and len(NamingAuthority) > 0):
+    status = "SUCCESS"
+    return True
+    
+  status = "FAILURE"
+  output = "NamingAuthority concept is not present"
+  
+  return False
+      ]]></code>
+    <selector>
+      <name>NamingAuthority</name>
+      <xpath>(/*/identificationInfo/*/citation/CI_Citation/identifier/MD_Identifier/authority) | (/netcdf/attribute[@name='naming_authority']/@value)</xpath>
+    </selector>
+    <dialect>
+      <name>acdd</name>
+      <xpath>boolean(/*[local-name() = 'netcdf'])</xpath>
+    </dialect>
+    <dialect>
+      <name>iso</name>
+      <xpath>boolean(/*[local-name() = 'MI_Metadata' or local-name() = 'MD_Metadata'])</xpath>
+    </dialect>
+    <dialect>
+      <name>eml</name>
+      <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+  </check>
+  <check>
+    <id>ACDD_recommended_KeywordVocabulary_ACDD_ISO_EML</id>
+    <name>KeywordVocabularyPresent</name>
+    <description>Checks to see if at least one Keyword Vocabulary concept exists.</description>
+    <type>ACDD_recommended</type>
+    <level>OPTIONAL</level>
+    <environment>python</environment>
+    <code><![CDATA[
+def call():
+  global output
+  global status
+ 
+  output = "The concept KeywordVocabulary is present."
+                                        
+  if(KeywordVocabulary is not None and len(KeywordVocabulary) > 0):
+    status = "SUCCESS"
+    return True
+    
+  status = "FAILURE"
+  output = "KeywordVocabulary concept is not present"
+  
+  return False
+      ]]></code>
+    <selector>
+      <name>KeywordVocabulary</name>
+      <xpath>(/*/identificationInfo/*/descriptiveKeywords/MD_Keywords/thesaurusName) | (/eml/*/keywordSet/keywordThesaurus) | (/netcdf/attribute[@name='keyword_vocabulary']/@value)</xpath>
+    </selector>
+    <dialect>
+      <name>acdd</name>
+      <xpath>boolean(/*[local-name() = 'netcdf'])</xpath>
+    </dialect>
+    <dialect>
+      <name>iso</name>
+      <xpath>boolean(/*[local-name() = 'MI_Metadata' or local-name() = 'MD_Metadata'])</xpath>
+    </dialect>
+    <dialect>
+      <name>eml</name>
+      <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+  </check>
+  <check>
+    <id>ACDD_recommended_CommonDataModelDatatype_ACDD_ISO_EML</id>
+    <name>CommonDataModelDatatypePresent</name>
+    <description>Checks to see if at least one Common Data Model Datatype concept exists.</description>
+    <type>ACDD_recommended</type>
+    <level>OPTIONAL</level>
+    <environment>python</environment>
+    <code><![CDATA[
+def call():
+  global output
+  global status
+ 
+  output = "The concept CommonDataModelDatatype is present."
+                                        
+  if(CommonDataModelDatatype is not None and len(CommonDataModelDatatype) > 0):
+    status = "SUCCESS"
+    return True
+    
+  status = "FAILURE"
+  output = "CommonDataModelDatatype concept is not present"
+  
+  return False
+      ]]></code>
+    <selector>
+      <name>CommonDataModelDatatype</name>
+      <xpath>(/*/identificationInfo/*/spatialRepresentationType/MD_SpatialRepresentationTypeCode) | (/netcdf/attribute[@name='cdm_data_type']/@value)</xpath>
+    </selector>
+    <dialect>
+      <name>acdd</name>
+      <xpath>boolean(/*[local-name() = 'netcdf'])</xpath>
+    </dialect>
+    <dialect>
+      <name>iso</name>
+      <xpath>boolean(/*[local-name() = 'MI_Metadata' or local-name() = 'MD_Metadata'])</xpath>
+    </dialect>
+    <dialect>
+      <name>eml</name>
+      <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+  </check>
+  <check>
+    <id>ACDD_recommended_LineageStatement_ACDD_ISO_EML</id>
+    <name>LineageStatementPresent</name>
+    <description>Checks to see if at least one Lineage Statement concept exists.</description>
+    <type>ACDD_recommended</type>
+    <level>OPTIONAL</level>
+    <environment>python</environment>
+    <code><![CDATA[
+def call():
+  global output
+  global status
+ 
+  output = "The concept LineageStatement is present."
+                                        
+  if(LineageStatement is not None and len(LineageStatement) > 0):
+    status = "SUCCESS"
+    return True
+    
+  status = "FAILURE"
+  output = "LineageStatement concept is not present"
+  
+  return False
+      ]]></code>
+    <selector>
+      <name>LineageStatement</name>
+      <xpath>(/*/dataQualityInfo/DQ_DataQuality/lineage/LI_Lineage/statement//*) | (/netcdf/attribute[@name='history']/@value)</xpath>
+    </selector>
+    <dialect>
+      <name>acdd</name>
+      <xpath>boolean(/*[local-name() = 'netcdf'])</xpath>
+    </dialect>
+    <dialect>
+      <name>iso</name>
+      <xpath>boolean(/*[local-name() = 'MI_Metadata' or local-name() = 'MD_Metadata'])</xpath>
+    </dialect>
+    <dialect>
+      <name>eml</name>
+      <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+  </check>
+  <check>
+    <id>ACDD_recommended_SupplementalInformation_ACDD_ISO_EML</id>
+    <name>SupplementalInformationPresent</name>
+    <description>Checks to see if at least one Supplemental Information concept exists.</description>
+    <type>ACDD_recommended</type>
+    <level>OPTIONAL</level>
+    <environment>python</environment>
+    <code><![CDATA[
+def call():
+  global output
+  global status
+ 
+  output = "The concept SupplementalInformation is present."
+                                        
+  if(SupplementalInformation is not None and len(SupplementalInformation) > 0):
+    status = "SUCCESS"
+    return True
+    
+  status = "FAILURE"
+  output = "SupplementalInformation concept is not present"
+  
+  return False
+      ]]></code>
+    <selector>
+      <name>SupplementalInformation</name>
+      <xpath>(/*/identificationInfo/*/supplementalInformation//*) | (/eml/*/additionalInfo) | (/netcdf/attribute[@name='comment']/@value)</xpath>
+    </selector>
+    <dialect>
+      <name>acdd</name>
+      <xpath>boolean(/*[local-name() = 'netcdf'])</xpath>
+    </dialect>
+    <dialect>
+      <name>iso</name>
+      <xpath>boolean(/*[local-name() = 'MI_Metadata' or local-name() = 'MD_Metadata'])</xpath>
+    </dialect>
+    <dialect>
+      <name>eml</name>
+      <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+  </check>
+  <check>
+    <id>ACDD_recommended_ResourceCreation/RevisionDate_ACDD_ISO_EML</id>
+    <name>ResourceCreation/RevisionDatePresent</name>
+    <description>Checks to see if at least one Resource Creation/Revision Date concept exists.</description>
+    <type>ACDD_recommended</type>
+    <level>OPTIONAL</level>
+    <environment>python</environment>
+    <code><![CDATA[
+def call():
+  global output
+  global status
+ 
+  output = "The concept ResourceCreation/RevisionDate is present."
+                                        
+  if(ResourceCreation/RevisionDate is not None and len(ResourceCreation/RevisionDate) > 0):
+    status = "SUCCESS"
+    return True
+    
+  status = "FAILURE"
+  output = "ResourceCreation/RevisionDate concept is not present"
+  
+  return False
+      ]]></code>
+    <selector>
+      <name>ResourceCreation/RevisionDate</name>
+      <xpath>(/*/identificationInfo/*/citation/CI_Citation/date/CI_Date[normalize-space(dateType/CI_DateTypeCode)='creation']/date/Date) | (/*/identificationInfo/*/citation/CI_Citation/date/CI_Date[normalize-space(dateType/CI_DateTypeCode)='creation']/date/DateTime) | (/*/identificationInfo/*/citation/CI_Citation/date/CI_Date[normalize-space(dateType/CI_DateTypeCode)='revision']/date/Date) | (/*/identificationInfo/*/citation/CI_Citation/date/CI_Date[normalize-space(dateType/CI_DateTypeCode)='revision']/date/DateTime) | (/*/identificationInfo/*/citation/CI_Citation/date/CI_Date[normalize-space(dateType/CI_DateTypeCode)='publication']/date/Date) | (/*/identificationInfo/*/citation/CI_Citation/date/CI_Date[normalize-space(dateType/CI_DateTypeCode)='publication']/date/DateTime) | (/eml/*/maintenance/changeHistory/changeDate | /eml/*/pubDate) | (/netcdf/attribute[@name='date_created']/@value)</xpath>
+    </selector>
+    <dialect>
+      <name>acdd</name>
+      <xpath>boolean(/*[local-name() = 'netcdf'])</xpath>
+    </dialect>
+    <dialect>
+      <name>iso</name>
+      <xpath>boolean(/*[local-name() = 'MI_Metadata' or local-name() = 'MD_Metadata'])</xpath>
+    </dialect>
+    <dialect>
+      <name>eml</name>
+      <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+  </check>
+  <check>
+    <id>ACDD_recommended_ResourceContact_ACDD_ISO_EML</id>
+    <name>ResourceContactPresent</name>
+    <description>Checks to see if at least one Resource Contact concept exists.</description>
+    <type>ACDD_recommended</type>
+    <level>OPTIONAL</level>
+    <environment>python</environment>
+    <code><![CDATA[
+def call():
+  global output
+  global status
+ 
+  output = "The concept ResourceContact is present."
+                                        
+  if(ResourceContact is not None and len(ResourceContact) > 0):
+    status = "SUCCESS"
+    return True
+    
+  status = "FAILURE"
+  output = "ResourceContact concept is not present"
+  
+  return False
+      ]]></code>
+    <selector>
+      <name>ResourceContact</name>
+      <xpath>(/*/identificationInfo/*/pointOfContact) | (/eml/*/contact) | (/netcdf/attribute[@name='creator_name']/@value)</xpath>
+    </selector>
+    <dialect>
+      <name>acdd</name>
+      <xpath>boolean(/*[local-name() = 'netcdf'])</xpath>
+    </dialect>
+    <dialect>
+      <name>iso</name>
+      <xpath>boolean(/*[local-name() = 'MI_Metadata' or local-name() = 'MD_Metadata'])</xpath>
+    </dialect>
+    <dialect>
+      <name>eml</name>
+      <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+  </check>
+  <check>
+    <id>ACDD_recommended_Author/OriginatorWorldWideWebAddress_ACDD_ISO_EML</id>
+    <name>Author/OriginatorWorldWideWebAddressPresent</name>
+    <description>Checks to see if at least one Author / Originator World Wide Web Address concept exists.</description>
+    <type>ACDD_recommended</type>
+    <level>OPTIONAL</level>
+    <environment>python</environment>
+    <code><![CDATA[
+def call():
+  global output
+  global status
+ 
+  output = "The concept Author/OriginatorWorldWideWebAddress is present."
+                                        
+  if(Author/OriginatorWorldWideWebAddress is not None and len(Author/OriginatorWorldWideWebAddress) > 0):
+    status = "SUCCESS"
+    return True
+    
+  status = "FAILURE"
+  output = "Author/OriginatorWorldWideWebAddress concept is not present"
+  
+  return False
+      ]]></code>
+    <selector>
+      <name>Author/OriginatorWorldWideWebAddress</name>
+      <xpath>(//CI_Citation/citedResponsibleParty/CI_ResponsibleParty[normalize-space(role/CI_RoleCode)='author']/contactInfo/CI_Contact/onlineResource/CI_OnlineResource/linkage/URL) | (/eml/*/creator/electronicMailAddress) | (/netcdf/attribute[@name='creator_url']/@value)</xpath>
+    </selector>
+    <dialect>
+      <name>acdd</name>
+      <xpath>boolean(/*[local-name() = 'netcdf'])</xpath>
+    </dialect>
+    <dialect>
+      <name>iso</name>
+      <xpath>boolean(/*[local-name() = 'MI_Metadata' or local-name() = 'MD_Metadata'])</xpath>
+    </dialect>
+    <dialect>
+      <name>eml</name>
+      <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+  </check>
+  <check>
+    <id>ACDD_recommended_Author/OriginatorEmailAddress_ACDD_ISO_EML</id>
+    <name>Author/OriginatorEmailAddressPresent</name>
+    <description>Checks to see if at least one Author / Originator Email Address concept exists.</description>
+    <type>ACDD_recommended</type>
+    <level>OPTIONAL</level>
+    <environment>python</environment>
+    <code><![CDATA[
+def call():
+  global output
+  global status
+ 
+  output = "The concept Author/OriginatorEmailAddress is present."
+                                        
+  if(Author/OriginatorEmailAddress is not None and len(Author/OriginatorEmailAddress) > 0):
+    status = "SUCCESS"
+    return True
+    
+  status = "FAILURE"
+  output = "Author/OriginatorEmailAddress concept is not present"
+  
+  return False
+      ]]></code>
+    <selector>
+      <name>Author/OriginatorEmailAddress</name>
+      <xpath>(/*/identificationInfo/*/citation/CI_Citation/citedResponsibleParty/CI_ResponsibleParty[normalize-space(role/CI_RoleCode)='author']/contactInfo/CI_Contact/address/CI_Address/electronicMailAddress//*) | (/eml/*/creator/onlineUrl) | (/netcdf/attribute[@name='creator_email']/@value)</xpath>
+    </selector>
+    <dialect>
+      <name>acdd</name>
+      <xpath>boolean(/*[local-name() = 'netcdf'])</xpath>
+    </dialect>
+    <dialect>
+      <name>iso</name>
+      <xpath>boolean(/*[local-name() = 'MI_Metadata' or local-name() = 'MD_Metadata'])</xpath>
+    </dialect>
+    <dialect>
+      <name>eml</name>
+      <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+  </check>
+  <check>
+    <id>ACDD_recommended_OriginatingOrganization_ACDD_ISO_EML</id>
+    <name>OriginatingOrganizationPresent</name>
+    <description>Checks to see if at least one Originating Organization concept exists.</description>
+    <type>ACDD_recommended</type>
+    <level>OPTIONAL</level>
+    <environment>python</environment>
+    <code><![CDATA[
+def call():
+  global output
+  global status
+ 
+  output = "The concept OriginatingOrganization is present."
+                                        
+  if(OriginatingOrganization is not None and len(OriginatingOrganization) > 0):
+    status = "SUCCESS"
+    return True
+    
+  status = "FAILURE"
+  output = "OriginatingOrganization concept is not present"
+  
+  return False
+      ]]></code>
+    <selector>
+      <name>OriginatingOrganization</name>
+      <xpath>(/*/identificationInfo/*/citation/CI_Citation/citedResponsibleParty/CI_ResponsibleParty[normalize-space(role/CI_RoleCode)='author']/organisationName//*) | (/*/identificationInfo/*/citation/CI_Citation/citedResponsibleParty/CI_ResponsibleParty[normalize-space(role/CI_RoleCode)='originator']/organisationName//*) | (/eml/*/creator/organizationName) | (/netcdf/attribute[@name='institution']/@value)</xpath>
+    </selector>
+    <dialect>
+      <name>acdd</name>
+      <xpath>boolean(/*[local-name() = 'netcdf'])</xpath>
+    </dialect>
+    <dialect>
+      <name>iso</name>
+      <xpath>boolean(/*[local-name() = 'MI_Metadata' or local-name() = 'MD_Metadata'])</xpath>
+    </dialect>
+    <dialect>
+      <name>eml</name>
+      <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+  </check>
+  <check>
+    <id>ACDD_recommended_ProjectName_ACDD_ISO_EML</id>
+    <name>ProjectNamePresent</name>
+    <description>Checks to see if at least one Project Name concept exists.</description>
+    <type>ACDD_recommended</type>
+    <level>OPTIONAL</level>
+    <environment>python</environment>
+    <code><![CDATA[
+def call():
+  global output
+  global status
+ 
+  output = "The concept ProjectName is present."
+                                        
+  if(ProjectName is not None and len(ProjectName) > 0):
+    status = "SUCCESS"
+    return True
+    
+  status = "FAILURE"
+  output = "ProjectName concept is not present"
+  
+  return False
+      ]]></code>
+    <selector>
+      <name>ProjectName</name>
+      <xpath>(/*/identificationInfo/*/aggregationInfo/MD_AggregateInformation[normalize-space(associationType/DS_AssociationTypeCode)='largerWorkCitation' and normalize-space(initiativeType/DS_InitiativeTypeCode)='project']/aggregateDataSetName/CI_Citation/title//*) | (/*/identificationInfo/*/descriptiveKeywords/MD_Keywords[normalize-space(type/MD_KeywordTypeCode)='project']/keyword//*) | (/MI_Metadata/acquisitionInformation/MI_AcquisitionInformation/operation/MI_Operation/citation/CI_Citation//*) | (/eml/*/creator/electronicMailAddress) | (/netcdf/attribute[@name='project']/@value)</xpath>
+    </selector>
+    <dialect>
+      <name>acdd</name>
+      <xpath>boolean(/*[local-name() = 'netcdf'])</xpath>
+    </dialect>
+    <dialect>
+      <name>iso</name>
+      <xpath>boolean(/*[local-name() = 'MI_Metadata' or local-name() = 'MD_Metadata'])</xpath>
+    </dialect>
+    <dialect>
+      <name>eml</name>
+      <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+  </check>
+  <check>
+    <id>ACDD_recommended_ProcessingLevel_ACDD_ISO_EML</id>
+    <name>ProcessingLevelPresent</name>
+    <description>Checks to see if at least one Processing Level concept exists.</description>
+    <type>ACDD_recommended</type>
+    <level>OPTIONAL</level>
+    <environment>python</environment>
+    <code><![CDATA[
+def call():
+  global output
+  global status
+ 
+  output = "The concept ProcessingLevel is present."
+                                        
+  if(ProcessingLevel is not None and len(ProcessingLevel) > 0):
+    status = "SUCCESS"
+    return True
+    
+  status = "FAILURE"
+  output = "ProcessingLevel concept is not present"
+  
+  return False
+      ]]></code>
+    <selector>
+      <name>ProcessingLevel</name>
+      <xpath>(/*/contentInfo/*/processingLevelCode/MD_Identifier/code//*) | (/netcdf/attribute[@name='processing_level']/@value)</xpath>
+    </selector>
+    <dialect>
+      <name>acdd</name>
+      <xpath>boolean(/*[local-name() = 'netcdf'])</xpath>
+    </dialect>
+    <dialect>
+      <name>iso</name>
+      <xpath>boolean(/*[local-name() = 'MI_Metadata' or local-name() = 'MD_Metadata'])</xpath>
+    </dialect>
+    <dialect>
+      <name>eml</name>
+      <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+  </check>
+  <check>
+    <id>ACDD_recommended_Acknowledgement_ACDD_ISO_EML</id>
+    <name>AcknowledgementPresent</name>
+    <description>Checks to see if at least one Acknowledgement concept exists.</description>
+    <type>ACDD_recommended</type>
+    <level>OPTIONAL</level>
+    <environment>python</environment>
+    <code><![CDATA[
+def call():
+  global output
+  global status
+ 
+  output = "The concept Acknowledgement is present."
+                                        
+  if(Acknowledgement is not None and len(Acknowledgement) > 0):
+    status = "SUCCESS"
+    return True
+    
+  status = "FAILURE"
+  output = "Acknowledgement concept is not present"
+  
+  return False
+      ]]></code>
+    <selector>
+      <name>Acknowledgement</name>
+      <xpath>(/*/identificationInfo/*/credit//*) | (/netcdf/attribute[@name='acknowledgement']/@value)</xpath>
+    </selector>
+    <dialect>
+      <name>acdd</name>
+      <xpath>boolean(/*[local-name() = 'netcdf'])</xpath>
+    </dialect>
+    <dialect>
+      <name>iso</name>
+      <xpath>boolean(/*[local-name() = 'MI_Metadata' or local-name() = 'MD_Metadata'])</xpath>
+    </dialect>
+    <dialect>
+      <name>eml</name>
+      <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+  </check>
+  <check>
+    <id>ACDD_recommended_BoundingBox_ACDD_ISO_EML</id>
+    <name>BoundingBoxPresent</name>
+    <description>Checks to see if at least one Bounding Box concept exists.</description>
+    <type>ACDD_recommended</type>
+    <level>OPTIONAL</level>
+    <environment>python</environment>
+    <code><![CDATA[
+def call():
+  global output
+  global status
+ 
+  output = "The concept BoundingBox is present."
+                                        
+  if(BoundingBox is not None and len(BoundingBox) > 0):
+    status = "SUCCESS"
+    return True
+    
+  status = "FAILURE"
+  output = "BoundingBox concept is not present"
+  
+  return False
+      ]]></code>
+    <selector>
+      <name>BoundingBox</name>
+      <xpath>(/*/identificationInfo/*/extent/EX_Extent/geographicElement/EX_GeographicBoundingBox//*) | (/*/identificationInfo/SV_ServiceIdentification/extent/EX_Extent/geographicElement/EX_GeographicBoundingBox//*) | (/eml/*/coverage/geographicCoverage/boundingCoordinates) | (/netcdf/attribute[@name='geospatial_lat_max'])</xpath>
+    </selector>
+    <dialect>
+      <name>acdd</name>
+      <xpath>boolean(/*[local-name() = 'netcdf'])</xpath>
+    </dialect>
+    <dialect>
+      <name>iso</name>
+      <xpath>boolean(/*[local-name() = 'MI_Metadata' or local-name() = 'MD_Metadata'])</xpath>
+    </dialect>
+    <dialect>
+      <name>eml</name>
+      <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+  </check>
+  <check>
+    <id>ACDD_recommended_SouthernmostLatitude_ACDD_ISO_EML</id>
+    <name>SouthernmostLatitudePresent</name>
+    <description>Checks to see if at least one Southernmost Latitude concept exists.</description>
+    <type>ACDD_recommended</type>
+    <level>OPTIONAL</level>
+    <environment>python</environment>
+    <code><![CDATA[
+def call():
+  global output
+  global status
+ 
+  output = "The concept SouthernmostLatitude is present."
+                                        
+  if(SouthernmostLatitude is not None and len(SouthernmostLatitude) > 0):
+    status = "SUCCESS"
+    return True
+    
+  status = "FAILURE"
+  output = "SouthernmostLatitude concept is not present"
+  
+  return False
+      ]]></code>
+    <selector>
+      <name>SouthernmostLatitude</name>
+      <xpath>(/*/identificationInfo/*/extent/EX_Extent/geographicElement/EX_GeographicBoundingBox/southBoundLatitude/Decimal) | (/eml/*/coverage/geographicCoverage/boundingCoordinates/southBoundingCoordinate) | (/netcdf/attribute[@name='geospatial_lat_min']/@value)</xpath>
+    </selector>
+    <dialect>
+      <name>acdd</name>
+      <xpath>boolean(/*[local-name() = 'netcdf'])</xpath>
+    </dialect>
+    <dialect>
+      <name>iso</name>
+      <xpath>boolean(/*[local-name() = 'MI_Metadata' or local-name() = 'MD_Metadata'])</xpath>
+    </dialect>
+    <dialect>
+      <name>eml</name>
+      <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+  </check>
+  <check>
+    <id>ACDD_recommended_NorthernmostLatitude_ACDD_ISO_EML</id>
+    <name>NorthernmostLatitudePresent</name>
+    <description>Checks to see if at least one Northernmost Latitude concept exists.</description>
+    <type>ACDD_recommended</type>
+    <level>OPTIONAL</level>
+    <environment>python</environment>
+    <code><![CDATA[
+def call():
+  global output
+  global status
+ 
+  output = "The concept NorthernmostLatitude is present."
+                                        
+  if(NorthernmostLatitude is not None and len(NorthernmostLatitude) > 0):
+    status = "SUCCESS"
+    return True
+    
+  status = "FAILURE"
+  output = "NorthernmostLatitude concept is not present"
+  
+  return False
+      ]]></code>
+    <selector>
+      <name>NorthernmostLatitude</name>
+      <xpath>(/*/identificationInfo/*/extent/EX_Extent/geographicElement/EX_GeographicBoundingBox/northBoundLatitude/Decimal) | (/eml/*/coverage/geographicCoverage/boundingCoordinates/northBoundingCoordinate) | (/netcdf/attribute[@name='geospatial_lat_max']/@value)</xpath>
+    </selector>
+    <dialect>
+      <name>acdd</name>
+      <xpath>boolean(/*[local-name() = 'netcdf'])</xpath>
+    </dialect>
+    <dialect>
+      <name>iso</name>
+      <xpath>boolean(/*[local-name() = 'MI_Metadata' or local-name() = 'MD_Metadata'])</xpath>
+    </dialect>
+    <dialect>
+      <name>eml</name>
+      <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+  </check>
+  <check>
+    <id>ACDD_recommended_WesternmostLongitude_ACDD_ISO_EML</id>
+    <name>WesternmostLongitudePresent</name>
+    <description>Checks to see if at least one Westernmost Longitude concept exists.</description>
+    <type>ACDD_recommended</type>
+    <level>OPTIONAL</level>
+    <environment>python</environment>
+    <code><![CDATA[
+def call():
+  global output
+  global status
+ 
+  output = "The concept WesternmostLongitude is present."
+                                        
+  if(WesternmostLongitude is not None and len(WesternmostLongitude) > 0):
+    status = "SUCCESS"
+    return True
+    
+  status = "FAILURE"
+  output = "WesternmostLongitude concept is not present"
+  
+  return False
+      ]]></code>
+    <selector>
+      <name>WesternmostLongitude</name>
+      <xpath>(/*/identificationInfo/*/extent/EX_Extent/geographicElement/EX_GeographicBoundingBox/westBoundLongitude/Decimal) | (/eml/*/coverage/geographicCoverage/boundingCoordinates/westBoundingCoordinate) | (/netcdf/attribute[@name='geospatial_lon_min']/@value)</xpath>
+    </selector>
+    <dialect>
+      <name>acdd</name>
+      <xpath>boolean(/*[local-name() = 'netcdf'])</xpath>
+    </dialect>
+    <dialect>
+      <name>iso</name>
+      <xpath>boolean(/*[local-name() = 'MI_Metadata' or local-name() = 'MD_Metadata'])</xpath>
+    </dialect>
+    <dialect>
+      <name>eml</name>
+      <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+  </check>
+  <check>
+    <id>ACDD_recommended_EasternmostLongitude_ACDD_ISO_EML</id>
+    <name>EasternmostLongitudePresent</name>
+    <description>Checks to see if at least one Easternmost Longitude concept exists.</description>
+    <type>ACDD_recommended</type>
+    <level>OPTIONAL</level>
+    <environment>python</environment>
+    <code><![CDATA[
+def call():
+  global output
+  global status
+ 
+  output = "The concept EasternmostLongitude is present."
+                                        
+  if(EasternmostLongitude is not None and len(EasternmostLongitude) > 0):
+    status = "SUCCESS"
+    return True
+    
+  status = "FAILURE"
+  output = "EasternmostLongitude concept is not present"
+  
+  return False
+      ]]></code>
+    <selector>
+      <name>EasternmostLongitude</name>
+      <xpath>(/*/identificationInfo/*/extent/EX_Extent/geographicElement/EX_GeographicBoundingBox/eastBoundLongitude/Decimal) | (/eml/*/coverage/geographicCoverage/boundingCoordinates/eastBoundingCoordinate) | (/netcdf/attribute[@name='geospatial_lon_max']/@value)</xpath>
+    </selector>
+    <dialect>
+      <name>acdd</name>
+      <xpath>boolean(/*[local-name() = 'netcdf'])</xpath>
+    </dialect>
+    <dialect>
+      <name>iso</name>
+      <xpath>boolean(/*[local-name() = 'MI_Metadata' or local-name() = 'MD_Metadata'])</xpath>
+    </dialect>
+    <dialect>
+      <name>eml</name>
+      <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+  </check>
+  <check>
+    <id>ACDD_recommended_StartTime_ACDD_ISO_EML</id>
+    <name>StartTimePresent</name>
+    <description>Checks to see if at least one Start Time concept exists.</description>
+    <type>ACDD_recommended</type>
+    <level>OPTIONAL</level>
+    <environment>python</environment>
+    <code><![CDATA[
+def call():
+  global output
+  global status
+ 
+  output = "The concept StartTime is present."
+                                        
+  if(StartTime is not None and len(StartTime) > 0):
+    status = "SUCCESS"
+    return True
+    
+  status = "FAILURE"
+  output = "StartTime concept is not present"
+  
+  return False
+      ]]></code>
+    <selector>
+      <name>StartTime</name>
+      <xpath>(/*/identificationInfo/*/extent/EX_Extent/temporalElement/EX_TemporalExtent/extent/TimePeriod/beginPosition) | (/eml/*/coverage/temporalCoverage/rangeOfDates/beginDate/calendarDate) | (/netcdf/attribute[@name='time_coverage_start']/@value)</xpath>
+    </selector>
+    <dialect>
+      <name>acdd</name>
+      <xpath>boolean(/*[local-name() = 'netcdf'])</xpath>
+    </dialect>
+    <dialect>
+      <name>iso</name>
+      <xpath>boolean(/*[local-name() = 'MI_Metadata' or local-name() = 'MD_Metadata'])</xpath>
+    </dialect>
+    <dialect>
+      <name>eml</name>
+      <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+  </check>
+  <check>
+    <id>ACDD_recommended_EndTime_ACDD_ISO_EML</id>
+    <name>EndTimePresent</name>
+    <description>Checks to see if at least one End Time concept exists.</description>
+    <type>ACDD_recommended</type>
+    <level>OPTIONAL</level>
+    <environment>python</environment>
+    <code><![CDATA[
+def call():
+  global output
+  global status
+ 
+  output = "The concept EndTime is present."
+                                        
+  if(EndTime is not None and len(EndTime) > 0):
+    status = "SUCCESS"
+    return True
+    
+  status = "FAILURE"
+  output = "EndTime concept is not present"
+  
+  return False
+      ]]></code>
+    <selector>
+      <name>EndTime</name>
+      <xpath>(/*/identificationInfo/*/extent/EX_Extent/temporalElement/EX_TemporalExtent/extent/TimePeriod/endPosition) | (/eml/*/coverage/temporalCoverage/rangeOfDates/endDate) | (/netcdf/attribute[@name='time_coverage_end']/@value)</xpath>
+    </selector>
+    <dialect>
+      <name>acdd</name>
+      <xpath>boolean(/*[local-name() = 'netcdf'])</xpath>
+    </dialect>
+    <dialect>
+      <name>iso</name>
+      <xpath>boolean(/*[local-name() = 'MI_Metadata' or local-name() = 'MD_Metadata'])</xpath>
+    </dialect>
+    <dialect>
+      <name>eml</name>
+      <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+  </check>
+  <check>
+    <id>ACDD_recommended_VerticalMinimum_ACDD_ISO_EML</id>
+    <name>VerticalMinimumPresent</name>
+    <description>Checks to see if at least one Vertical Minimum concept exists.</description>
+    <type>ACDD_recommended</type>
+    <level>OPTIONAL</level>
+    <environment>python</environment>
+    <code><![CDATA[
+def call():
+  global output
+  global status
+ 
+  output = "The concept VerticalMinimum is present."
+                                        
+  if(VerticalMinimum is not None and len(VerticalMinimum) > 0):
+    status = "SUCCESS"
+    return True
+    
+  status = "FAILURE"
+  output = "VerticalMinimum concept is not present"
+  
+  return False
+      ]]></code>
+    <selector>
+      <name>VerticalMinimum</name>
+      <xpath>(/*/identificationInfo/*/extent/EX_Extent/verticalElement/EX_VerticalExtent/minimumValue/Real) | (/eml/*/coverage/geographicCoverage/boundingCoordinates/boundingAltitudes/altitudeMinimum) | (/netcdf/attribute[@name='geospatial_vertical_min']/@value)</xpath>
+    </selector>
+    <dialect>
+      <name>acdd</name>
+      <xpath>boolean(/*[local-name() = 'netcdf'])</xpath>
+    </dialect>
+    <dialect>
+      <name>iso</name>
+      <xpath>boolean(/*[local-name() = 'MI_Metadata' or local-name() = 'MD_Metadata'])</xpath>
+    </dialect>
+    <dialect>
+      <name>eml</name>
+      <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+  </check>
+  <check>
+    <id>ACDD_recommended_TemporalExtent_ACDD_ISO_EML</id>
+    <name>TemporalExtentPresent</name>
+    <description>Checks to see if at least one Temporal Extent concept exists.</description>
+    <type>ACDD_recommended</type>
+    <level>OPTIONAL</level>
+    <environment>python</environment>
+    <code><![CDATA[
+def call():
+  global output
+  global status
+ 
+  output = "The concept TemporalExtent is present."
+                                        
+  if(TemporalExtent is not None and len(TemporalExtent) > 0):
+    status = "SUCCESS"
+    return True
+    
+  status = "FAILURE"
+  output = "TemporalExtent concept is not present"
+  
+  return False
+      ]]></code>
+    <selector>
+      <name>TemporalExtent</name>
+      <xpath>(/*/identificationInfo/*/extent/EX_Extent/temporalElement/EX_TemporalExtent//*) | (/eml/*/coverage/temporalCoverage) | (/netcdf/attribute[@name='time_coverage_duration']/@value)</xpath>
+    </selector>
+    <dialect>
+      <name>acdd</name>
+      <xpath>boolean(/*[local-name() = 'netcdf'])</xpath>
+    </dialect>
+    <dialect>
+      <name>iso</name>
+      <xpath>boolean(/*[local-name() = 'MI_Metadata' or local-name() = 'MD_Metadata'])</xpath>
+    </dialect>
+    <dialect>
+      <name>eml</name>
+      <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+  </check>
+  <check>
+    <id>ACDD_recommended_TemporalResolution_ACDD_ISO_EML</id>
+    <name>TemporalResolutionPresent</name>
+    <description>Checks to see if at least one Temporal Resolution concept exists.</description>
+    <type>ACDD_recommended</type>
+    <level>OPTIONAL</level>
+    <environment>python</environment>
+    <code><![CDATA[
+def call():
+  global output
+  global status
+ 
+  output = "The concept TemporalResolution is present."
+                                        
+  if(TemporalResolution is not None and len(TemporalResolution) > 0):
+    status = "SUCCESS"
+    return True
+    
+  status = "FAILURE"
+  output = "TemporalResolution concept is not present"
+  
+  return False
+      ]]></code>
+    <selector>
+      <name>TemporalResolution</name>
+      <xpath>(/eml/*/coverage/temporalCoverage//*/units) | (/netcdf/attribute[@name='time_coverage_resolution']/@value)</xpath>
+    </selector>
+    <dialect>
+      <name>acdd</name>
+      <xpath>boolean(/*[local-name() = 'netcdf'])</xpath>
+    </dialect>
+    <dialect>
+      <name>iso</name>
+      <xpath>boolean(/*[local-name() = 'MI_Metadata' or local-name() = 'MD_Metadata'])</xpath>
+    </dialect>
+    <dialect>
+      <name>eml</name>
+      <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+  </check>
+  <check>
+    <id>ACDD_recommended_StandardNameVocabulary_ACDD_ISO_EML</id>
+    <name>StandardNameVocabularyPresent</name>
+    <description>Checks to see if at least one Standard Name Vocabulary concept exists.</description>
+    <type>ACDD_recommended</type>
+    <level>OPTIONAL</level>
+    <environment>python</environment>
+    <code><![CDATA[
+def call():
+  global output
+  global status
+ 
+  output = "The concept StandardNameVocabulary is present."
+                                        
+  if(StandardNameVocabulary is not None and len(StandardNameVocabulary) > 0):
+    status = "SUCCESS"
+    return True
+    
+  status = "FAILURE"
+  output = "StandardNameVocabulary concept is not present"
+  
+  return False
+      ]]></code>
+    <selector>
+      <name>StandardNameVocabulary</name>
+      <xpath>(/*/identificationInfo/*/descriptiveKeywords/MD_Keywords/thesaurusName/CI_Citation/title//*) | (/netcdf/variable/attribute[@name='standard_name_vocabulary']/@value)</xpath>
+    </selector>
+    <dialect>
+      <name>acdd</name>
+      <xpath>boolean(/*[local-name() = 'netcdf'])</xpath>
+    </dialect>
+    <dialect>
+      <name>iso</name>
+      <xpath>boolean(/*[local-name() = 'MI_Metadata' or local-name() = 'MD_Metadata'])</xpath>
+    </dialect>
+    <dialect>
+      <name>eml</name>
+      <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+  </check>
+  <check>
+    <id>ACDD_recommended_VerticalMaximum_ACDD_ISO_EML</id>
+    <name>VerticalMaximumPresent</name>
+    <description>Checks to see if at least one Vertical Maximum concept exists.</description>
+    <type>ACDD_recommended</type>
+    <level>OPTIONAL</level>
+    <environment>python</environment>
+    <code><![CDATA[
+def call():
+  global output
+  global status
+ 
+  output = "The concept VerticalMaximum is present."
+                                        
+  if(VerticalMaximum is not None and len(VerticalMaximum) > 0):
+    status = "SUCCESS"
+    return True
+    
+  status = "FAILURE"
+  output = "VerticalMaximum concept is not present"
+  
+  return False
+      ]]></code>
+    <selector>
+      <name>VerticalMaximum</name>
+      <xpath>(/*/identificationInfo/*/extent/EX_Extent/verticalElement/EX_VerticalExtent/maximumValue/Real) | (/eml/*/coverage/geographicCoverage/boundingCoordinates/boundingAltitudes/altitudeMaximum) | (/netcdf/attribute[@name='geospatial_vertical_max']/@value)</xpath>
+    </selector>
+    <dialect>
+      <name>acdd</name>
+      <xpath>boolean(/*[local-name() = 'netcdf'])</xpath>
+    </dialect>
+    <dialect>
+      <name>iso</name>
+      <xpath>boolean(/*[local-name() = 'MI_Metadata' or local-name() = 'MD_Metadata'])</xpath>
+    </dialect>
+    <dialect>
+      <name>eml</name>
+      <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+  </check>
+  <check>
+    <id>ACDD_recommended_ResourceAccessConstraints_ACDD_ISO_EML</id>
+    <name>ResourceAccessConstraintsPresent</name>
+    <description>Checks to see if at least one Resource Access Constraints concept exists.</description>
+    <type>ACDD_recommended</type>
+    <level>OPTIONAL</level>
+    <environment>python</environment>
+    <code><![CDATA[
+def call():
+  global output
+  global status
+ 
+  output = "The concept ResourceAccessConstraints is present."
+                                        
+  if(ResourceAccessConstraints is not None and len(ResourceAccessConstraints) > 0):
+    status = "SUCCESS"
+    return True
+    
+  status = "FAILURE"
+  output = "ResourceAccessConstraints concept is not present"
+  
+  return False
+      ]]></code>
+    <selector>
+      <name>ResourceAccessConstraints</name>
+      <xpath>(/*/identificationInfo/*/resourceConstraints/MD_LegalConstraints/accessConstraints/MD_RestrictionCode) | (/*/identificationInfo/*/resourceConstraints/MD_LegalConstraints/otherConstraints//*) | (/eml/access) | (/netcdf/variable/attribute[@name='license']/@value)</xpath>
+    </selector>
+    <dialect>
+      <name>acdd</name>
+      <xpath>boolean(/*[local-name() = 'netcdf'])</xpath>
+    </dialect>
+    <dialect>
+      <name>iso</name>
+      <xpath>boolean(/*[local-name() = 'MI_Metadata' or local-name() = 'MD_Metadata'])</xpath>
+    </dialect>
+    <dialect>
+      <name>eml</name>
+      <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+  </check>
+  <check>
+    <id>ACDD_suggested_ContributorName_ACDD_ISO_EML</id>
+    <name>ContributorNamePresent</name>
+    <description>Checks to see if at least one Contributor Name concept exists.</description>
+    <type>ACDD_suggested</type>
+    <level>OPTIONAL</level>
+    <environment>python</environment>
+    <code><![CDATA[
+def call():
+  global output
+  global status
+ 
+  output = "The concept ContributorName is present."
+                                        
+  if(ContributorName is not None and len(ContributorName) > 0):
+    status = "SUCCESS"
+    return True
+    
+  status = "FAILURE"
+  output = "ContributorName concept is not present"
+  
+  return False
+      ]]></code>
+    <selector>
+      <name>ContributorName</name>
+      <xpath>(/*/identificationInfo/*/citation/CI_Citation/citedResponsibleParty/CI_ResponsibleParty[not(normalize-space(role/CI_RoleCode[.='author' or .='principalInvestigator' or .='originator']))]//*[contains(name(),'Name')]//*) | (/*/identificationInfo/*/citation/CI_Citation/citedResponsibleParty/CI_ResponsibleParty[normalize-space(role/CI_RoleCode)='contributor']//*[contains(name(),'Name')]//*) | (/eml/*/associatedParty) | (/netcdf/attribute[@name='contributor_name']/@value)</xpath>
+    </selector>
+    <dialect>
+      <name>acdd</name>
+      <xpath>boolean(/*[local-name() = 'netcdf'])</xpath>
+    </dialect>
+    <dialect>
+      <name>iso</name>
+      <xpath>boolean(/*[local-name() = 'MI_Metadata' or local-name() = 'MD_Metadata'])</xpath>
+    </dialect>
+    <dialect>
+      <name>eml</name>
+      <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+  </check>
+  <check>
+    <id>ACDD_suggested_ContributorRole_ACDD_ISO_EML</id>
+    <name>ContributorRolePresent</name>
+    <description>Checks to see if at least one Contributor Role concept exists.</description>
+    <type>ACDD_suggested</type>
+    <level>OPTIONAL</level>
+    <environment>python</environment>
+    <code><![CDATA[
+def call():
+  global output
+  global status
+ 
+  output = "The concept ContributorRole is present."
+                                        
+  if(ContributorRole is not None and len(ContributorRole) > 0):
+    status = "SUCCESS"
+    return True
+    
+  status = "FAILURE"
+  output = "ContributorRole concept is not present"
+  
+  return False
+      ]]></code>
+    <selector>
+      <name>ContributorRole</name>
+      <xpath>(/*/identificationInfo/*/citation/CI_Citation/citedResponsibleParty/CI_ResponsibleParty[not(normalize-space(role/CI_RoleCode)[.='author' or .='principalInvestigator' or .='originator'])]/role/CI_RoleCode) | (/*/identificationInfo/*/citation/CI_Citation/citedResponsibleParty/CI_ResponsibleParty/role[CI_RoleCode='contributor']) | (/eml/*/*/role) | (/netcdf/attribute[@name='contributor_role']/@value)</xpath>
+    </selector>
+    <dialect>
+      <name>acdd</name>
+      <xpath>boolean(/*[local-name() = 'netcdf'])</xpath>
+    </dialect>
+    <dialect>
+      <name>iso</name>
+      <xpath>boolean(/*[local-name() = 'MI_Metadata' or local-name() = 'MD_Metadata'])</xpath>
+    </dialect>
+    <dialect>
+      <name>eml</name>
+      <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+  </check>
+  <check>
+    <id>ACDD_suggested_Publisher_ACDD_ISO_EML</id>
+    <name>PublisherPresent</name>
+    <description>Checks to see if at least one Publisher concept exists.</description>
+    <type>ACDD_suggested</type>
+    <level>OPTIONAL</level>
+    <environment>python</environment>
+    <code><![CDATA[
+def call():
+  global output
+  global status
+ 
+  output = "The concept Publisher is present."
+                                        
+  if(Publisher is not None and len(Publisher) > 0):
+    status = "SUCCESS"
+    return True
+    
+  status = "FAILURE"
+  output = "Publisher concept is not present"
+  
+  return False
+      ]]></code>
+    <selector>
+      <name>Publisher</name>
+      <xpath>(//CI_ResponsibleParty[normalize-space(role/CI_RoleCode)='publisher']/organisationName//*) | (/eml/*/publisher) | (/netcdf/attribute[@name='publisher_name']/@value)</xpath>
+    </selector>
+    <dialect>
+      <name>acdd</name>
+      <xpath>boolean(/*[local-name() = 'netcdf'])</xpath>
+    </dialect>
+    <dialect>
+      <name>iso</name>
+      <xpath>boolean(/*[local-name() = 'MI_Metadata' or local-name() = 'MD_Metadata'])</xpath>
+    </dialect>
+    <dialect>
+      <name>eml</name>
+      <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+  </check>
+  <check>
+    <id>ACDD_suggested_PublisherURL_ACDD_ISO_EML</id>
+    <name>PublisherURLPresent</name>
+    <description>Checks to see if at least one Publisher URL concept exists.</description>
+    <type>ACDD_suggested</type>
+    <level>OPTIONAL</level>
+    <environment>python</environment>
+    <code><![CDATA[
+def call():
+  global output
+  global status
+ 
+  output = "The concept PublisherURL is present."
+                                        
+  if(PublisherURL is not None and len(PublisherURL) > 0):
+    status = "SUCCESS"
+    return True
+    
+  status = "FAILURE"
+  output = "PublisherURL concept is not present"
+  
+  return False
+      ]]></code>
+    <selector>
+      <name>PublisherURL</name>
+      <xpath>(//CI_Citation/citedResponsibleParty/CI_ResponsibleParty[role/CI_RoleCode ='publisher']/contactInfo/CI_Contact/onlineResource/CI_OnlineResource/linkage/URL) | (/eml/*/publisher/electronicMailAddress) | (/netcdf/attribute[@name='publisher_url']/@value)</xpath>
+    </selector>
+    <dialect>
+      <name>acdd</name>
+      <xpath>boolean(/*[local-name() = 'netcdf'])</xpath>
+    </dialect>
+    <dialect>
+      <name>iso</name>
+      <xpath>boolean(/*[local-name() = 'MI_Metadata' or local-name() = 'MD_Metadata'])</xpath>
+    </dialect>
+    <dialect>
+      <name>eml</name>
+      <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+  </check>
+  <check>
+    <id>ACDD_suggested_PublisherE-Mail_ACDD_ISO_EML</id>
+    <name>PublisherE-MailPresent</name>
+    <description>Checks to see if at least one Publisher E-Mail concept exists.</description>
+    <type>ACDD_suggested</type>
+    <level>OPTIONAL</level>
+    <environment>python</environment>
+    <code><![CDATA[
+def call():
+  global output
+  global status
+ 
+  output = "The concept PublisherE-Mail is present."
+                                        
+  if(PublisherE-Mail is not None and len(PublisherE-Mail) > 0):
+    status = "SUCCESS"
+    return True
+    
+  status = "FAILURE"
+  output = "PublisherE-Mail concept is not present"
+  
+  return False
+      ]]></code>
+    <selector>
+      <name>PublisherE-Mail</name>
+      <xpath>(//CI_Citation/citedResponsibleParty/CI_ResponsibleParty[role/CI_RoleCode ='publisher']/contactInfo/address/CI_Address/electronicMailAddress//*) | (/eml/*/publisher/electronicMailAddress) | (/netcdf/attribute[@name='publisher_email']/@value)</xpath>
+    </selector>
+    <dialect>
+      <name>acdd</name>
+      <xpath>boolean(/*[local-name() = 'netcdf'])</xpath>
+    </dialect>
+    <dialect>
+      <name>iso</name>
+      <xpath>boolean(/*[local-name() = 'MI_Metadata' or local-name() = 'MD_Metadata'])</xpath>
+    </dialect>
+    <dialect>
+      <name>eml</name>
+      <xpath>boolean(/*[local-name() = 'eml'])</xpath>
+    </dialect>
+  </check>
+</mdq:suite>
